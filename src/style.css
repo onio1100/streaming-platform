@@ -54,3 +54,9 @@
     height: 250px;
     border-bottom: 5px solid white;
 }
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
