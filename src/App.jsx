@@ -1,15 +1,15 @@
-import { useState } from "react";
-import DificultiButtons from "./DificultiButtons";
-import Board from "./Board";
+import { useState } from "react"
+import Chat from "./components/Chat";
+import InputChat from "./components/InputChat";
 
- export default function App() {
-  const [dificulti, setDificulti] = useState(false); //lewels from 0 to 4
-
+export default function App() {
+  const [chatHistory, setChatHistory] = useState([{message: "some super cool text",time: "12:23:21",username: "cool dude"}]);
   return (
-    <>
-      <div className="app">
-        {dificulti ? <Board dificulti={dificulti} /> : <DificultiButtons setDificulti={setDificulti} />}
+    <div className="app">
+      <div className="chat">
+        <Chat ChatHistory={chatHistory} />
+        <InputChat sendMessage={setChatHistory} />
       </div>
-    </>
+    </div>
   )
 }
