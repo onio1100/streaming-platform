@@ -17,14 +17,14 @@
 .chat{
     width: 500px;
     height: 100%;
-    background-color: darkslateblue;
+    background-color: #18181b;
     display: flex;
     flex-direction: column;
 }
 .chat__history{
-    height: calc(100% - 75px)
+    height: calc(100% - 99px)
 }
 .chat__input{
-    height: 75px;
+    height: 99px;
     background-color: darkblue;
 }
