@@ -15,16 +15,46 @@
     font-family: sans-serif;
 }
 .chat{
-    width: 500px;
+    width: 340px;
     height: 100%;
     background-color: #18181b;
     display: flex;
     flex-direction: column;
 }
 .chat__history{
-    height: calc(100% - 99px)
+    height: calc(100% - 99px);
+    overflow: hidden;
+}
+.history--wraper{
+    display: flex;
+    font-size: 13px;
+    padding: 5px 10px;
 }
 .chat__input{
     height: 99px;
     background-color: darkblue;
+}
+.red{
+    color: #ff0000;
+}
+.blue{
+    color:  #0000ff;
+}
+.green{
+    color: #00ff00;
+}
+.orange{
+    color: #ffa500;
+}
+.purple{
+    color: #800080;
+}
+.yellow{
+    color: #ffff00;
+}
+.pink{
+    color: #ffc0cb;
+}
+.Teal{
+    color: #008080;
 }
