@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import users from "../data/users.json";
 import messages from "../data/messages.json";
+import colors from "../data/colorClasses.json";
 
 export default function Chat({chatHistory, setChatHistory}) {
 
@@ -14,6 +15,15 @@ export default function Chat({chatHistory, setChatHistory}) {
                 return [...prevHistory,newMessage];
             })
         }, randomNumberInRange(500, 10000));
+        let a = username.map((user) => {
+            return(
+                {
+                    username: user,
+                    nameColor: randomNumberInRange(0,7)
+                }
+            )
+        });
+        console.log(a);
     }, [])
 
     function randomNumberInRange(min, max) {
