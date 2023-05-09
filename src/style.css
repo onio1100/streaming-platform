@@ -23,7 +23,8 @@
 }
 .chat__history{
     height: calc(100% - 99px);
-    overflow: hidden;
+    overflow: auto;
+    /* overflow-anchor: auto; */
 }
 .history--wraper{
     display: flex;

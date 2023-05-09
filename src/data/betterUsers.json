@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Fox",
+        "color": "orange"
+    },
+    {
+        "name": "Rapunzel",
+        "color": "teal"
+    },
+    {
+        "name": "Freak",
+        "color": "purple"
+    },
+    {
+        "name": "Tater",
+        "color": "orange"
+    },
+    {
+        "name": "Button",
+        "color": "orange"
+    },
+    {
+        "name": "Einstein",
+        "color": "purple"
+    },
+    {
+        "name": "Cookie Dough",
+        "color": "teal"
+    },
+    {
+        "name": "Smiley",
+        "color": "purple"
+    },
+    {
+        "name": "Gordo",
+        "color": "pink"
+    },
+    {
+        "name": "Doll",
+        "color": "pink"
+    },
+    {
+        "name": "Figgy",
+        "color": "blue"
+    },
+    {
+        "name": "Candycane",
+        "color": "pink"
+    },
+    {
+        "name": "Kit-Kat",
+        "color": "orange"
+    },
+    {
+        "name": "Fun Size",
+        "color": "yellow"
+    },
+    {
+        "name": "Cuddle Pig",
+        "color": "blue"
+    },
+    {
+        "name": "Harry Potter",
+        "color": "yellow"
+    },
+    {
+        "name": "Creedence",
+        "color": "pink"
+    },
+    {
+        "name": "Hammer",
+        "color": "yellow"
+    },
+    {
+        "name": "Halfling",
+        "color": "pink"
+    },
+    {
+        "name": "Biffle",
+        "color": "yellow"
+    },
+    {
+        "name": "Pecan",
+        "color": "orange"
+    },
+    {
+        "name": "Skinny Jeans",
+        "color": "pink"
+    },
+    {
+        "name": "Amazon",
+        "color": "blue"
+    },
+    {
+        "name": "Princess",
+        "color": "pink"
+    },
+    {
+        "name": "Bruiser",
+        "color": "red"
+    },
+    {
+        "name": "Pickles",
+        "color": "red"
+    },
+    {
+        "name": "Biscuit",
+        "color": "blue"
+    },
+    {
+        "name": "4-Wheel",
+        "color": "orange"
+    },
+    {
+        "name": "Butternut",
+        "color": "purple"
+    },
+    {
+        "name": "Goblin",
+        "color": "pink"
+    },
+    {
+        "name": "Dimples",
+        "color": "pink"
+    },
+    {
+        "name": "Con",
+        "color": "orange"
+    },
+    {
+        "name": "Cinnamon",
+        "color": "blue"
+    },
+    {
+        "name": "Dragonfly",
+        "color": "blue"
+    },
+    {
+        "name": "Bubbles",
+        "color": "green"
+    },
+    {
+        "name": "Chewbacca",
+        "color": "orange"
+    },
+    {
+        "name": "Slim",
+        "color": "pink"
+    },
+    {
+        "name": "Honey Pie",
+        "color": "yellow"
+    },
+    {
+        "name": "Golden Graham",
+        "color": "red"
+    },
+    {
+        "name": "Chiquita",
+        "color": "teal"
+    },
+    {
+        "name": "Cindy Lou Who",
+        "color": "purple"
+    },
+    {
+        "name": "Hulk",
+        "color": "teal"
+    },
+    {
+        "name": "Boo Boo",
+        "color": "pink"
+    },
+    {
+        "name": "Goon",
+        "color": "orange"
+    },
+    {
+        "name": "Shrinkwrap",
+        "color": "orange"
+    },
+    {
+        "name": "Kitty",
+        "color": "pink"
+    },
+    {
+        "name": "Mistress",
+        "color": "yellow"
+    },
+    {
+        "name": "Sport",
+        "color": "orange"
+    },
+    {
+        "name": "Tata",
+        "color": "purple"
+    },
+    {
+        "name": "Queen Bee",
+        "color": "pink"
+    },
+    {
+        "name": "Pookie",
+        "color": "green"
+    },
+    {
+        "name": "Flyby",
+        "color": "yellow"
+    },
+    {
+        "name": "Gator",
+        "color": "green"
+    },
+    {
+        "name": "Braniac",
+        "color": "teal"
+    },
+    {
+        "name": "Big Guy",
+        "color": "teal"
+    },
+    {
+        "name": "Superman",
+        "color": "red"
+    },
+    {
+        "name": "Skinny Minny",
+        "color": "yellow"
+    },
+    {
+        "name": "Toodles",
+        "color": "purple"
+    },
+    {
+        "name": "Buckeye",
+        "color": "blue"
+    },
+    {
+        "name": "Goonie",
+        "color": "purple"
+    },
+    {
+        "name": "Tough Guy",
+        "color": "blue"
+    },
+    {
+        "name": "Kirby",
+        "color": "blue"
+    },
+    {
+        "name": "Snow White",
+        "color": "blue"
+    },
+    {
+        "name": "Starbuck",
+        "color": "blue"
+    },
+    {
+        "name": "Homer",
+        "color": "teal"
+    },
+    {
+        "name": "Frankfurter",
+        "color": "yellow"
+    },
+    {
+        "name": "Piglet",
+        "color": "purple"
+    },
+    {
+        "name": "Schnookums",
+        "color": "yellow"
+    },
+    {
+        "name": "Pintsize",
+        "color": "green"
+    },
+    {
+        "name": "Foxy Lady",
+        "color": "pink"
+    },
+    {
+        "name": "Twizzler",
+        "color": "orange"
+    },
+    {
+        "name": "Junior",
+        "color": "blue"
+    },
+    {
+        "name": "Teeny",
+        "color": "purple"
+    },
+    {
+        "name": "Marshmallow",
+        "color": "pink"
+    },
+    {
+        "name": "Bambino",
+        "color": "pink"
+    },
+    {
+        "name": "Ringo",
+        "color": "red"
+    },
+    {
+        "name": "Speedy",
+        "color": "blue"
+    },
+    {
+        "name": "Cannoli",
+        "color": "pink"
+    },
+    {
+        "name": "MomBod",
+        "color": "green"
+    },
+    {
+        "name": "Fattykins",
+        "color": "blue"
+    },
+    {
+        "name": "Master",
+        "color": "orange"
+    },
+    {
+        "name": "Drake",
+        "color": "blue"
+    },
+    {
+        "name": "Beef",
+        "color": "orange"
+    },
+    {
+        "name": "Buttercup",
+        "color": "orange"
+    },
+    {
+        "name": "Chance",
+        "color": "green"
+    },
+    {
+        "name": "Chump",
+        "color": "pink"
+    },
+    {
+        "name": "Dimpling",
+        "color": "yellow"
+    },
+    {
+        "name": "Dum Dum",
+        "color": "yellow"
+    },
+    {
+        "name": "Boomer",
+        "color": "yellow"
+    },
+    {
+        "name": "Donut",
+        "color": "red"
+    },
+    {
+        "name": "Pixie",
+        "color": "pink"
+    },
+    {
+        "name": "Pearl",
+        "color": "teal"
+    },
+    {
+        "name": "Rockette",
+        "color": "blue"
+    },
+    {
+        "name": "Cookie",
+        "color": "yellow"
+    },
+    {
+        "name": "Weiner",
+        "color": "blue"
+    },
+    {
+        "name": "Twig",
+        "color": "yellow"
+    },
+    {
+        "name": "Chica",
+        "color": "red"
+    },
+    {
+        "name": "Apple",
+        "color": "green"
+    },
+    {
+        "name": "Shorty",
+        "color": "orange"
+    },
+    {
+        "name": "Wifey",
+        "color": "orange"
+    }
+]

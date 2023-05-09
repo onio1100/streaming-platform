@@ -1,29 +1,20 @@
 import { useEffect } from "react"
-import users from "../data/users.json";
 import messages from "../data/messages.json";
-import colors from "../data/colorClasses.json";
+import users from "../data/betterUsers.json";
 
 export default function Chat({chatHistory, setChatHistory}) {
 
     useEffect(() => {
+        let id = 0;
         setInterval(() => {
             setChatHistory((prevHistory) => {
                 let newMessage = {
-                    username: users[randomNumberInRange(0, 99)],
-                    message: messages[randomNumberInRange(0,100)]
+                    user: users[randomNumberInRange(0, 99)],
+                    message: messages[randomNumberInRange(0,100)],
                 }
                 return [...prevHistory,newMessage];
             })
         }, randomNumberInRange(500, 10000));
-        let a = username.map((user) => {
-            return(
-                {
-                    username: user,
-                    nameColor: randomNumberInRange(0,7)
-                }
-            )
-        });
-        console.log(a);
     }, [])
 
     function randomNumberInRange(min, max) {
@@ -31,9 +22,9 @@ export default function Chat({chatHistory, setChatHistory}) {
       }      
     
     function comments() {
-        let jsxChatList = chatHistory.map((comment) => (
-            <li className="history--wraper">
-                <p className="history--username">{comment.username}</p>
+        let jsxChatList = chatHistory.map((comment, id) => (
+            <li className="history--wraper" key={id}>
+                <p className={"history--username " + comment.user.color}>{comment.user.name}</p>
                 <p className="history--message">: {comment.message}</p>
             </li>
             ))
