@@ -23,16 +23,15 @@ export default function Chat({chatHistory, setChatHistory}) {
     
     function comments() {
         let jsxChatList = chatHistory.map((comment, id) => (
-            <li className="history--wraper" key={id}>
-                <p className={"history--username " + comment.user.color}>{comment.user.name}</p>
-                <p className="history--message">: {comment.message}</p>
+            <li className="display--wraper" key={id}>
+                <p><i className={comment.user.color}>{comment.user.name}</i>: {comment.message}</p>
             </li>
             ))
         return jsxChatList
     }
 
     return(
-        <div className="chat__history">
+        <div className="chat__display">
             <ul>{comments()}</ul>
         </div>
     )

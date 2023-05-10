@@ -14,6 +14,7 @@
     font-size: 30px;
     font-family: sans-serif;
 }
+/* chat */
 .chat{
     width: 340px;
     height: 100%;
@@ -21,19 +22,15 @@
     display: flex;
     flex-direction: column;
 }
-.chat__history{
-    height: calc(100% - 99px);
+/* chat display */
+.chat__display{
+    height: calc(100% - 60px);
     overflow: auto;
-    /* overflow-anchor: auto; */
 }
-.history--wraper{
+.display--wraper{
     display: flex;
     font-size: 13px;
     padding: 5px 10px;
-}
-.chat__input{
-    height: 99px;
-    background-color: darkblue;
 }
 .red{
     color: #ff0000;
@@ -58,4 +55,56 @@
 }
 .Teal{
     color: #008080;
+}
+/* chat input */
+.chat__activitis{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activitis__input--wraper{
+    width: 320px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.activitis__input--label{
+    font-size: 0;
+    width: 0;
+    height: 0;
+    color: transparent;
+    background-color: transparent;
+}
+.activitis__input--text{
+    width: 80%;
+    height: 100%;
+    border: 1px solid blueviolet;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: transparent;
+    color: white;
+    transition: 0.2s;
+    padding-left: 10px;
+    outline: 0px transparent;
+}
+.activitis__input--button{
+    width: 19%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    box-shadow: none;
+    transition: 0.2s;
+    outline: 0px transparent;
+    cursor: pointer;
+}
+.activitis__input--button:hover{
+    background-color: rgb(95, 31, 154);
+}
+.activitis__input--button:hover ~ .activitis__input--text{
+    border-color: rgb(95, 31, 154);
 }
