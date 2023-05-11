@@ -1,15 +1,15 @@
 export default function InputChat({sendMessage}){
 
     function sendMessage(e){
-        const text = e.target.parentElement.lastElementChild.value;
-        console.log(text);
+        const text = e.target.parentElement.lastChild;
+        console.log(text.value);
         sendMessage((prevHistory) => {
             let newMessage = {
                 user: {
                     name: "onio1100",
                     color: "blue"
                 },
-                message: text,
+                message: text.value,
             }
             return [...prevHistory,newMessage];
         })
