@@ -8,7 +8,7 @@ export default function App() {
     <div className="app">
       <div className="chat">
         <Chat chatHistory={chatHistory} setChatHistory={setChatHistory}/>
-        <InputChat sendMessage={setChatHistory}/>
+        <InputChat setChatHistory={setChatHistory}/>
       </div>
     </div>
   )

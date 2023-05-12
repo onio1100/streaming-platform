@@ -1,18 +1,38 @@
-export default function InputChat({sendMessage}){
+export default function InputChat({setChatHistory}){
 
     function sendMessage(e){
-        const text = e.target.parentElement.lastChild;
-        console.log(text.value);
-        sendMessage((prevHistory) => {
-            let newMessage = {
-                user: {
-                    name: "onio1100",
-                    color: "blue"
-                },
-                message: text.value,
+
+        if(e.keyCode){
+            if(e.keyCode === 13){
+                let text = e.target.value;
+                setChatHistory((prevHistory) => {
+                    let newMessage = {
+                        user: {
+                            name: "onio1100",
+                            color: "blue"
+                        },
+                        message: text,
+                    }
+                    return [...prevHistory, newMessage];
+                })
+                e.target.value = "";
+            }else{
+                return;
             }
-            return [...prevHistory,newMessage];
-        })
+        } else {
+            let text = e.target.parentElement.lastChild.value;
+            setChatHistory((prevHistory) => {
+                let newMessage = {
+                    user: {
+                        name: "onio1100",
+                        color: "blue"
+                    },
+                    message: text,
+                }
+                return [...prevHistory, newMessage];
+            })
+            e.target.parentElement.lastChild.value = "";
+        }
     }
 
     return(
@@ -20,7 +40,7 @@ export default function InputChat({sendMessage}){
             <div className="activitis__input--wraper">
                 <button className="activitis__input--button" onClick={(e) => {sendMessage(e)}}>Send</button>
                 <label className="activitis__input--label"></label>
-                <input className="activitis__input--text" type="text" placeholder="your message" />
+                <input className="activitis__input--text" type="text" placeholder="your message" onKeyDown={(e) => {sendMessage(e)}} />
             </div>
         </div>
     )
