@@ -1,7 +1,11 @@
 export default function InputChat({setChatHistory}){
 
-    function sendMessage(e){
 
+    function useChatScroll () {
+        
+    }
+
+    function sendMessage(e){
         if(e.keyCode){
             if(e.keyCode === 13){
                 let text = e.target.value;
