@@ -1,9 +1,16 @@
 export default function InputChat({setChatHistory}){
 
 
-    function useChatScroll () {
-        
-    }
+    const Scroll = () => {
+        const { offsetHeight, scrollHeight, scrollTop } = container.current as HTMLDivElement
+        if (scrollHeight <= scrollTop + offsetHeight + 100) {
+          container.current?.scrollTo(0, scrollHeight)
+        }
+      }
+    
+      useEffect(() => {
+        Scroll()
+      }, [messages])
 
     function sendMessage(e){
         if(e.keyCode){
