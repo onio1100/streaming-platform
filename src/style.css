@@ -31,6 +31,10 @@
     display: flex;
     font-size: 13px;
     padding: 5px 10px;
+    font-style: normal;
+}
+.display--name{
+    font-style: normal;
 }
 .red{
     color: #ff0000;

@@ -1,48 +1,30 @@
 export default function InputChat({setChatHistory}){
 
 
-    const Scroll = () => {
-        const { offsetHeight, scrollHeight, scrollTop } = container.current as HTMLDivElement
-        if (scrollHeight <= scrollTop + offsetHeight + 100) {
-          container.current?.scrollTo(0, scrollHeight)
-        }
-      }
-    
-      useEffect(() => {
-        Scroll()
-      }, [messages])
-
     function sendMessage(e){
+        let text = "";
         if(e.keyCode){
             if(e.keyCode === 13){
-                let text = e.target.value;
-                setChatHistory((prevHistory) => {
-                    let newMessage = {
-                        user: {
-                            name: "onio1100",
-                            color: "blue"
-                        },
-                        message: text,
-                    }
-                    return [...prevHistory, newMessage];
-                })
-                e.target.value = "";
+                text = e.target;
             }else{
                 return;
             }
         } else {
-            let text = e.target.parentElement.lastChild.value;
+            text = e.target.parentElement.lastChild;
+        }
+
+        if(text.value != ""){
             setChatHistory((prevHistory) => {
                 let newMessage = {
                     user: {
                         name: "onio1100",
                         color: "blue"
                     },
-                    message: text,
+                    message: text.value,
                 }
                 return [...prevHistory, newMessage];
             })
-            e.target.parentElement.lastChild.value = "";
+            text.value = "";
         }
     }
 

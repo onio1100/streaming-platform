@@ -1,8 +1,8 @@
-import { useEffect } from "react"
+import { useEffect, useRef } from "react"
 import messages from "../data/messages.json";
 import users from "../data/betterUsers.json";
 
-export default function Chat({chatHistory, setChatHistory}) {
+export default function Chat({chatHistory, setChatHistory, scroledConteinter}) {
 
     useEffect(() => {
         let id = 0;
@@ -24,14 +24,14 @@ export default function Chat({chatHistory, setChatHistory}) {
     function comments() {
         let jsxChatList = chatHistory.map((comment, id) => (
             <li className="display--wraper" key={id}>
-                <p><i className={comment.user.color}>{comment.user.name}</i>: {comment.message}</p>
+                <p><i className={"display--name " + comment.user.color}>{comment.user.name}</i>: {comment.message}</p>
             </li>
             ))
         return jsxChatList
     }
 
     return(
-        <div className="chat__display">
+        <div className="chat__display" ref={scroledConteinter}>
             <ul>{comments()}</ul>
         </div>
     )
