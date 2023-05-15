@@ -1,30 +1,27 @@
+import { useState } from "react";
+
 export default function InputChat({setChatHistory}){
+    
+    const [message, setMessage] = useState("");
 
 
     function sendMessage(e){
-        let text = "";
-        if(e.keyCode){
-            if(e.keyCode === 13){
-                text = e.target;
-            }else{
-                return;
-            }
-        } else {
-            text = e.target.parentElement.lastChild;
+        if(e.keyCode && e.keyCode !== 13){
+            return;
         }
-
-        if(text.value != ""){
+        
+        if(message != ""){
             setChatHistory((prevHistory) => {
                 let newMessage = {
                     user: {
                         name: "onio1100",
                         color: "blue"
                     },
-                    message: text.value,
+                    message: message
                 }
                 return [...prevHistory, newMessage];
             })
-            text.value = "";
+            setMessage("");
         }
     }
 
@@ -33,7 +30,12 @@ export default function InputChat({setChatHistory}){
             <div className="activitis__input--wraper">
                 <button className="activitis__input--button" onClick={(e) => {sendMessage(e)}}>Send</button>
                 <label className="activitis__input--label"></label>
-                <input className="activitis__input--text" type="text" placeholder="your message" onKeyDown={(e) => {sendMessage(e)}} />
+                <input className="activitis__input--text"
+                type="text"
+                placeholder="your message"
+                onChange={(e) => {setMessage(e.target.value)}}
+                onKeyDown={(e) => {sendMessage(e)}}
+                value={message} />
             </div>
         </div>
     )
