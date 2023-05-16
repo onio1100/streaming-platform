@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react"
 import messages from "../data/messages.json";
 import users from "../data/betterUsers.json";
 
-export default function Chat({chatHistory, setChatHistory, scroledConteinter}) {
+export default function DisplayChat({chatHistory, setChatHistory, scroledConteinter}) {
 
     useEffect(() => {
         let id = 0;
