@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
-import DisplayChat from "./components/DisplayChat";
-import InputChat from "./components/InputChat";
+import DisplayChat from "./DisplayChat";
+import InputChat from "./InputChat";
 
 export default function Chat() {
   const [chatHistory, setChatHistory] = useState([]);

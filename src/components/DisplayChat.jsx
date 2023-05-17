@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react"
+import { useEffect} from "react"
 import messages from "../data/messages.json";
 import users from "../data/betterUsers.json";
 
