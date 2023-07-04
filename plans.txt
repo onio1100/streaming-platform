@@ -1,0 +1,5 @@
+- "/" nav(top bar z logo itd, bar z prawej strony wyświetlający polecane i obserwowane kanały) i outlet
+    -"home" strona glówna na któej wyświetlają się transmisje i mozna na nie przejść kliknięciem
+        --"browse" podstrona strony ? do lepszego przeglądania????
+    -"nick" profil z transmisją czatem i innymi zkładkami 
+        -- różne podstrony z informacjami o kanale urzytkowniku ["about","videos"] ????
