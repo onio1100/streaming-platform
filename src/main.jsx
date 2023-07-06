@@ -3,22 +3,22 @@ import ReactDOM from 'react-dom/client'
 import "./style.css"
 import Chat from './components/Chat.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import MainOutlet from './components/MainOutlet'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Chat />,
+    element: <MainOutlet />,
     errorElement: <div>Page not found: ERROR 404</div>
   },
   {
     path: "/main",
-    element: <div>elo elo w main</div>
+    element: <Chat></Chat>
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <Chat /> */}
     <RouterProvider router={router} />
   </React.StrictMode>,
 )

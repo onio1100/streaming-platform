@@ -3,22 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
-.app{
+:root{
+    --background: #0e0e10;
+    --secend-background: #18181b;
+    --third-background: #1f1f23;
+    --index-top: 10;
+    --index-mid: 5;
+}
+.main__wraper{
     width: 100%;
-    height: 100vh;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: var(--background);
+    position: relative;
+}
+/* horizontal nav */
+.hnav{
+    width: 100%;
+    height: 50px;
+    background-color: var(--secend-background);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 0px 2px rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--index-top);
+}
+/* vertical nav */
+.vnav{
+    height: calc(100vh - 50px);
+    width: 240px;
+    background-color: var(--third-background);
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: var(--index-mid);
+}
+.vnav--small{
+    width: 50px;
+}
+.vnav__switch{
+    background-color: violet;
+    width: 50px;
+    height: 50px;
 }
 /* chat */
 .chat{
     width: 340px;
     height: 100%;
-    background-color: #18181b;
+    background-color: var(--secend-background);
     display: flex;
     flex-direction: column;
 }
