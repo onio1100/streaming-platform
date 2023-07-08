@@ -3,13 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 70%;
+}
 :root{
     --background: #0e0e10;
     --secend-background: #18181b;
     --third-background: #1f1f23;
+    --detail: #8a2ce2;
+    --text: #fff;
     --index-top: 10;
     --index-mid: 5;
 }
+/* fonts */
+/* LOGO - font-family: 'Caprasimo', cursive; [400]*/
+/* COMMON TEXT - font-family: 'Roboto', sans-serif; [400,700,900] */
 .main__wraper{
     width: 100%;
     min-height: 100vh;
@@ -26,6 +34,36 @@
     top: 0;
     left: 0;
     z-index: var(--index-top);
+}
+.hnav__left{
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.hnav__left__logo{
+    color: var(--detail);
+    font-family: 'Caprasimo', cursive;
+    font-size: 30px;
+    margin-left: 1rem;
+}
+.hnav__left__browse{
+    color: var(--text);
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin-left: 1rem;
+
+}
+.hnav__left__more{
+    color: var(--text);
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.hnav__left__more .material-symbols-outlined {
+    font-variation-settings: 'OPSZ' 40;
 }
 /* vertical nav */
 .vnav{
@@ -126,7 +164,7 @@
 .activitis__input--text{
     width: 80%;
     height: 100%;
-    border: 1px solid blueviolet;
+    border: 1px solid #8a2ce2;
     border-right: none;
     border-radius: 5px 0px 0px 5px;
     background-color: transparent;
