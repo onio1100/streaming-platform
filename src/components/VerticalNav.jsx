@@ -1,16 +1,6 @@
 import avatar from "../assets/defult avatar.png";
-// temp 
-import { useState } from "react"
 
-export default function VerticalNav() {
-    const [smallNav, setSmallNav] = useState(false);
-
-    function switchNav(){
-        setSmallNav((prevNav) => {
-           return prevNav ? false : true
-        })
-    }
-
+export default function VerticalNav({smallNav, switchNav}) {
     return(
         <div className={smallNav ? "vnav vnav--small" : "vnav"}>
         <div className="vnav__wraper--top">
@@ -26,10 +16,10 @@ export default function VerticalNav() {
                         <p className="vnav__text--nick">YoungMulti</p>
                         <p className="vnav__text--category">Just Chatting</p>
                     </div>
-                    <p className="vnav__wraper--count">
+                    <div className="vnav__wraper--count">
                         <div className="vnav__dot"></div>
                         <p className="vnav__text--count">10,8 k</p>
-                    </p>
+                    </div>
                 </>)}   
             </div>
         </div>
