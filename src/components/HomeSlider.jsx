@@ -15,7 +15,7 @@ export default function HomeSlider() {
 
     return(
         <div className="slider">
-            <div className="slider__arrow--left" onClick={() => mvoeSlider(true)}></div>
+            <div className="slider__arrow--left" onClick={() => mvoeSlider(true)}><span class="material-symbols-outlined">chevron_left</span></div>
             <div className="slider__main">
                 <div style={{background: "red"}} className={"slider__tile" + ` slider__tile--${sliderPosition[0]}`}></div>
                 <div style={{background: "blue"}} className={"slider__tile" + ` slider__tile--${sliderPosition[1]}`}></div>
@@ -24,7 +24,7 @@ export default function HomeSlider() {
                 <div style={{background: "orange"}} className={"slider__tile" + ` slider__tile--${sliderPosition[4]}`}></div>
                 <div style={{background: "white"}} className={"slider__tile" + ` slider__tile--${sliderPosition[5]}`}></div>
             </div>
-            <div className="slider__arrow--right" onClick={() => mvoeSlider()}></div>
+            <div className="slider__arrow--right" onClick={() => mvoeSlider()}><span className="material-symbols-outlined">chevron_right</span></div>
         </div>
     )
 }

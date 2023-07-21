@@ -11,15 +11,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <MainOutlet />,
     errorElement: <div>Page not found: ERROR 404</div>,
-    children: [{
-      path: "home",
-      element: <Home></Home>,
-    },]
+    // children: [{
+    //   path: "home",
+    //   element: <Home></Home>,
+    // },]
   },
-  {
-    path: "/main",
-    element: <Chat></Chat>
-  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

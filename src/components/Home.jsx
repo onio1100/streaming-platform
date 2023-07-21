@@ -1,3 +1,4 @@
+import HomeContent from "./HomeContent";
 import HomeSlider from "./HomeSlider";
 
 export default function Home() {
@@ -6,7 +7,9 @@ export default function Home() {
             <div className="home__header">
                 <HomeSlider />
             </div>
-            <div className="home__"></div>
+            <div className="home__content">
+                <HomeContent />
+            </div>
         </section>
     )
 }

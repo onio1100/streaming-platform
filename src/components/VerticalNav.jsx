@@ -5,10 +5,10 @@ export default function VerticalNav({smallNav, switchNav}) {
         <div className={smallNav ? "vnav vnav--small" : "vnav"}>
         <div className="vnav__wraper--top">
             <p className="vnav__title--top">{smallNav ? "" : "For you"}</p>
-            <div className="vnav__switch" onClick={switchNav}><span class="material-symbols-outlined">{smallNav ? "login" : "logout"}</span></div>
+            <div className="vnav__switch" onClick={switchNav}><span className="material-symbols-outlined">{smallNav ? "login" : "logout"}</span></div>
         </div>
         <div className="vnav__wraper--followed">
-            <p className="vnav__title--followed">{smallNav ? <span class="material-symbols-outlined">favorite</span> : "FOLLOWED CHANNELS:"}</p>
+            <p className="vnav__title--followed">{smallNav ? <span className="material-symbols-outlined">favorite</span> : "FOLLOWED CHANNELS:"}</p>
             <div className="vnav__wraper--channel">
                 <img className="vnav__img--channel" src={avatar} alt="avatar" />
                 {smallNav ? "" : (<>
@@ -24,7 +24,7 @@ export default function VerticalNav({smallNav, switchNav}) {
             </div>
         </div>
         <div className="vnav__wraper--recomended">
-            <p className="vnav__title--recomended">{smallNav ? <span class="material-symbols-outlined">videocam</span> : "RECOMENDED CHANNELS:"}</p>
+            <p className="vnav__title--recomended">{smallNav ? <span className="material-symbols-outlined">videocam</span> : "RECOMENDED CHANNELS:"}</p>
         </div>
         </div>
     )

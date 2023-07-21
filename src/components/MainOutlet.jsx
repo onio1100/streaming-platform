@@ -1,10 +1,12 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useOutlet } from "react-router-dom";
 import HorizontalNav from "./HorizontalNav";
 import VerticalNav from "./VerticalNav";
 import { useState } from "react";
+import Home from "./Home";
 
 export default function MainOutlet() {
     const [smallVerticalNav, setSmallVerticalNav] = useState(false);
+    const isOutlet = useOutlet();
 
     function switchVerticalNav(){
         setSmallVerticalNav((prevNav) => {
@@ -17,6 +19,7 @@ export default function MainOutlet() {
             <HorizontalNav />
             <VerticalNav switchNav={switchVerticalNav} smallNav={smallVerticalNav} />         
             <Outlet />
+            {isOutlet ? "" : <Home />}
         </div>
     )
 }
