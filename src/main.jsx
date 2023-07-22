@@ -11,10 +11,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <MainOutlet />,
     errorElement: <div>Page not found: ERROR 404</div>,
-    // children: [{
-    //   path: "home",
-    //   element: <Home></Home>,
-    // },]
+    children: [{
+      path: ":userName",
+      element: <div></div>,
+    },]
   },
 ]);
 

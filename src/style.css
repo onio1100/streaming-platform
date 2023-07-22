@@ -347,6 +347,12 @@ html{
     align-items: center;
 }
 /* home */
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .home__header{
     width: 100%;
     padding: 0 40px;
@@ -435,17 +441,89 @@ html{
 /* home content */
 .home__content{
     width: 100%;
-    max-width: 2000px;
     height: auto;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     padding: 40px 40px 0;
+    font-family: 'Roboto', sans-serif;
+}
+.content__wraper{
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    flex-direction: column;
 }
 .content__bar{
     width: 100%;
     height: 1px;
     margin: 15px 0;
     background-color: #53535f7a;
+}
+.content__title{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    padding-bottom: 10px;
+}
+.content__line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content__tile{
+    width: 16%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ctile__cover{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    /* min-height: 183px; */
+    background-color: #53535f7a;
+}
+.ctile__wraper--big{
+    width: 100%;
+    /* height: 89px; */
+    display: flex;
+    margin-top: 10px;
+}
+.ctile__avatar{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #53535f7a;
+    object-position: center;
+    object-fit: cover;
+}
+.ctile__wraper--small{
+    width: calc(100% - 50px);
+    color: var(--text);   
+}
+.ctile__title{
+    font-size: 14px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1.5px 0;
+}
+.ctile__nick{
+    font-size: 13px;
+    color: #008080;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1.5px 0;
+}
+.ctile__game{
+    font-size: 13px;
+    color: #008080;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1.5px 0;
 }
 /* chat */
 .chat{
