@@ -19,11 +19,9 @@ export default function Chat() {
 }
 
   return (
-    <div className="app">
       <div className="chat">
         <DisplayChat chatHistory={chatHistory} setChatHistory={setChatHistory} scroledConteinter={scroledConteinter}/>
         <InputChat setChatHistory={setChatHistory}/>
       </div>
-    </div>
   )
 }

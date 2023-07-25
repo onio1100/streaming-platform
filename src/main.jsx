@@ -5,6 +5,7 @@ import Chat from './components/Chat.jsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MainOutlet from './components/MainOutlet'
 import Home from './components/Home'
+import UserPage from './components/UserPage'
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
     errorElement: <div>Page not found: ERROR 404</div>,
     children: [{
       path: ":userName",
-      element: <div></div>,
+      element: <UserPage></UserPage>,
     },]
   },
 ]);
