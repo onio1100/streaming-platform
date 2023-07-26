@@ -1,4 +1,5 @@
 import Chat from "./Chat";
+import avatar from "../assets/defult avatar.png";
 
 export default function UserPage() {
     return(
@@ -6,8 +7,18 @@ export default function UserPage() {
             <div className="user__wraper--main">
                 <div className="user__wraper--strem">
                     <div className="user__strem"></div>
-                    <div className="user__info--mini">
-                        
+                    <div className="user__info--small">
+                        <div className="sinfo__wraper--avatar">
+                            <img className="sinfo__avatar" src={avatar} alt="user avatar" />
+                        </div>
+                        <div className="sinfo__wraper--big">
+                            <p className="sinfo__text--nick"></p>
+                            <p className="sinfo__text--title"></p>
+                            <p className="sinfo__text--category"></p>
+                        </div>
+                        <div className="">
+
+                        </div>
                     </div>
                 </div>
                 <div className="user__info--medium">
