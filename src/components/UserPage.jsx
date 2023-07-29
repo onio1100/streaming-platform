@@ -1,7 +1,14 @@
 import Chat from "./Chat";
 import avatar from "../assets/defult avatar.png";
+import { useState } from "react";
 
 export default function UserPage() {
+    const [follow, setFollow] = useState(false);
+
+    function handleFollow(){
+        setFollow((prevFollow) => prevFollow ? false : true);
+    }
+
     return(
         <section className="user">
             <div className="user__wraper--main">
@@ -12,12 +19,12 @@ export default function UserPage() {
                             <img className="sinfo__avatar" src={avatar} alt="user avatar" />
                         </div>
                         <div className="sinfo__wraper--big">
-                            <p className="sinfo__text--nick"></p>
-                            <p className="sinfo__text--title"></p>
-                            <p className="sinfo__text--category"></p>
+                            <p className="sinfo__text--nick">H2P_Gucio</p>
+                            <p className="sinfo__text--title">Cośik sobie obejrzymy</p>
+                            <p className="sinfo__text--category">Just Chatting</p>
                         </div>
-                        <div className="">
-
+                        <div className="sinfo__wraper--medium">
+                            <button className={"sinfo__following" + (follow ? " sinfo__following--followed" : "")} onClick={handleFollow}><span className={"material-symbols-outlined sinfo__heart" + (follow ? " sinfo__heart--fill" : "")}>favorite</span>{follow ? "Stop Followng" : "Follow"}</button>
                         </div>
                     </div>
                 </div>
@@ -30,6 +37,9 @@ export default function UserPage() {
                     <div className="minfo__wraper--small">
                         <a></a>
                     </div>
+                </div>
+                <div className="user__info--banners">
+
                 </div>
             </div>
             <div className="user__wraper--chat">

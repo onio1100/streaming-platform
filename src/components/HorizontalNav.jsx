@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 import avatar from "../assets/defult avatar.png"
 export default function HorizontalNav() {
     return(
         <nav className="hnav">
             <div className="hnav__left">
-                <p className="hnav__left__logo">Blob</p>
+                <Link to="/" className="hnav__left__logo">Blob</Link>
                 <p className="hnav__left__browse">Browse</p>
                 <div className="hnav__left__more"><span class="material-symbols-outlined">more_vert</span></div>
             </div>
