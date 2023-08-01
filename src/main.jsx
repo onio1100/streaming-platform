@@ -6,6 +6,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MainOutlet from './components/MainOutlet'
 import Home from './components/Home'
 import UserPage from './components/UserPage'
+import { loader as userLoader } from "./components/UserPage";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     children: [{
       path: ":userName",
       element: <UserPage></UserPage>,
+      loader: userLoader,
     },]
   },
 ]);

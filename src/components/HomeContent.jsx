@@ -21,7 +21,7 @@ export default function HomeContent(){
             for(let column = 0; column < 6; column++){
                 let streamer = randomaizedStremers[stremerIndex];
                 rowObj.push(
-                    <Link to={"/" + streamer.user} className="content__tile">
+                    <Link to={"/" + streamer.user} key={column} className="content__tile">
                         <img className="ctile__cover"></img>
                         <div className="ctile__wraper--big">
                             <img className="ctile__avatar" src={avatar} alt="user avatar"></img>
@@ -36,10 +36,10 @@ export default function HomeContent(){
                 stremerIndex++;
             }
 
-            JsxObjectsArr.push(<div className="content__line">{rowObj}</div>)
+            JsxObjectsArr.push(<div className="content__line" key={stremerIndex}>{rowObj}</div>)
 
             if(row < 15){
-                JsxObjectsArr.push(<div className="content__bar"></div>)
+                JsxObjectsArr.push(<div className="content__bar" key={stremerIndex + 1}></div>)
             }
         }
         return JsxObjectsArr;

@@ -15,7 +15,7 @@ export default function HomeSlider() {
 
     return(
         <div className="slider">
-            <div className="slider__arrow--left" onClick={() => mvoeSlider(true)}><span class="material-symbols-outlined">chevron_left</span></div>
+            <div className="slider__arrow--left" onClick={() => mvoeSlider(true)}><span className="material-symbols-outlined">chevron_left</span></div>
             <div className="slider__main">
                 <div style={{background: "red"}} className={"slider__tile" + ` slider__tile--${sliderPosition[0]}`}></div>
                 <div style={{background: "blue"}} className={"slider__tile" + ` slider__tile--${sliderPosition[1]}`}></div>

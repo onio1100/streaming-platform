@@ -1,9 +1,23 @@
+import streamers from "../data/stremars.json";
 import Chat from "./Chat";
 import avatar from "../assets/defult avatar.png";
 import { useState } from "react";
+import { useLoaderData } from "react-router-dom";
+
+export async function loader({ params }) {
+    let userName = Number(params.userName);
+    let userObj = await searchForUser(userName);
+    return userObj;
+  }
+
+async function searchForUser(userName){
+    return streamers.find((streamer) => streamer.user === userName);
+}
 
 export default function UserPage() {
     const [follow, setFollow] = useState(false);
+    const user = useLoaderData();
+    console.log(user);
 
     function handleFollow(){
         setFollow((prevFollow) => prevFollow ? false : true);
