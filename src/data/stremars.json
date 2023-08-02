@@ -2,8 +2,8 @@
   {
       "user": "Fox",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Adventures of the Cunning Fox",
       "game": "Fortnite",
@@ -12,8 +12,8 @@
   {
       "user": "Rapunzel",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Towering Tales with Rapunzel",
       "game": "League of Legends",
@@ -22,8 +22,8 @@
   {
       "user": "Freak",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Freak's Wacky World",
       "game": "Minecraft",
@@ -32,8 +32,8 @@
   {
       "user": "Tater",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Tater's Potato Paradise",
       "game": "Among Us",
@@ -42,8 +42,8 @@
   {
       "user": "Button",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Button's Interactive Show",
       "game": "Valorant",
@@ -52,8 +52,8 @@
   {
       "user": "Einstein",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Einstein's Genius Hour",
       "game": "World of Warcraft",
@@ -62,8 +62,8 @@
   {
       "user": "Cookie Dough",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Sweet Treats with Cookie Dough",
       "game": "Apex Legends",
@@ -72,8 +72,8 @@
   {
       "user": "Smiley",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Smiley's Happy Hour",
       "game": "Call of Duty: Warzone",
@@ -82,8 +82,8 @@
   {
       "user": "Gordo",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Gordo's Big Adventures",
       "game": "Genshin Impact",
@@ -92,8 +92,8 @@
   {
       "user": "Doll",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Doll's Playhouse",
       "game": "Overwatch",
@@ -102,8 +102,8 @@
   {
       "user": "Figgy",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Figgy's Fantasy World",
       "game": "Fortnite",
@@ -112,8 +112,8 @@
   {
       "user": "Candycane",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Candycane's Sweet Spectacle",
       "game": "Minecraft",
@@ -122,8 +122,8 @@
   {
       "user": "Kit-Kat",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Kit-Kat's Break Time",
       "game": "Among Us",
@@ -132,8 +132,8 @@
   {
       "user": "Fun Size",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Fun Size Adventures",
       "game": "Valorant",
@@ -142,8 +142,8 @@
   {
       "user": "Cuddle Pig",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Cuddle Pig's Cozy Corner",
       "game": "Apex Legends",
@@ -152,8 +152,8 @@
   {
       "user": "Harry Potter",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Wizarding World with Harry Potter",
       "game": "League of Legends",
@@ -162,8 +162,8 @@
   {
       "user": "Creedence",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Creedence's Mysteries",
       "game": "Genshin Impact",
@@ -172,8 +172,8 @@
   {
       "user": "Hammer",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Hammer Time!",
       "game": "Fortnite",
@@ -182,8 +182,8 @@
   {
       "user": "Halfling",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Halfling's Big Journey",
       "game": "Minecraft",
@@ -192,8 +192,8 @@
   {
       "user": "Biffle",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Biffle's Whimsical World",
       "game": "Among Us",
@@ -202,8 +202,8 @@
   {
       "user": "Pecan",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Pecan's Nutty Adventure",
       "game": "Valorant",
@@ -212,8 +212,8 @@
   {
       "user": "Skinny Jeans",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Skinny Jeans' Fashion Frenzy",
       "game": "Fortnite",
@@ -222,8 +222,8 @@
   {
       "user": "Amazon",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Amazon's Wild Expedition",
       "game": "Apex Legends",
@@ -232,8 +232,8 @@
   {
       "user": "Princess",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Princess' Royal Retreat",
       "game": "Minecraft",
@@ -242,8 +242,8 @@
   {
       "user": "Bruiser",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Bruiser's Tough Challenges",
       "game": "Fortnite",
@@ -252,8 +252,8 @@
   {
       "user": "Pickles",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Pickles' Pickle Party",
       "game": "Among Us",
@@ -262,8 +262,8 @@
   {
       "user": "Biscuit",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Biscuit's Sweet Baking Show",
       "game": "Stardew Valley",
@@ -272,8 +272,8 @@
   {
       "user": "4-Wheel",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "4-Wheel's Off-Road Adventures",
       "game": "Rocket League",
@@ -282,8 +282,8 @@
   {
       "user": "Butternut",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Butternut's Autumn Escape",
       "game": "The Sims 4",
@@ -292,8 +292,8 @@
   {
       "user": "Goblin",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Goblin's Mischievous Mayhem",
       "game": "Overwatch",
@@ -302,8 +302,8 @@
   {
       "user": "Dimples",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Dimples' Cheeky Adventures",
       "game": "Among Us",
@@ -312,8 +312,8 @@
   {
       "user": "Con",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Con's Convention Chronicles",
       "game": "The Elder Scrolls Online",
@@ -322,8 +322,8 @@
   {
       "user": "Cinnamon",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Cinnamon's Spicy Gaming",
       "game": "Fortnite",
@@ -332,8 +332,8 @@
   {
       "user": "Dragonfly",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Dragonfly's Aerial Adventures",
       "game": "Apex Legends",
@@ -342,8 +342,8 @@
   {
       "user": "Bubbles",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Bubbles' Bubblelicious Stream",
       "game": "Fortnite",
@@ -352,8 +352,8 @@
   {
       "user": "Chewbacca",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Chewbacca's Wookiee World",
       "game": "Star Wars Battlefront II",
@@ -362,8 +362,8 @@
   {
       "user": "Slim",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Slim's Fitness Journey",
       "game": "Just Dance 2022",
@@ -372,8 +372,8 @@
   {
       "user": "Honey Pie",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Honey Pie's Sweet Escape",
       "game": "Minecraft",
@@ -382,8 +382,8 @@
   {
       "user": "Golden Graham",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Golden Graham's Treasure Hunt",
       "game": "Sea of Thieves",
@@ -392,8 +392,8 @@
   {
       "user": "Chiquita",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Chiquita's Tropical Paradise",
       "game": "The Sims 4",
@@ -402,8 +402,8 @@
   {
       "user": "Cindy Lou Who",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Cindy Lou Who's Whoville Adventure",
       "game": "Among Us",
@@ -412,8 +412,8 @@
   {
       "user": "Hulk",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Hulk Smash!",
       "game": "Fortnite",
@@ -422,8 +422,8 @@
   {
       "user": "Boo Boo",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Boo Boo's Boo-tiful World",
       "game": "Minecraft",
@@ -432,8 +432,8 @@
   {
       "user": "Goon",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Goon's Goofy Adventures",
       "game": "Among Us",
@@ -442,8 +442,8 @@
   {
       "user": "Shrinkwrap",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Shrinkwrap's Miniature Mayhem",
       "game": "Among Us",
@@ -452,8 +452,8 @@
   {
       "user": "Kitty",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Kitty's Cat-tastic Journey",
       "game": "The Sims 4",
@@ -462,8 +462,8 @@
   {
       "user": "Mistress",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Mistress of Mystery",
       "game": "Assassin's Creed Valhalla",
@@ -472,8 +472,8 @@
   {
       "user": "Sport",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Sporty's Gaming Arena",
       "game": "Rocket League",
@@ -482,8 +482,8 @@
   {
       "user": "Tata",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Tata's Adventure Safari",
       "game": "Far Cry 6",
@@ -492,8 +492,8 @@
   {
       "user": "Queen Bee",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Queen Bee's Royal Hive",
       "game": "Minecraft",
@@ -502,8 +502,8 @@
   {
       "user": "Pookie",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Pookie's Playful Adventures",
       "game": "Minecraft",
@@ -512,8 +512,8 @@
   {
       "user": "Flyby",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Flyby's High-Flying Stream",
       "game": "Apex Legends",
@@ -522,8 +522,8 @@
   {
       "user": "Gator",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Gator's Swampy Quests",
       "game": "Fortnite",
@@ -532,8 +532,8 @@
   {
       "user": "Braniac",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Braniac's Brainy Escapades",
       "game": "The Witcher 3: Wild Hunt",
@@ -542,8 +542,8 @@
   {
       "user": "Big Guy",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Big Guy's Big Adventure",
       "game": "Red Dead Redemption 2",
@@ -552,8 +552,8 @@
   {
       "user": "Superman",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Superman's Heroic Quests",
       "game": "Injustice 2",
@@ -562,8 +562,8 @@
   {
       "user": "Skinny Minny",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Skinny Minny's Tiny World",
       "game": "Among Us",
@@ -572,8 +572,8 @@
   {
       "user": "Toodles",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Toodles' Farewell Tour",
       "game": "The Last of Us Part II",
@@ -582,8 +582,8 @@
   {
       "user": "Buckeye",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Buckeye's Adventures in Ohio",
       "game": "Minecraft",
@@ -592,8 +592,8 @@
   {
       "user": "Goonie",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Goonie's Treasure Hunt",
       "game": "Sea of Thieves",
@@ -602,8 +602,8 @@
   {
       "user": "Tough Guy",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Tough Guy's Hardcore Challenge",
       "game": "Dark Souls III",
@@ -612,8 +612,8 @@
   {
       "user": "Kirby",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Kirby's Dreamland Adventures",
       "game": "Super Smash Bros. Ultimate",
@@ -622,8 +622,8 @@
   {
       "user": "Snow White",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Snow White's Fairy Tale Journey",
       "game": "The Legend of Zelda: Breath of the Wild",
@@ -632,8 +632,8 @@
   {
       "user": "Starbuck",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Starbuck's Caffeinated Quest",
       "game": "Starbucks Simulator",
@@ -642,8 +642,8 @@
   {
       "user": "Homer",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Homer's Doughnut Odyssey",
       "game": "The Simpsons: Hit & Run",
@@ -652,8 +652,8 @@
   {
       "user": "Frankfurter",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Frankfurter's Foodie Adventure",
       "game": "Cooking Simulator",
@@ -662,8 +662,8 @@
   {
       "user": "Piglet",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Piglet's Adorable Escapades",
       "game": "Stardew Valley",
@@ -672,8 +672,8 @@
   {
       "user": "Schnookums",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Schnookums' Cute Chronicles",
       "game": "Animal Crossing: New Horizons",
@@ -682,8 +682,8 @@
   {
       "user": "Pintsize",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Pintsize's Tiny Adventures",
       "game": "Little Nightmares II",
@@ -692,8 +692,8 @@
   {
       "user": "Foxy Lady",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Foxy Lady's Cunning Quest",
       "game": "Assassin's Creed Odyssey",
@@ -702,8 +702,8 @@
   {
       "user": "Twizzler",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Twizzler's Sweet Journey",
       "game": "Candy Crush Saga",
@@ -712,8 +712,8 @@
   {
       "user": "Junior",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Junior's Newbie Adventures",
       "game": "Minecraft",
@@ -722,8 +722,8 @@
   {
       "user": "Teeny",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Teeny's Teeny-Tiny Stream",
       "game": "Among Us",
@@ -732,8 +732,8 @@
   {
       "user": "Marshmallow",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Marshmallow's Fluffy World",
       "game": "LittleBigPlanet 3",
@@ -742,8 +742,8 @@
   {
       "user": "Bambino",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Bambino's Baby Steps",
       "game": "Overcooked! 2",
@@ -752,8 +752,8 @@
   {
       "user": "Ringo",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Ringo's Musical Odyssey",
       "game": "The Beatles: Rock Band",
@@ -762,8 +762,8 @@
   {
       "user": "Speedy",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Speedy's Lightning-Fast Adventures",
       "game": "Sonic the Hedgehog",
@@ -772,8 +772,8 @@
   {
       "user": "Cannoli",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Cannoli's Sweet and Crispy Journey",
       "game": "Cuphead",
@@ -782,8 +782,8 @@
   {
       "user": "MomBod",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "MomBod's Fitness Frenzy",
       "game": "Ring Fit Adventure",
@@ -792,8 +792,8 @@
   {
       "user": "Fattykins",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Fattykins' Feast and Feast",
       "game": "Overcooked!",
@@ -802,8 +802,8 @@
   {
       "user": "Master",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Master's Epic Masterpiece",
       "game": "The Elder Scrolls V: Skyrim",
@@ -812,8 +812,8 @@
   {
       "user": "Drake",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Drake's Dragon Adventure",
       "game": "The Elder Scrolls V: Skyrim",
@@ -822,8 +822,8 @@
   {
       "user": "Beef",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Beef's Meaty Missions",
       "game": "Cooking Simulator",
@@ -832,8 +832,8 @@
   {
       "user": "Buttercup",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Buttercup's Blossoming Journey",
       "game": "Stardew Valley",
@@ -842,8 +842,8 @@
   {
       "user": "Chance",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Chance's Random Adventure",
       "game": "Journey",
@@ -852,8 +852,8 @@
   {
       "user": "Chump",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Chump's Foolish Follies",
       "game": "Among Us",
@@ -862,8 +862,8 @@
   {
       "user": "Dimpling",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Dimpling's Adorable Adventures",
       "game": "Crayola Scoot",
@@ -872,8 +872,8 @@
   {
       "user": "Dum Dum",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Dum Dum's Dumb Fun",
       "game": "Fall Guys: Ultimate Knockout",
@@ -882,8 +882,8 @@
   {
       "user": "Boomer",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Boomer's Boombox Bonanza",
       "game": "Beat Saber",
@@ -892,8 +892,8 @@
   {
       "user": "Donut",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Donut's Sweet Delights",
       "game": "Cook, Serve, Delicious! 3?!",
@@ -902,8 +902,8 @@
   {
       "user": "Pixie",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Pixie's Magical Realm",
       "game": "Ori and the Will of the Wisps",
@@ -912,8 +912,8 @@
   {
       "user": "Pearl",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Pearl's Oceanic Odyssey",
       "game": "Subnautica",
@@ -922,8 +922,8 @@
   {
       "user": "Rockette",
       "color": {
-          "colorHex": "00ff00",
-          "colorWord": "green"
+          "hex": "00ff00",
+          "word": "green"
       },
       "title": "Rockette's Stellar Performance",
       "game": "Just Dance 2023",
@@ -932,8 +932,8 @@
   {
       "user": "Cookie",
       "color": {
-          "colorHex": "ffa500",
-          "colorWord": "orange"
+          "hex": "ffa500",
+          "word": "orange"
       },
       "title": "Cookie's Sweet Treats",
       "game": "Overcooked! All You Can Eat",
@@ -942,8 +942,8 @@
   {
       "user": "Weiner",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "purple"
+          "hex": "ff0000",
+          "word": "purple"
       },
       "title": "Weiner's Hotdog Adventures",
       "game": "Overcooked! All You Can Eat",
@@ -952,8 +952,8 @@
   {
       "user": "Twig",
       "color": {
-          "colorHex": "800080",
-          "colorWord": "yellow"
+          "hex": "800080",
+          "word": "yellow"
       },
       "title": "Twig's Nature Walk",
       "game": "The Legend of Zelda: Breath of the Wild",
@@ -962,8 +962,8 @@
   {
       "user": "Chica",
       "color": {
-          "colorHex": "ffc0cb",
-          "colorWord": "pink"
+          "hex": "ffc0cb",
+          "word": "pink"
       },
       "title": "Chica's Chick-a-Dee Fun",
       "game": "Untitled Goose Game",
@@ -972,8 +972,8 @@
   {
       "user": "Apple",
       "color": {
-          "colorHex": "008080",
-          "colorWord": "teal"
+          "hex": "008080",
+          "word": "teal"
       },
       "title": "Apple's Orchard Adventure",
       "game": "Stardew Valley",
@@ -982,8 +982,8 @@
   {
       "user": "Shorty",
       "color": {
-          "colorHex": "ff0000",
-          "colorWord": "red"
+          "hex": "ff0000",
+          "word": "red"
       },
       "title": "Shorty's Little Big World",
       "game": "LittleBigPlanet 3",
@@ -992,8 +992,8 @@
   {
       "user": "Wifey",
       "color": {
-          "colorHex": "0000ff",
-          "colorWord": "blue"
+          "hex": "0000ff",
+          "word": "blue"
       },
       "title": "Wifey's Co-op Quests",
       "game": "Overcooked! 2",

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function HomeSlider() {
+export default function HomeSlider({arr}) {
     const [sliderPosition, setSliderPositon] = useState(["back","left--2","left--1","center","right--1","right--2"]);
 
     function mvoeSlider(direction = false){ // direction(false = right, true = left)
@@ -12,7 +12,7 @@ export default function HomeSlider() {
             }
         })
     }
-
+    console.log(arr);
     return(
         <div className="slider">
             <div className="slider__arrow--left" onClick={() => mvoeSlider(true)}><span className="material-symbols-outlined">chevron_left</span></div>

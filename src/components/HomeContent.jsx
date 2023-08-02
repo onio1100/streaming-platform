@@ -4,15 +4,6 @@ import avatar from "../assets/defult avatar.png"
 export default function HomeContent(){
     const randomaizedStremers = fyShuffle(streamrs);
 
-    function fyShuffle(arr) {
-        let i = arr.length;
-        while (--i > 0) {
-          let randIndex = Math.floor(Math.random() * (i + 1));
-          [arr[randIndex], arr[i]] = [arr[i], arr[randIndex]];
-        }
-        return arr;
-      }
-
     function creatFeed(){
         let stremerIndex = 0;
         let JsxObjectsArr = [];
