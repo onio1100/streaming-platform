@@ -1,13 +1,13 @@
-import streamrs from "../data/stremars.json"
 import { Link } from "react-router-dom"
 import avatar from "../assets/defult avatar.png"
-export default function HomeContent(){
-    const randomaizedStremers = fyShuffle(streamrs);
+
+export default function HomeContent({arr}){
+    const randomaizedStremers = arr;
 
     function creatFeed(){
         let stremerIndex = 0;
         let JsxObjectsArr = [];
-        for(let row = 0;row < 16; row++){
+        for(let row = 0;row < 15; row++){
             let rowObj = [];
             for(let column = 0; column < 6; column++){
                 let streamer = randomaizedStremers[stremerIndex];
@@ -29,7 +29,7 @@ export default function HomeContent(){
 
             JsxObjectsArr.push(<div className="content__line" key={stremerIndex}>{rowObj}</div>)
 
-            if(row < 15){
+            if(row < 14){
                 JsxObjectsArr.push(<div className="content__bar" key={stremerIndex + 1}></div>)
             }
         }

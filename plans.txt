@@ -3,3 +3,16 @@
         --"browse" podstrona strony ? do lepszego przeglądania????
     -"nick" profil z transmisją czatem i innymi zkładkami 
         -- różne podstrony z informacjami o kanale urzytkowniku ["about","videos"] ????
+
+-działający serch w horyzontalnej nawigacji(wpisujesz nazwe użytkownika rozwija się lista na któej są
+pasujące kanały i po kliknięciu przechodzisz na /nazwaUżytkownika)
+
+-miniaturki (zdjęcia z jakiegoś api ? npm ?) 
+
+-infinitie scroll(z zapentlonymi użytkownikami)
+
+-nawigacja zapisywan w local storage
+
+-strona błedu
+
+-opserwowanie i ilość widzów zpisywana w stanie mainOutletu i dodawana za każdym razem do obiektu stremers tak samo jak miniaturka ???
