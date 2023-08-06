@@ -5,6 +5,11 @@ import { useEffect, useState } from "react";
 import Home from "./Home";
 import streamers from "../data/stremars.json";
 
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1) + min);
+  }
 function fyShuffle(arr) {
     let i = arr.length;
     while (--i > 0) {

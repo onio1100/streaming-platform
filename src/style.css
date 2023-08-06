@@ -461,12 +461,6 @@ html{
     margin: 15px 0;
     background-color: #53535f7a;
 }
-.content__title{
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text);
-    padding-bottom: 10px;
-}
 .content__line{
     display: flex;
     align-items: center;
