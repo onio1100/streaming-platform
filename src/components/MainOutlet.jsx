@@ -9,7 +9,8 @@ function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min);
-  }
+}
+  
 function fyShuffle(arr) {
     let i = arr.length;
     while (--i > 0) {
@@ -17,9 +18,20 @@ function fyShuffle(arr) {
       [arr[randIndex], arr[i]] = [arr[i], arr[randIndex]];
     }
     return arr;
-  }
+}
 
-  const randomStreamers = fyShuffle(streamers); 
+const followed = getRandomInt(5,25);
+
+const updatedStreamers = streamers.map((streamer, index) => {
+    return(
+      {
+      ...streamer,
+      followed: index < followed,
+      viewers: getRandomInt(1,20000),
+    })
+});
+console.log(updatedStreamers);
+const randomStreamers = fyShuffle(updatedStreamers); 
 
 export default function MainOutlet() {
     const [smallVerticalNav, setSmallVerticalNav] = useState(false);
