@@ -20,7 +20,7 @@ function fyShuffle(arr) {
     return arr;
 }
 
-const followed = getRandomInt(5,25);
+const followed = getRandomInt(9,9);
 
 const updatedStreamers = streamers.map((streamer, index) => {
     return(
@@ -30,7 +30,6 @@ const updatedStreamers = streamers.map((streamer, index) => {
       viewers: getRandomInt(1,20000),
     })
 });
-console.log(updatedStreamers);
 const randomStreamers = fyShuffle(updatedStreamers); 
 
 export default function MainOutlet() {
@@ -47,9 +46,9 @@ export default function MainOutlet() {
     return(
         <div className={"main__wraper" + (smallVerticalNav ? " main__wraper--big" : "")}>
             <HorizontalNav />
-            <VerticalNav switchNav={switchVerticalNav} smallNav={smallVerticalNav} />         
-            <Outlet />
-            {isOutlet ? "" : <Home streamers={streamers} />}
+            <VerticalNav switchNav={switchVerticalNav} smallNav={smallVerticalNav} streamers={randomStreamers} />         
+            <Outlet context={[streamers, setStremers]} />
+            {isOutlet ? "" : <Home streamers={streamers}/>}
         </div>
     )
 }

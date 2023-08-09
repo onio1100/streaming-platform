@@ -1,1004 +1,1102 @@
 [
-  {
-      "user": "Fox",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Adventures of the Cunning Fox",
-      "game": "Fortnite",
-      "description": "Join Fox, the cunning and adventurous streamer, as he takes on exciting challenges and showcases his skills in Fortnite."
-  },
-  {
-      "user": "Rapunzel",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Towering Tales with Rapunzel",
-      "game": "League of Legends",
-      "description": "Rapunzel, the blue-haired streamer, weaves engaging stories and conquers the battlefield in League of Legends."
-  },
-  {
-      "user": "Freak",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Freak's Wacky World",
-      "game": "Minecraft",
-      "description": "Step into the whimsical and green-hued world of Freak, where creativity knows no bounds in the Minecraft universe."
-  },
-  {
-      "user": "Tater",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Tater's Potato Paradise",
-      "game": "Among Us",
-      "description": "Explore Tater's playful orange-hued realm, filled with thrilling deceit and suspense in Among Us."
-  },
-  {
-      "user": "Button",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Button's Interactive Show",
-      "game": "Valorant",
-      "description": "Join Button in the purple-tinged world of Valorant, where interactive gameplay and engaging moments await."
-  },
-  {
-      "user": "Einstein",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Einstein's Genius Hour",
-      "game": "World of Warcraft",
-      "description": "Unlock the mysteries of the yellow-hued genius, Einstein, as he embarks on epic adventures in World of Warcraft."
-  },
-  {
-      "user": "Cookie Dough",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Sweet Treats with Cookie Dough",
-      "game": "Apex Legends",
-      "description": "Indulge in sweet treats and thrilling battles with Cookie Dough, the pink-themed streamer in Apex Legends."
-  },
-  {
-      "user": "Smiley",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Smiley's Happy Hour",
-      "game": "Call of Duty: Warzone",
-      "description": "Gear up for action and camaraderie with the teal-colored streamer, Smiley, in Call of Duty: Warzone."
-  },
-  {
-      "user": "Gordo",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Gordo's Big Adventures",
-      "game": "Genshin Impact",
-      "description": "Embark on big adventures and uncover the mysteries of Genshin Impact with the red-themed streamer, Gordo."
-  },
-  {
-      "user": "Doll",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Doll's Playhouse",
-      "game": "Overwatch",
-      "description": "Enter Doll's blue-hued playhouse, where exciting battles and team-based action await in Overwatch."
-  },
-  {
-      "user": "Figgy",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Figgy's Fantasy World",
-      "game": "Fortnite",
-      "description": "Unleash your imagination and experience a fantasy-filled world with Figgy, the green-themed Fortnite streamer."
-  },
-  {
-      "user": "Candycane",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Candycane's Sweet Spectacle",
-      "game": "Minecraft",
-      "description": "Join Candycane in the orange-hued realm of Minecraft for a sweet spectacle of creativity and adventures."
-  },
-  {
-      "user": "Kit-Kat",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Kit-Kat's Break Time",
-      "game": "Among Us",
-      "description": "Take a break and have some fun with Kit-Kat, the purple-themed streamer, as they navigate the world of Among Us."
-  },
-  {
-      "user": "Fun Size",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Fun Size Adventures",
-      "game": "Valorant",
-      "description": "Embark on exciting and compact adventures with Fun Size in the yellow-hued world of Valorant."
-  },
-  {
-      "user": "Cuddle Pig",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Cuddle Pig's Cozy Corner",
-      "game": "Apex Legends",
-      "description": "Cuddle up in the cozy pink corner of Cuddle Pig and join thrilling battles in the world of Apex Legends."
-  },
-  {
-      "user": "Harry Potter",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Wizarding World with Harry Potter",
-      "game": "League of Legends",
-      "description": "Enter the magical Wizarding World with Harry Potter, the teal-themed streamer, and experience epic battles in League of Legends."
-  },
-  {
-      "user": "Creedence",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Creedence's Mysteries",
-      "game": "Genshin Impact",
-      "description": "Unravel the enigmatic mysteries of Genshin Impact with Creedence, the red-themed streamer."
-  },
-  {
-      "user": "Hammer",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Hammer Time!",
-      "game": "Fortnite",
-      "description": "Join Hammer for some epic hammer time adventures in the blue-hued world of Fortnite."
-  },
-  {
-      "user": "Halfling",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Halfling's Big Journey",
-      "game": "Minecraft",
-      "description": "Embark on a big journey of creativity and exploration with the green-themed streamer, Halfling, in Minecraft."
-  },
-  {
-      "user": "Biffle",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Biffle's Whimsical World",
-      "game": "Among Us",
-      "description": "Step into the whimsical and orange-hued world of Biffle, where deceit and laughter intertwine in Among Us."
-  },
-  {
-      "user": "Pecan",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Pecan's Nutty Adventure",
-      "game": "Valorant",
-      "description": "Join Pecan in a nutty adventure through the world of Valorant, where sharpshooting and tactical skills prevail."
-  },
-  {
-      "user": "Skinny Jeans",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Skinny Jeans' Fashion Frenzy",
-      "game": "Fortnite",
-      "description": "Step into the fashion frenzy with Skinny Jeans in Fortnite, where style and gameplay go hand in hand."
-  },
-  {
-      "user": "Amazon",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Amazon's Wild Expedition",
-      "game": "Apex Legends",
-      "description": "Embark on a wild expedition with Amazon in the pink-hued world of Apex Legends, where battles and exploration await."
-  },
-  {
-      "user": "Princess",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Princess' Royal Retreat",
-      "game": "Minecraft",
-      "description": "Join Princess in her royal retreat, a teal-colored paradise in the blocky world of Minecraft."
-  },
-  {
-      "user": "Bruiser",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Bruiser's Tough Challenges",
-      "game": "Fortnite",
-      "description": "Take on tough challenges with Bruiser in Fortnite, where victory and adrenaline-fueled gameplay await."
-  },
-  {
-      "user": "Pickles",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Pickles' Pickle Party",
-      "game": "Among Us",
-      "description": "Party with Pickles in the blue-hued world of Among Us, where mysteries and pickle-themed fun abound."
-  },
-  {
-      "user": "Biscuit",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Biscuit's Sweet Baking Show",
-      "game": "Stardew Valley",
-      "description": "Join Biscuit in the green-hued world of Stardew Valley for a sweet baking show and relaxing farm life."
-  },
-  {
-      "user": "4-Wheel",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "4-Wheel's Off-Road Adventures",
-      "game": "Rocket League",
-      "description": "Rev up for off-road adventures with 4-Wheel in the orange-hued world of Rocket League, where cars and soccer collide."
-  },
-  {
-      "user": "Butternut",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Butternut's Autumn Escape",
-      "game": "The Sims 4",
-      "description": "Escape into the autumn vibes with Butternut in The Sims 4, where creativity and life simulation intertwine."
-  },
-  {
-      "user": "Goblin",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Goblin's Mischievous Mayhem",
-      "game": "Overwatch",
-      "description": "Join Goblin for mischievous mayhem and action-packed battles in the yellow-hued world of Overwatch."
-  },
-  {
-      "user": "Dimples",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Dimples' Cheeky Adventures",
-      "game": "Among Us",
-      "description": "Embark on cheeky and laughter-filled adventures with Dimples in the pink-hued world of Among Us."
-  },
-  {
-      "user": "Con",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Con's Convention Chronicles",
-      "game": "The Elder Scrolls Online",
-      "description": "Explore the Convention Chronicles with Con in the teal-hued world of The Elder Scrolls Online, where epic adventures await."
-  },
-  {
-      "user": "Cinnamon",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Cinnamon's Spicy Gaming",
-      "game": "Fortnite",
-      "description": "Experience the spicy gaming adventures with Cinnamon in the red-hued world of Fortnite, where excitement never ends."
-  },
-  {
-      "user": "Dragonfly",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Dragonfly's Aerial Adventures",
-      "game": "Apex Legends",
-      "description": "Soar through aerial adventures with Dragonfly in the blue-hued world of Apex Legends, where legends rise."
-  },
-  {
-      "user": "Bubbles",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Bubbles' Bubblelicious Stream",
-      "game": "Fortnite",
-      "description": "Dive into the bubblelicious world of Fortnite with Bubbles, where colorful chaos and fun are guaranteed."
-  },
-  {
-      "user": "Chewbacca",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Chewbacca's Wookiee World",
-      "game": "Star Wars Battlefront II",
-      "description": "Enter Chewbacca's Wookiee World in Star Wars Battlefront II, where the galaxy awaits thrilling battles."
-  },
-  {
-      "user": "Slim",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Slim's Fitness Journey",
-      "game": "Just Dance 2022",
-      "description": "Join Slim on a fitness journey through the world of Just Dance 2022, where rhythm and health combine."
-  },
-  {
-      "user": "Honey Pie",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Honey Pie's Sweet Escape",
-      "game": "Minecraft",
-      "description": "Escape into Honey Pie's sweet world in Minecraft, where creativity and building know no bounds."
-  },
-  {
-      "user": "Golden Graham",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Golden Graham's Treasure Hunt",
-      "game": "Sea of Thieves",
-      "description": "Embark on a treasure hunt with Golden Graham in the pink-hued world of Sea of Thieves, where pirates roam."
-  },
-  {
-      "user": "Chiquita",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Chiquita's Tropical Paradise",
-      "game": "The Sims 4",
-      "description": "Relax in Chiquita's tropical paradise in The Sims 4, where sun, fun, and simulation come together."
-  },
-  {
-      "user": "Cindy Lou Who",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Cindy Lou Who's Whoville Adventure",
-      "game": "Among Us",
-      "description": "Embark on a Whoville adventure with Cindy Lou Who in the red-hued world of Among Us, where holiday cheer meets mystery."
-  },
-  {
-      "user": "Hulk",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Hulk Smash!",
-      "game": "Fortnite",
-      "description": "Unleash the fury and power of the Hulk in Fortnite, where smashing and building go hand in hand."
-  },
-  {
-      "user": "Boo Boo",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Boo Boo's Boo-tiful World",
-      "game": "Minecraft",
-      "description": "Explore Boo Boo's boo-tiful world in Minecraft, where creativity and spooky adventures await."
-  },
-  {
-      "user": "Goon",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Goon's Goofy Adventures",
-      "game": "Among Us",
-      "description": "Join Goon for goofy and laughter-filled adventures in the orange-hued world of Among Us."
-  },
-  {
-      "user": "Shrinkwrap",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Shrinkwrap's Miniature Mayhem",
-      "game": "Among Us",
-      "description": "Experience miniature mayhem and deception with Shrinkwrap in the purple-hued world of Among Us."
-  },
-  {
-      "user": "Kitty",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Kitty's Cat-tastic Journey",
-      "game": "The Sims 4",
-      "description": "Embark on a cat-tastic journey with Kitty in The Sims 4, where feline adventures and simulation blend together."
-  },
-  {
-      "user": "Mistress",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Mistress of Mystery",
-      "game": "Assassin's Creed Valhalla",
-      "description": "Unravel the mysteries of Assassin's Creed Valhalla with Mistress, the pink-hued streamer."
-  },
-  {
-      "user": "Sport",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Sporty's Gaming Arena",
-      "game": "Rocket League",
-      "description": "Enter Sporty's gaming arena in Rocket League, where fast-paced action and sportsmanship rule the pitch."
-  },
-  {
-      "user": "Tata",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Tata's Adventure Safari",
-      "game": "Far Cry 6",
-      "description": "Embark on a thrilling adventure safari with Tata in the red-hued world of Far Cry 6, where danger lurks around every corner."
-  },
-  {
-      "user": "Queen Bee",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Queen Bee's Royal Hive",
-      "game": "Minecraft",
-      "description": "Rule over the royal hive of Queen Bee in Minecraft, where building and leadership reign supreme."
-  },
-  {
-      "user": "Pookie",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Pookie's Playful Adventures",
-      "game": "Minecraft",
-      "description": "Join Pookie in playful adventures through the blocky world of Minecraft, where creativity and fun know no bounds."
-  },
-  {
-      "user": "Flyby",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Flyby's High-Flying Stream",
-      "game": "Apex Legends",
-      "description": "Soar through high-flying streams with Flyby in Apex Legends, where legends rise and battles reach new heights."
-  },
-  {
-      "user": "Gator",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Gator's Swampy Quests",
-      "game": "Fortnite",
-      "description": "Embark on swampy quests with Gator in Fortnite, where survival skills and battles take center stage."
-  },
-  {
-      "user": "Braniac",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Braniac's Brainy Escapades",
-      "game": "The Witcher 3: Wild Hunt",
-      "description": "Join Braniac in brainy escapades through the rich and expansive world of The Witcher 3: Wild Hunt."
-  },
-  {
-      "user": "Big Guy",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Big Guy's Big Adventure",
-      "game": "Red Dead Redemption 2",
-      "description": "Embark on a big adventure with Big Guy in the wild west of Red Dead Redemption 2, where outlaws and cowboys rule."
-  },
-  {
-      "user": "Superman",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Superman's Heroic Quests",
-      "game": "Injustice 2",
-      "description": "Join Superman in heroic quests and epic battles in the DC universe of Injustice 2, where heroes and villains clash."
-  },
-  {
-      "user": "Skinny Minny",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Skinny Minny's Tiny World",
-      "game": "Among Us",
-      "description": "Explore Skinny Minny's tiny world in Among Us, where deception and deduction are the keys to victory."
-  },
-  {
-      "user": "Toodles",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Toodles' Farewell Tour",
-      "game": "The Last of Us Part II",
-      "description": "Embark on a farewell tour with Toodles in The Last of Us Part II, where emotional storytelling and survival collide."
-  },
-  {
-      "user": "Buckeye",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Buckeye's Adventures in Ohio",
-      "game": "Minecraft",
-      "description": "Join Buckeye for adventures in the Ohio-themed world of Minecraft, where creativity and local landmarks merge."
-  },
-  {
-      "user": "Goonie",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Goonie's Treasure Hunt",
-      "game": "Sea of Thieves",
-      "description": "Embark on a treasure hunt with Goonie in the pirate-infested world of Sea of Thieves, where loot and adventure await."
-  },
-  {
-      "user": "Tough Guy",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Tough Guy's Hardcore Challenge",
-      "game": "Dark Souls III",
-      "description": "Take on the hardcore challenge with Tough Guy in the punishing world of Dark Souls III, where skill and perseverance are the keys to success."
-  },
-  {
-      "user": "Kirby",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Kirby's Dreamland Adventures",
-      "game": "Super Smash Bros. Ultimate",
-      "description": "Join Kirby in dreamland adventures in Super Smash Bros. Ultimate, where iconic characters and epic battles await."
-  },
-  {
-      "user": "Snow White",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Snow White's Fairy Tale Journey",
-      "game": "The Legend of Zelda: Breath of the Wild",
-      "description": "Embark on a fairy tale journey with Snow White in the enchanting world of The Legend of Zelda: Breath of the Wild."
-  },
-  {
-      "user": "Starbuck",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Starbuck's Caffeinated Quest",
-      "game": "Starbucks Simulator",
-      "description": "Embark on a caffeinated quest with Starbuck in Starbucks Simulator, where coffee and creativity blend together."
-  },
-  {
-      "user": "Homer",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Homer's Doughnut Odyssey",
-      "game": "The Simpsons: Hit & Run",
-      "description": "Join Homer in a doughnut odyssey in The Simpsons: Hit & Run, where hilarity and adventure are guaranteed."
-  },
-  {
-      "user": "Frankfurter",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Frankfurter's Foodie Adventure",
-      "game": "Cooking Simulator",
-      "description": "Embark on a foodie adventure with Frankfurter in Cooking Simulator, where culinary skills and creativity reign supreme."
-  },
-  {
-      "user": "Piglet",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Piglet's Adorable Escapades",
-      "game": "Stardew Valley",
-      "description": "Join Piglet in adorable escapades and cozy farming life in the charming world of Stardew Valley."
-  },
-  {
-      "user": "Schnookums",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Schnookums' Cute Chronicles",
-      "game": "Animal Crossing: New Horizons",
-      "description": "Explore cute chronicles with Schnookums in Animal Crossing: New Horizons, where relaxation and adorable moments await."
-  },
-  {
-      "user": "Pintsize",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Pintsize's Tiny Adventures",
-      "game": "Little Nightmares II",
-      "description": "Embark on tiny adventures with Pintsize in the eerie world of Little Nightmares II, where puzzles and chills intertwine."
-  },
-  {
-      "user": "Foxy Lady",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Foxy Lady's Cunning Quest",
-      "game": "Assassin's Creed Odyssey",
-      "description": "Join Foxy Lady in cunning quests and stealthy missions in the ancient world of Assassin's Creed Odyssey."
-  },
-  {
-      "user": "Twizzler",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Twizzler's Sweet Journey",
-      "game": "Candy Crush Saga",
-      "description": "Embark on a sweet journey with Twizzler in Candy Crush Saga, where matching candies leads to delightful rewards."
-  },
-  {
-      "user": "Junior",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Junior's Newbie Adventures",
-      "game": "Minecraft",
-      "description": "Join Junior in newbie adventures through the blocky world of Minecraft, where creativity and exploration await newcomers."
-  },
-  {
-      "user": "Teeny",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Teeny's Teeny-Tiny Stream",
-      "game": "Among Us",
-      "description": "Experience Teeny's teeny-tiny stream in Among Us, where small moments lead to big suspense and laughter."
-  },
-  {
-      "user": "Marshmallow",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Marshmallow's Fluffy World",
-      "game": "LittleBigPlanet 3",
-      "description": "Explore Marshmallow's fluffy world in LittleBigPlanet 3, where imagination and creativity take center stage."
-  },
-  {
-      "user": "Bambino",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Bambino's Baby Steps",
-      "game": "Overcooked! 2",
-      "description": "Take baby steps with Bambino in Overcooked! 2, where chaotic cooking and cooperation lead to culinary success."
-  },
-  {
-      "user": "Ringo",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Ringo's Musical Odyssey",
-      "game": "The Beatles: Rock Band",
-      "description": "Embark on a musical odyssey with Ringo in The Beatles: Rock Band, where classic hits and rhythm take center stage."
-  },
-  {
-      "user": "Speedy",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Speedy's Lightning-Fast Adventures",
-      "game": "Sonic the Hedgehog",
-      "description": "Join Speedy in lightning-fast adventures with Sonic the Hedgehog, where speed and action are the name of the game."
-  },
-  {
-      "user": "Cannoli",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Cannoli's Sweet and Crispy Journey",
-      "game": "Cuphead",
-      "description": "Embark on a sweet and crispy journey with Cannoli in Cuphead, where challenging boss battles and stunning visuals await."
-  },
-  {
-      "user": "MomBod",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "MomBod's Fitness Frenzy",
-      "game": "Ring Fit Adventure",
-      "description": "Join MomBod in a fitness frenzy with Ring Fit Adventure, where exercise and fun come together for a healthy journey."
-  },
-  {
-      "user": "Fattykins",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Fattykins' Feast and Feast",
-      "game": "Overcooked!",
-      "description": "Experience feasts and chaos with Fattykins in Overcooked!, where cooking skills and teamwork create culinary masterpieces."
-  },
-  {
-      "user": "Master",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Master's Epic Masterpiece",
-      "game": "The Elder Scrolls V: Skyrim",
-      "description": "Immerse yourself in an epic masterpiece with Master in The Elder Scrolls V: Skyrim, where dragons and adventure await."
-  },
-  {
-      "user": "Drake",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Drake's Dragon Adventure",
-      "game": "The Elder Scrolls V: Skyrim",
-      "description": "Join Drake in a dragon adventure with The Elder Scrolls V: Skyrim, where ancient lore and exploration unfold."
-  },
-  {
-      "user": "Beef",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Beef's Meaty Missions",
-      "game": "Cooking Simulator",
-      "description": "Take on meaty missions with Beef in Cooking Simulator, where culinary prowess and creativity lead to delicious results."
-  },
-  {
-      "user": "Buttercup",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Buttercup's Blossoming Journey",
-      "game": "Stardew Valley",
-      "description": "Join Buttercup in a blossoming journey through the charming world of Stardew Valley, where farming and friendship bloom."
-  },
-  {
-      "user": "Chance",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Chance's Random Adventure",
-      "game": "Journey",
-      "description": "Embark on random adventures with Chance in Journey, where exploration and emotion intertwine in a mysterious world."
-  },
-  {
-      "user": "Chump",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Chump's Foolish Follies",
-      "game": "Among Us",
-      "description": "Witness Chump's foolish follies in Among Us, where deception and laughter lead to unpredictable outcomes."
-  },
-  {
-      "user": "Dimpling",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Dimpling's Adorable Adventures",
-      "game": "Crayola Scoot",
-      "description": "Join Dimpling in adorable adventures with Crayola Scoot, where colorful fun and creative tricks are a delight."
-  },
-  {
-      "user": "Dum Dum",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Dum Dum's Dumb Fun",
-      "game": "Fall Guys: Ultimate Knockout",
-      "description": "Experience dumb fun and hilarious chaos with Dum Dum in Fall Guys: Ultimate Knockout, where jelly beans compete for glory."
-  },
-  {
-      "user": "Boomer",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Boomer's Boombox Bonanza",
-      "game": "Beat Saber",
-      "description": "Join Boomer in a boombox bonanza with Beat Saber, where music and saber-wielding action create a rhythm sensation."
-  },
-  {
-      "user": "Donut",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Donut's Sweet Delights",
-      "game": "Cook, Serve, Delicious! 3?!",
-      "description": "Indulge in sweet delights with Donut in Cook, Serve, Delicious! 3?!, where cooking and multitasking keep the customers satisfied."
-  },
-  {
-      "user": "Pixie",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Pixie's Magical Realm",
-      "game": "Ori and the Will of the Wisps",
-      "description": "Enter Pixie's magical realm in Ori and the Will of the Wisps, where enchanting visuals and heartfelt storytelling come alive."
-  },
-  {
-      "user": "Pearl",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Pearl's Oceanic Odyssey",
-      "game": "Subnautica",
-      "description": "Explore Pearl's oceanic odyssey in Subnautica, where deep-sea wonders and survival challenges await beneath the waves."
-  },
-  {
-      "user": "Rockette",
-      "color": {
-          "hex": "00ff00",
-          "word": "green"
-      },
-      "title": "Rockette's Stellar Performance",
-      "game": "Just Dance 2023",
-      "description": "Experience Rockette's stellar performance in Just Dance 2023, where dancing and rhythm create a dazzling spectacle."
-  },
-  {
-      "user": "Cookie",
-      "color": {
-          "hex": "ffa500",
-          "word": "orange"
-      },
-      "title": "Cookie's Sweet Treats",
-      "game": "Overcooked! All You Can Eat",
-      "description": "Savor Cookie's sweet treats in Overcooked! All You Can Eat, where culinary chaos and delicious dishes go hand in hand."
-  },
-  {
-      "user": "Weiner",
-      "color": {
-          "hex": "ff0000",
-          "word": "purple"
-      },
-      "title": "Weiner's Hotdog Adventures",
-      "game": "Overcooked! All You Can Eat",
-      "description": "Join Weiner in hotdog adventures with Overcooked! All You Can Eat, where culinary creativity and teamwork create hot diggity delights."
-  },
-  {
-      "user": "Twig",
-      "color": {
-          "hex": "800080",
-          "word": "yellow"
-      },
-      "title": "Twig's Nature Walk",
-      "game": "The Legend of Zelda: Breath of the Wild",
-      "description": "Take a nature walk with Twig in The Legend of Zelda: Breath of the Wild, where vast landscapes and epic quests await."
-  },
-  {
-      "user": "Chica",
-      "color": {
-          "hex": "ffc0cb",
-          "word": "pink"
-      },
-      "title": "Chica's Chick-a-Dee Fun",
-      "game": "Untitled Goose Game",
-      "description": "Join Chica in chick-a-dee fun with Untitled Goose Game, where mischievous antics and feathered chaos create a quacking good time."
-  },
-  {
-      "user": "Apple",
-      "color": {
-          "hex": "008080",
-          "word": "teal"
-      },
-      "title": "Apple's Orchard Adventure",
-      "game": "Stardew Valley",
-      "description": "Embark on an orchard adventure with Apple in Stardew Valley, where harvests and heartwarming moments grow together."
-  },
-  {
-      "user": "Shorty",
-      "color": {
-          "hex": "ff0000",
-          "word": "red"
-      },
-      "title": "Shorty's Little Big World",
-      "game": "LittleBigPlanet 3",
-      "description": "Explore Shorty's little big world in LittleBigPlanet 3, where imagination and creativity bring charming platforming to life."
-  },
-  {
-      "user": "Wifey",
-      "color": {
-          "hex": "0000ff",
-          "word": "blue"
-      },
-      "title": "Wifey's Co-op Quests",
-      "game": "Overcooked! 2",
-      "description": "Embark on co-op quests with Wifey in Overcooked! 2, where teamwork and culinary skills create a delightful co-op experience."
-  }
+    {
+        "id": 0,
+        "user": "Fox",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Adventures of the Cunning Fox",
+        "game": "Fortnite",
+        "description": "Join Fox, the cunning and adventurous streamer, as he takes on exciting challenges and showcases his skills in Fortnite."
+    },
+    {
+        "id": 1,
+        "user": "Rapunzel",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Towering Tales with Rapunzel",
+        "game": "League of Legends",
+        "description": "Rapunzel, the blue-haired streamer, weaves engaging stories and conquers the battlefield in League of Legends."
+    },
+    {
+        "id": 2,
+        "user": "Freak",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Freak's Wacky World",
+        "game": "Minecraft",
+        "description": "Step into the whimsical and green-hued world of Freak, where creativity knows no bounds in the Minecraft universe."
+    },
+    {
+        "id": 3,
+        "user": "Tater",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Tater's Potato Paradise",
+        "game": "Among Us",
+        "description": "Explore Tater's playful orange-hued realm, filled with thrilling deceit and suspense in Among Us."
+    },
+    {
+        "id": 4,
+        "user": "Button",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Button's Interactive Show",
+        "game": "Valorant",
+        "description": "Join Button in the purple-tinged world of Valorant, where interactive gameplay and engaging moments await."
+    },
+    {
+        "id": 5,
+        "user": "Einstein",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Einstein's Genius Hour",
+        "game": "World of Warcraft",
+        "description": "Unlock the mysteries of the yellow-hued genius, Einstein, as he embarks on epic adventures in World of Warcraft."
+    },
+    {
+        "id": 6,
+        "user": "Cookie Dough",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Sweet Treats with Cookie Dough",
+        "game": "Apex Legends",
+        "description": "Indulge in sweet treats and thrilling battles with Cookie Dough, the pink-themed streamer in Apex Legends."
+    },
+    {
+        "id": 7,
+        "user": "Smiley",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Smiley's Happy Hour",
+        "game": "Call of Duty: Warzone",
+        "description": "Gear up for action and camaraderie with the teal-colored streamer, Smiley, in Call of Duty: Warzone."
+    },
+    {
+        "id": 8,
+        "user": "Gordo",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Gordo's Big Adventures",
+        "game": "Genshin Impact",
+        "description": "Embark on big adventures and uncover the mysteries of Genshin Impact with the red-themed streamer, Gordo."
+    },
+    {
+        "id": 9,
+        "user": "Doll",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Doll's Playhouse",
+        "game": "Overwatch",
+        "description": "Enter Doll's blue-hued playhouse, where exciting battles and team-based action await in Overwatch."
+    },
+    {
+        "id": 10,
+        "user": "Figgy",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Figgy's Fantasy World",
+        "game": "Fortnite",
+        "description": "Unleash your imagination and experience a fantasy-filled world with Figgy, the green-themed Fortnite streamer."
+    },
+    {
+        "id": 11,
+        "user": "Candycane",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Candycane's Sweet Spectacle",
+        "game": "Minecraft",
+        "description": "Join Candycane in the orange-hued realm of Minecraft for a sweet spectacle of creativity and adventures."
+    },
+    {
+        "id": 12,
+        "user": "Kit-Kat",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Kit-Kat's Break Time",
+        "game": "Among Us",
+        "description": "Take a break and have some fun with Kit-Kat, the purple-themed streamer, as they navigate the world of Among Us."
+    },
+    {
+        "id": 13,
+        "user": "Fun Size",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Fun Size Adventures",
+        "game": "Valorant",
+        "description": "Embark on exciting and compact adventures with Fun Size in the yellow-hued world of Valorant."
+    },
+    {
+        "id": 14,
+        "user": "Cuddle Pig",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Cuddle Pig's Cozy Corner",
+        "game": "Apex Legends",
+        "description": "Cuddle up in the cozy pink corner of Cuddle Pig and join thrilling battles in the world of Apex Legends."
+    },
+    {
+        "id": 15,
+        "user": "Harry Potter",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Wizarding World with Harry Potter",
+        "game": "League of Legends",
+        "description": "Enter the magical Wizarding World with Harry Potter, the teal-themed streamer, and experience epic battles in League of Legends."
+    },
+    {
+        "id": 16,
+        "user": "Creedence",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Creedence's Mysteries",
+        "game": "Genshin Impact",
+        "description": "Unravel the enigmatic mysteries of Genshin Impact with Creedence, the red-themed streamer."
+    },
+    {
+        "id": 17,
+        "user": "Hammer",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Hammer Time!",
+        "game": "Fortnite",
+        "description": "Join Hammer for some epic hammer time adventures in the blue-hued world of Fortnite."
+    },
+    {
+        "id": 18,
+        "user": "Halfling",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Halfling's Big Journey",
+        "game": "Minecraft",
+        "description": "Embark on a big journey of creativity and exploration with the green-themed streamer, Halfling, in Minecraft."
+    },
+    {
+        "id": 19,
+        "user": "Biffle",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Biffle's Whimsical World",
+        "game": "Among Us",
+        "description": "Step into the whimsical and orange-hued world of Biffle, where deceit and laughter intertwine in Among Us."
+    },
+    {
+        "id": 20,
+        "user": "Pecan",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Pecan's Nutty Adventure",
+        "game": "Valorant",
+        "description": "Join Pecan in a nutty adventure through the world of Valorant, where sharpshooting and tactical skills prevail."
+    },
+    {
+        "id": 21,
+        "user": "Skinny Jeans",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Skinny Jeans' Fashion Frenzy",
+        "game": "Fortnite",
+        "description": "Step into the fashion frenzy with Skinny Jeans in Fortnite, where style and gameplay go hand in hand."
+    },
+    {
+        "id": 22,
+        "user": "Amazon",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Amazon's Wild Expedition",
+        "game": "Apex Legends",
+        "description": "Embark on a wild expedition with Amazon in the pink-hued world of Apex Legends, where battles and exploration await."
+    },
+    {
+        "id": 23,
+        "user": "Princess",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Princess' Royal Retreat",
+        "game": "Minecraft",
+        "description": "Join Princess in her royal retreat, a teal-colored paradise in the blocky world of Minecraft."
+    },
+    {
+        "id": 24,
+        "user": "Bruiser",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Bruiser's Tough Challenges",
+        "game": "Fortnite",
+        "description": "Take on tough challenges with Bruiser in Fortnite, where victory and adrenaline-fueled gameplay await."
+    },
+    {
+        "id": 25,
+        "user": "Pickles",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Pickles' Pickle Party",
+        "game": "Among Us",
+        "description": "Party with Pickles in the blue-hued world of Among Us, where mysteries and pickle-themed fun abound."
+    },
+    {
+        "id": 26,
+        "user": "Biscuit",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Biscuit's Sweet Baking Show",
+        "game": "Stardew Valley",
+        "description": "Join Biscuit in the green-hued world of Stardew Valley for a sweet baking show and relaxing farm life."
+    },
+    {
+        "id": 27,
+        "user": "4-Wheel",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "4-Wheel's Off-Road Adventures",
+        "game": "Rocket League",
+        "description": "Rev up for off-road adventures with 4-Wheel in the orange-hued world of Rocket League, where cars and soccer collide."
+    },
+    {
+        "id": 28,
+        "user": "Butternut",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Butternut's Autumn Escape",
+        "game": "The Sims 4",
+        "description": "Escape into the autumn vibes with Butternut in The Sims 4, where creativity and life simulation intertwine."
+    },
+    {
+        "id": 29,
+        "user": "Goblin",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Goblin's Mischievous Mayhem",
+        "game": "Overwatch",
+        "description": "Join Goblin for mischievous mayhem and action-packed battles in the yellow-hued world of Overwatch."
+    },
+    {
+        "id": 30,
+        "user": "Dimples",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Dimples' Cheeky Adventures",
+        "game": "Among Us",
+        "description": "Embark on cheeky and laughter-filled adventures with Dimples in the pink-hued world of Among Us."
+    },
+    {
+        "id": 31,
+        "user": "Con",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Con's Convention Chronicles",
+        "game": "The Elder Scrolls Online",
+        "description": "Explore the Convention Chronicles with Con in the teal-hued world of The Elder Scrolls Online, where epic adventures await."
+    },
+    {
+        "id": 32,
+        "user": "Cinnamon",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Cinnamon's Spicy Gaming",
+        "game": "Fortnite",
+        "description": "Experience the spicy gaming adventures with Cinnamon in the red-hued world of Fortnite, where excitement never ends."
+    },
+    {
+        "id": 33,
+        "user": "Dragonfly",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Dragonfly's Aerial Adventures",
+        "game": "Apex Legends",
+        "description": "Soar through aerial adventures with Dragonfly in the blue-hued world of Apex Legends, where legends rise."
+    },
+    {
+        "id": 34,
+        "user": "Bubbles",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Bubbles' Bubblelicious Stream",
+        "game": "Fortnite",
+        "description": "Dive into the bubblelicious world of Fortnite with Bubbles, where colorful chaos and fun are guaranteed."
+    },
+    {
+        "id": 35,
+        "user": "Chewbacca",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Chewbacca's Wookiee World",
+        "game": "Star Wars Battlefront II",
+        "description": "Enter Chewbacca's Wookiee World in Star Wars Battlefront II, where the galaxy awaits thrilling battles."
+    },
+    {
+        "id": 36,
+        "user": "Slim",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Slim's Fitness Journey",
+        "game": "Just Dance 2022",
+        "description": "Join Slim on a fitness journey through the world of Just Dance 2022, where rhythm and health combine."
+    },
+    {
+        "id": 37,
+        "user": "Honey Pie",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Honey Pie's Sweet Escape",
+        "game": "Minecraft",
+        "description": "Escape into Honey Pie's sweet world in Minecraft, where creativity and building know no bounds."
+    },
+    {
+        "id": 38,
+        "user": "Golden Graham",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Golden Graham's Treasure Hunt",
+        "game": "Sea of Thieves",
+        "description": "Embark on a treasure hunt with Golden Graham in the pink-hued world of Sea of Thieves, where pirates roam."
+    },
+    {
+        "id": 39,
+        "user": "Chiquita",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Chiquita's Tropical Paradise",
+        "game": "The Sims 4",
+        "description": "Relax in Chiquita's tropical paradise in The Sims 4, where sun, fun, and simulation come together."
+    },
+    {
+        "id": 40,
+        "user": "Cindy Lou Who",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Cindy Lou Who's Whoville Adventure",
+        "game": "Among Us",
+        "description": "Embark on a Whoville adventure with Cindy Lou Who in the red-hued world of Among Us, where holiday cheer meets mystery."
+    },
+    {
+        "id": 41,
+        "user": "Hulk",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Hulk Smash!",
+        "game": "Fortnite",
+        "description": "Unleash the fury and power of the Hulk in Fortnite, where smashing and building go hand in hand."
+    },
+    {
+        "id": 42,
+        "user": "Boo Boo",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Boo Boo's Boo-tiful World",
+        "game": "Minecraft",
+        "description": "Explore Boo Boo's boo-tiful world in Minecraft, where creativity and spooky adventures await."
+    },
+    {
+        "id": 43,
+        "user": "Goon",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Goon's Goofy Adventures",
+        "game": "Among Us",
+        "description": "Join Goon for goofy and laughter-filled adventures in the orange-hued world of Among Us."
+    },
+    {
+        "id": 44,
+        "user": "Shrinkwrap",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Shrinkwrap's Miniature Mayhem",
+        "game": "Among Us",
+        "description": "Experience miniature mayhem and deception with Shrinkwrap in the purple-hued world of Among Us."
+    },
+    {
+        "id": 45,
+        "user": "Kitty",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Kitty's Cat-tastic Journey",
+        "game": "The Sims 4",
+        "description": "Embark on a cat-tastic journey with Kitty in The Sims 4, where feline adventures and simulation blend together."
+    },
+    {
+        "id": 46,
+        "user": "Mistress",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Mistress of Mystery",
+        "game": "Assassin's Creed Valhalla",
+        "description": "Unravel the mysteries of Assassin's Creed Valhalla with Mistress, the pink-hued streamer."
+    },
+    {
+        "id": 47,
+        "user": "Sport",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Sporty's Gaming Arena",
+        "game": "Rocket League",
+        "description": "Enter Sporty's gaming arena in Rocket League, where fast-paced action and sportsmanship rule the pitch."
+    },
+    {
+        "id": 48,
+        "user": "Tata",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Tata's Adventure Safari",
+        "game": "Far Cry 6",
+        "description": "Embark on a thrilling adventure safari with Tata in the red-hued world of Far Cry 6, where danger lurks around every corner."
+    },
+    {
+        "id": 49,
+        "user": "Queen Bee",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Queen Bee's Royal Hive",
+        "game": "Minecraft",
+        "description": "Rule over the royal hive of Queen Bee in Minecraft, where building and leadership reign supreme."
+    },
+    {
+        "id": 50,
+        "user": "Pookie",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Pookie's Playful Adventures",
+        "game": "Minecraft",
+        "description": "Join Pookie in playful adventures through the blocky world of Minecraft, where creativity and fun know no bounds."
+    },
+    {
+        "id": 51,
+        "user": "Flyby",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Flyby's High-Flying Stream",
+        "game": "Apex Legends",
+        "description": "Soar through high-flying streams with Flyby in Apex Legends, where legends rise and battles reach new heights."
+    },
+    {
+        "id": 52,
+        "user": "Gator",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Gator's Swampy Quests",
+        "game": "Fortnite",
+        "description": "Embark on swampy quests with Gator in Fortnite, where survival skills and battles take center stage."
+    },
+    {
+        "id": 53,
+        "user": "Braniac",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Braniac's Brainy Escapades",
+        "game": "The Witcher 3: Wild Hunt",
+        "description": "Join Braniac in brainy escapades through the rich and expansive world of The Witcher 3: Wild Hunt."
+    },
+    {
+        "id": 54,
+        "user": "Big Guy",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Big Guy's Big Adventure",
+        "game": "Red Dead Redemption 2",
+        "description": "Embark on a big adventure with Big Guy in the wild west of Red Dead Redemption 2, where outlaws and cowboys rule."
+    },
+    {
+        "id": 55,
+        "user": "Superman",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Superman's Heroic Quests",
+        "game": "Injustice 2",
+        "description": "Join Superman in heroic quests and epic battles in the DC universe of Injustice 2, where heroes and villains clash."
+    },
+    {
+        "id": 56,
+        "user": "Skinny Minny",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Skinny Minny's Tiny World",
+        "game": "Among Us",
+        "description": "Explore Skinny Minny's tiny world in Among Us, where deception and deduction are the keys to victory."
+    },
+    {
+        "id": 57,
+        "user": "Toodles",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Toodles' Farewell Tour",
+        "game": "The Last of Us Part II",
+        "description": "Embark on a farewell tour with Toodles in The Last of Us Part II, where emotional storytelling and survival collide."
+    },
+    {
+        "id": 58,
+        "user": "Buckeye",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Buckeye's Adventures in Ohio",
+        "game": "Minecraft",
+        "description": "Join Buckeye for adventures in the Ohio-themed world of Minecraft, where creativity and local landmarks merge."
+    },
+    {
+        "id": 59,
+        "user": "Goonie",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Goonie's Treasure Hunt",
+        "game": "Sea of Thieves",
+        "description": "Embark on a treasure hunt with Goonie in the pirate-infested world of Sea of Thieves, where loot and adventure await."
+    },
+    {
+        "id": 60,
+        "user": "Tough Guy",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Tough Guy's Hardcore Challenge",
+        "game": "Dark Souls III",
+        "description": "Take on the hardcore challenge with Tough Guy in the punishing world of Dark Souls III, where skill and perseverance are the keys to success."
+    },
+    {
+        "id": 61,
+        "user": "Kirby",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Kirby's Dreamland Adventures",
+        "game": "Super Smash Bros. Ultimate",
+        "description": "Join Kirby in dreamland adventures in Super Smash Bros. Ultimate, where iconic characters and epic battles await."
+    },
+    {
+        "id": 62,
+        "user": "Snow White",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Snow White's Fairy Tale Journey",
+        "game": "The Legend of Zelda: Breath of the Wild",
+        "description": "Embark on a fairy tale journey with Snow White in the enchanting world of The Legend of Zelda: Breath of the Wild."
+    },
+    {
+        "id": 63,
+        "user": "Starbuck",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Starbuck's Caffeinated Quest",
+        "game": "Starbucks Simulator",
+        "description": "Embark on a caffeinated quest with Starbuck in Starbucks Simulator, where coffee and creativity blend together."
+    },
+    {
+        "id": 64,
+        "user": "Homer",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Homer's Doughnut Odyssey",
+        "game": "The Simpsons: Hit & Run",
+        "description": "Join Homer in a doughnut odyssey in The Simpsons: Hit & Run, where hilarity and adventure are guaranteed."
+    },
+    {
+        "id": 65,
+        "user": "Frankfurter",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Frankfurter's Foodie Adventure",
+        "game": "Cooking Simulator",
+        "description": "Embark on a foodie adventure with Frankfurter in Cooking Simulator, where culinary skills and creativity reign supreme."
+    },
+    {
+        "id": 66,
+        "user": "Piglet",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Piglet's Adorable Escapades",
+        "game": "Stardew Valley",
+        "description": "Join Piglet in adorable escapades and cozy farming life in the charming world of Stardew Valley."
+    },
+    {
+        "id": 67,
+        "user": "Schnookums",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Schnookums' Cute Chronicles",
+        "game": "Animal Crossing: New Horizons",
+        "description": "Explore cute chronicles with Schnookums in Animal Crossing: New Horizons, where relaxation and adorable moments await."
+    },
+    {
+        "id": 68,
+        "user": "Pintsize",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Pintsize's Tiny Adventures",
+        "game": "Little Nightmares II",
+        "description": "Embark on tiny adventures with Pintsize in the eerie world of Little Nightmares II, where puzzles and chills intertwine."
+    },
+    {
+        "id": 69,
+        "user": "Foxy Lady",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Foxy Lady's Cunning Quest",
+        "game": "Assassin's Creed Odyssey",
+        "description": "Join Foxy Lady in cunning quests and stealthy missions in the ancient world of Assassin's Creed Odyssey."
+    },
+    {
+        "id": 70,
+        "user": "Twizzler",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Twizzler's Sweet Journey",
+        "game": "Candy Crush Saga",
+        "description": "Embark on a sweet journey with Twizzler in Candy Crush Saga, where matching candies leads to delightful rewards."
+    },
+    {
+        "id": 71,
+        "user": "Junior",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Junior's Newbie Adventures",
+        "game": "Minecraft",
+        "description": "Join Junior in newbie adventures through the blocky world of Minecraft, where creativity and exploration await newcomers."
+    },
+    {
+        "id": 72,
+        "user": "Teeny",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Teeny's Teeny-Tiny Stream",
+        "game": "Among Us",
+        "description": "Experience Teeny's teeny-tiny stream in Among Us, where small moments lead to big suspense and laughter."
+    },
+    {
+        "id": 73,
+        "user": "Marshmallow",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Marshmallow's Fluffy World",
+        "game": "LittleBigPlanet 3",
+        "description": "Explore Marshmallow's fluffy world in LittleBigPlanet 3, where imagination and creativity take center stage."
+    },
+    {
+        "id": 74,
+        "user": "Bambino",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Bambino's Baby Steps",
+        "game": "Overcooked! 2",
+        "description": "Take baby steps with Bambino in Overcooked! 2, where chaotic cooking and cooperation lead to culinary success."
+    },
+    {
+        "id": 75,
+        "user": "Ringo",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Ringo's Musical Odyssey",
+        "game": "The Beatles: Rock Band",
+        "description": "Embark on a musical odyssey with Ringo in The Beatles: Rock Band, where classic hits and rhythm take center stage."
+    },
+    {
+        "id": 76,
+        "user": "Speedy",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Speedy's Lightning-Fast Adventures",
+        "game": "Sonic the Hedgehog",
+        "description": "Join Speedy in lightning-fast adventures with Sonic the Hedgehog, where speed and action are the name of the game."
+    },
+    {
+        "id": 77,
+        "user": "Cannoli",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Cannoli's Sweet and Crispy Journey",
+        "game": "Cuphead",
+        "description": "Embark on a sweet and crispy journey with Cannoli in Cuphead, where challenging boss battles and stunning visuals await."
+    },
+    {
+        "id": 78,
+        "user": "MomBod",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "MomBod's Fitness Frenzy",
+        "game": "Ring Fit Adventure",
+        "description": "Join MomBod in a fitness frenzy with Ring Fit Adventure, where exercise and fun come together for a healthy journey."
+    },
+    {
+        "id": 79,
+        "user": "Fattykins",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Fattykins' Feast and Feast",
+        "game": "Overcooked!",
+        "description": "Experience feasts and chaos with Fattykins in Overcooked!, where cooking skills and teamwork create culinary masterpieces."
+    },
+    {
+        "id": 80,
+        "user": "Master",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Master's Epic Masterpiece",
+        "game": "The Elder Scrolls V: Skyrim",
+        "description": "Immerse yourself in an epic masterpiece with Master in The Elder Scrolls V: Skyrim, where dragons and adventure await."
+    },
+    {
+        "id": 81,
+        "user": "Drake",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Drake's Dragon Adventure",
+        "game": "The Elder Scrolls V: Skyrim",
+        "description": "Join Drake in a dragon adventure with The Elder Scrolls V: Skyrim, where ancient lore and exploration unfold."
+    },
+    {
+        "id": 82,
+        "user": "Beef",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Beef's Meaty Missions",
+        "game": "Cooking Simulator",
+        "description": "Take on meaty missions with Beef in Cooking Simulator, where culinary prowess and creativity lead to delicious results."
+    },
+    {
+        "id": 83,
+        "user": "Buttercup",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Buttercup's Blossoming Journey",
+        "game": "Stardew Valley",
+        "description": "Join Buttercup in a blossoming journey through the charming world of Stardew Valley, where farming and friendship bloom."
+    },
+    {
+        "id": 84,
+        "user": "Chance",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Chance's Random Adventure",
+        "game": "Journey",
+        "description": "Embark on random adventures with Chance in Journey, where exploration and emotion intertwine in a mysterious world."
+    },
+    {
+        "id": 85,
+        "user": "Chump",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Chump's Foolish Follies",
+        "game": "Among Us",
+        "description": "Witness Chump's foolish follies in Among Us, where deception and laughter lead to unpredictable outcomes."
+    },
+    {
+        "id": 86,
+        "user": "Dimpling",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Dimpling's Adorable Adventures",
+        "game": "Crayola Scoot",
+        "description": "Join Dimpling in adorable adventures with Crayola Scoot, where colorful fun and creative tricks are a delight."
+    },
+    {
+        "id": 87,
+        "user": "Dum Dum",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Dum Dum's Dumb Fun",
+        "game": "Fall Guys: Ultimate Knockout",
+        "description": "Experience dumb fun and hilarious chaos with Dum Dum in Fall Guys: Ultimate Knockout, where jelly beans compete for glory."
+    },
+    {
+        "id": 88,
+        "user": "Boomer",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Boomer's Boombox Bonanza",
+        "game": "Beat Saber",
+        "description": "Join Boomer in a boombox bonanza with Beat Saber, where music and saber-wielding action create a rhythm sensation."
+    },
+    {
+        "id": 89,
+        "user": "Donut",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Donut's Sweet Delights",
+        "game": "Cook, Serve, Delicious! 3?!",
+        "description": "Indulge in sweet delights with Donut in Cook, Serve, Delicious! 3?!, where cooking and multitasking keep the customers satisfied."
+    },
+    {
+        "id": 90,
+        "user": "Pixie",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Pixie's Magical Realm",
+        "game": "Ori and the Will of the Wisps",
+        "description": "Enter Pixie's magical realm in Ori and the Will of the Wisps, where enchanting visuals and heartfelt storytelling come alive."
+    },
+    {
+        "id": 91,
+        "user": "Pearl",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Pearl's Oceanic Odyssey",
+        "game": "Subnautica",
+        "description": "Explore Pearl's oceanic odyssey in Subnautica, where deep-sea wonders and survival challenges await beneath the waves."
+    },
+    {
+        "id": 92,
+        "user": "Rockette",
+        "color": {
+            "hex": "00ff00",
+            "word": "green"
+        },
+        "title": "Rockette's Stellar Performance",
+        "game": "Just Dance 2023",
+        "description": "Experience Rockette's stellar performance in Just Dance 2023, where dancing and rhythm create a dazzling spectacle."
+    },
+    {
+        "id": 93,
+        "user": "Cookie",
+        "color": {
+            "hex": "ffa500",
+            "word": "orange"
+        },
+        "title": "Cookie's Sweet Treats",
+        "game": "Overcooked! All You Can Eat",
+        "description": "Savor Cookie's sweet treats in Overcooked! All You Can Eat, where culinary chaos and delicious dishes go hand in hand."
+    },
+    {
+        "id": 94,
+        "user": "Weiner",
+        "color": {
+            "hex": "ff0000",
+            "word": "purple"
+        },
+        "title": "Weiner's Hotdog Adventures",
+        "game": "Overcooked! All You Can Eat",
+        "description": "Join Weiner in hotdog adventures with Overcooked! All You Can Eat, where culinary creativity and teamwork create hot diggity delights."
+    },
+    {
+        "id": 95,
+        "user": "Twig",
+        "color": {
+            "hex": "800080",
+            "word": "yellow"
+        },
+        "title": "Twig's Nature Walk",
+        "game": "The Legend of Zelda: Breath of the Wild",
+        "description": "Take a nature walk with Twig in The Legend of Zelda: Breath of the Wild, where vast landscapes and epic quests await."
+    },
+    {
+        "id": 96,
+        "user": "Chica",
+        "color": {
+            "hex": "ffc0cb",
+            "word": "pink"
+        },
+        "title": "Chica's Chick-a-Dee Fun",
+        "game": "Untitled Goose Game",
+        "description": "Join Chica in chick-a-dee fun with Untitled Goose Game, where mischievous antics and feathered chaos create a quacking good time."
+    },
+    {
+        "id": 97,
+        "user": "Apple",
+        "color": {
+            "hex": "008080",
+            "word": "teal"
+        },
+        "title": "Apple's Orchard Adventure",
+        "game": "Stardew Valley",
+        "description": "Embark on an orchard adventure with Apple in Stardew Valley, where harvests and heartwarming moments grow together."
+    },
+    {
+        "id": 98,
+        "user": "Shorty",
+        "color": {
+            "hex": "ff0000",
+            "word": "red"
+        },
+        "title": "Shorty's Little Big World",
+        "game": "LittleBigPlanet 3",
+        "description": "Explore Shorty's little big world in LittleBigPlanet 3, where imagination and creativity bring charming platforming to life."
+    },
+    {
+        "id": 99,
+        "user": "Wifey",
+        "color": {
+            "hex": "0000ff",
+            "word": "blue"
+        },
+        "title": "Wifey's Co-op Quests",
+        "game": "Overcooked! 2",
+        "description": "Embark on co-op quests with Wifey in Overcooked! 2, where teamwork and culinary skills create a delightful co-op experience."
+    }
 ]
-
-

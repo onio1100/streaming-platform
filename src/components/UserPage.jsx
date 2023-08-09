@@ -1,27 +1,36 @@
-import streamers from "../data/stremars.json";
+// import streamers from "../data/stremars.json";
 import Chat from "./Chat";
 import avatar from "../assets/defult avatar.png";
 import { useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useOutletContext } from "react-router-dom";
 
 export async function loader({ params }) {
     let userName = params.userName;
-    let userObj = await searchForUser(userName);
-    return userObj;
+    return userName;
   }
 
-async function searchForUser(userName){
-    return streamers.find((streamer) => streamer.user === userName);
-}
-
 export default function UserPage() {
-    const [follow, setFollow] = useState(false);
-    const streamer = useLoaderData();
+    const [streamers, setStreamers] = useOutletContext();
+    const streamer = searchForUser(useLoaderData());
 
-    function handleFollow(){
-        setFollow((prevFollow) => prevFollow ? false : true);
+    function searchForUser(userName){
+        return streamers.find((streamer) => streamer.user === userName);
     }
 
+    function handleFollow(){
+        const id = streamer.id;
+        setStreamers((prevStreamers) => {
+            let newStreamers = prevStreamers.map((streamer) => {
+                let x = streamer.id === id ? {...streamer, followed: (streamer.followed ? false : true)} : streamer;
+                if( streamer.id === id){
+                    console.log(x.followed);
+                }
+                return x;
+            })
+            return newStreamers;
+        })
+    }
+    
     return(
         <section className="user">
             <div className="user__wraper--main">
@@ -37,7 +46,7 @@ export default function UserPage() {
                             <p className="sinfo__text--category">{streamer.game}</p>
                         </div>
                         <div className="sinfo__wraper--medium">
-                            <button className={"sinfo__following" + (follow ? " sinfo__following--followed" : "")} onClick={handleFollow}><span className={"material-symbols-outlined sinfo__heart" + (follow ? " sinfo__heart--fill" : "")}>favorite</span>{follow ? "Stop Followng" : "Follow"}</button>
+                            <button className={"sinfo__following" + (streamer.followed ? " sinfo__following--followed" : "")} onClick={handleFollow}><span className={"material-symbols-outlined sinfo__heart" + (streamer.followed ? " sinfo__heart--fill" : "")}>favorite</span>{streamer.followed ? "Stop Followng" : "Follow"}</button>
                         </div>
                     </div>
                 </div>
