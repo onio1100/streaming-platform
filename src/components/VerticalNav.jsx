@@ -4,28 +4,59 @@ import avatar from "../assets/defult avatar.png";
 export default function VerticalNav({smallNav, switchNav, streamers}) {
 
     function creatFollowersList(){
-        let sorted = streamers.sort((streamerA, streamerB) => {
+        const selected = streamers.filter((streamer) => {
+                return streamer.followed;
+            })
+
+        const sorted = selected.sort((streamerA, streamerB) => {
             return streamerB.viewers - streamerA.viewers;
         })
-        return sorted.map((streamer) => {
-            if(streamer.followed){
-                return (
-                    <Link key={streamer.id} to={"/" + streamer.user} className="vnav__wraper--channel">
-                        <img className="vnav__img--channel" src={avatar} alt="avatar" />
-                        {smallNav ? "" : (<>
-                            <div className="vnav__wraper--text">
-                                <p className="vnav__text--nick">{streamer.user}</p>
-                                <p className="vnav__text--category">{streamer.game}</p>
-                            </div>
-                            <div className="vnav__wraper--count">
-                                <div className="vnav__dot"></div>
-                                <p className="vnav__text--count">{streamer.viewers}</p>
-                            </div>
-                        </>)}   
-                    </Link>
-                )
-            }
+
+        const jsxElementsArr = sorted.map((streamer) => {
+            return(
+                <Link key={streamer.id} to={"/" + streamer.user} className="vnav__wraper--channel">
+                    <img className="vnav__img--channel" src={avatar} alt="avatar" />
+                    {smallNav ? "" : (<>
+                        <div className="vnav__wraper--text">
+                            <p className="vnav__text--nick">{streamer.user}</p>
+                            <p className="vnav__text--category">{streamer.game}</p>
+                        </div>
+                        <div className="vnav__wraper--count">
+                            <div className="vnav__dot"></div>
+                            <p className="vnav__text--count">{streamer.viewers}</p>
+                        </div>
+                    </>)}   
+                </Link>
+            )
         })
+        return jsxElementsArr;
+    }
+
+    function creatRecomendedList(){
+        const selected = streamers.filter((streamer) => {
+                return !streamer.followed;
+            })
+        
+        const shorted = selected.slice(0,5);
+
+        const jsxElementsArr = shorted.map((streamer) => {
+            return(
+                <Link key={streamer.id} to={"/" + streamer.user} className="vnav__wraper--channel">
+                    <img className="vnav__img--channel" src={avatar} alt="avatar" />
+                    {smallNav ? "" : (<>
+                        <div className="vnav__wraper--text">
+                            <p className="vnav__text--nick">{streamer.user}</p>
+                            <p className="vnav__text--category">{streamer.game}</p>
+                        </div>
+                        <div className="vnav__wraper--count">
+                            <div className="vnav__dot"></div>
+                            <p className="vnav__text--count">{streamer.viewers}</p>
+                        </div>
+                    </>)}   
+                </Link>
+            )
+        })
+        return jsxElementsArr;
     }
 
     return(
@@ -40,6 +71,7 @@ export default function VerticalNav({smallNav, switchNav, streamers}) {
         </div>
         <div className="vnav__wraper--recomended">
             <p className="vnav__title--recomended">{smallNav ? <span className="material-symbols-outlined">videocam</span> : "RECOMENDED CHANNELS:"}</p>
+            {creatRecomendedList()}
         </div>
         </div>
     )

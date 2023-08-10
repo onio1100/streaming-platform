@@ -35,7 +35,7 @@ const randomStreamers = fyShuffle(updatedStreamers);
 export default function MainOutlet() {
     const [smallVerticalNav, setSmallVerticalNav] = useState(false);
     const isOutlet = useOutlet();
-    const [streamers, setStremers ] = useState(randomStreamers);
+    const [streamers, setStreamers] = useState(randomStreamers);
     
     function switchVerticalNav(){
         setSmallVerticalNav((prevNav) => {
@@ -46,8 +46,8 @@ export default function MainOutlet() {
     return(
         <div className={"main__wraper" + (smallVerticalNav ? " main__wraper--big" : "")}>
             <HorizontalNav />
-            <VerticalNav switchNav={switchVerticalNav} smallNav={smallVerticalNav} streamers={randomStreamers} />         
-            <Outlet context={[streamers, setStremers]} />
+            <VerticalNav switchNav={switchVerticalNav} smallNav={smallVerticalNav} streamers={streamers} />         
+            <Outlet context={[streamers, setStreamers]} />
             {isOutlet ? "" : <Home streamers={streamers}/>}
         </div>
     )

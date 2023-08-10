@@ -1,7 +1,6 @@
 // import streamers from "../data/stremars.json";
 import Chat from "./Chat";
 import avatar from "../assets/defult avatar.png";
-import { useState } from "react";
 import { useLoaderData, useOutletContext } from "react-router-dom";
 
 export async function loader({ params }) {
@@ -21,11 +20,7 @@ export default function UserPage() {
         const id = streamer.id;
         setStreamers((prevStreamers) => {
             let newStreamers = prevStreamers.map((streamer) => {
-                let x = streamer.id === id ? {...streamer, followed: (streamer.followed ? false : true)} : streamer;
-                if( streamer.id === id){
-                    console.log(x.followed);
-                }
-                return x;
+                return streamer.id === id ? {...streamer, followed: (streamer.followed ? false : true)} : streamer;
             })
             return newStreamers;
         })
