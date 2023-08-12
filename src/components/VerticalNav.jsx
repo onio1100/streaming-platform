@@ -59,15 +59,17 @@ export default function VerticalNav({smallNav, switchNav, streamers}) {
         return jsxElementsArr;
     }
 
+    const followersList = creatFollowersList();
+    
     return(
         <div className={smallNav ? "vnav vnav--small" : "vnav"}>
         <div className="vnav__wraper--top">
             <p className="vnav__title--top">{smallNav ? "" : "For you"}</p>
             <div className="vnav__switch" onClick={switchNav}><span className="material-symbols-outlined">{smallNav ? "login" : "logout"}</span></div>
         </div>
-        <div className="vnav__wraper--followed">
+        <div className="vnav__wraper--followed" style={{height: 40 + followersList.length * 42 + "px"}}>
             <p className="vnav__title--followed">{smallNav ? <span className="material-symbols-outlined">favorite</span> : "FOLLOWED CHANNELS:"}</p>
-            {creatFollowersList()}
+            {followersList}
         </div>
         <div className="vnav__wraper--recomended">
             <p className="vnav__title--recomended">{smallNav ? <span className="material-symbols-outlined">videocam</span> : "RECOMENDED CHANNELS:"}</p>

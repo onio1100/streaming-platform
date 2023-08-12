@@ -20,7 +20,7 @@ function fyShuffle(arr) {
     return arr;
 }
 
-const followed = getRandomInt(9,9);
+const followed = getRandomInt(25,25);
 
 const updatedStreamers = streamers.map((streamer, index) => {
     return(
