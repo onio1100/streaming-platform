@@ -2,10 +2,10 @@ import { useEffect} from "react"
 import messages from "../data/messages.json";
 import users from "../data/betterUsers.json";
 
-export default function DisplayChat({chatHistory, setChatHistory, scroledConteinter}) {
+export default function DisplayChat({chatHistory, setChatHistory, scroledConteinter, viewers}) {
 
     useEffect(() => {
-        let id = 0;
+        let messegSpeed = 1000 - viewers / 8;
         setInterval(() => {
             setChatHistory((prevHistory) => {
                 let newMessage = {
@@ -14,7 +14,7 @@ export default function DisplayChat({chatHistory, setChatHistory, scroledContein
                 }
                 return [...prevHistory,newMessage];
             })
-        }, randomNumberInRange(500, 10000));
+        },  messegSpeed < 100 ? 100 : messegSpeed );
     }, [])
 
     function randomNumberInRange(min, max) {

@@ -209,14 +209,24 @@ html{
     overflow-y: auto;
     overflow-x: hidden;
     scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+.vnav:hover{
     scrollbar-color: #2f2f35 transparent;
+}
+.vnav:hover::-webkit-scrollbar{
+    width: 7px;
+    background-color: transparent;
+}
+.vnav:hover::-webkit-scrollbar-thumb{
+    background-color: #2f2f35;
 }
 .vnav::-webkit-scrollbar{
     width: 7px;
     background-color: transparent;
 }
 .vnav::-webkit-scrollbar-thumb{
-    background-color: #2f2f35;
+    background-color: transparent;
 }
 .vnav--small{
     width: 50px;
@@ -317,6 +327,7 @@ html{
     margin-left: 1rem;
     padding-right: px;
     color: var(--text);
+    overflow: hidden;
 }
 .vnav__text--nick{
     font-size: 15px;

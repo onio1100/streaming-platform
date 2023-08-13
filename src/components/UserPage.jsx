@@ -60,7 +60,7 @@ export default function UserPage() {
                 </div>
             </div>
             <div className="user__wraper--chat">
-                    <Chat></Chat>
+                    <Chat key={streamer.user} viewers={streamer.viewers} ></Chat>
             </div>
         </section>
     )

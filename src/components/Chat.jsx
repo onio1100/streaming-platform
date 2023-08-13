@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react"
 import DisplayChat from "./DisplayChat";
 import InputChat from "./InputChat";
 
-export default function Chat() {
+export default function Chat({viewers}) {
   const [chatHistory, setChatHistory] = useState([]);
 
   const scroledConteinter = useRef(null);
@@ -20,7 +20,7 @@ export default function Chat() {
 
   return (
       <div className="chat">
-        <DisplayChat chatHistory={chatHistory} setChatHistory={setChatHistory} scroledConteinter={scroledConteinter}/>
+        <DisplayChat chatHistory={chatHistory} setChatHistory={setChatHistory} scroledConteinter={scroledConteinter} viewers={viewers} />
         <InputChat setChatHistory={setChatHistory}/>
       </div>
   )
