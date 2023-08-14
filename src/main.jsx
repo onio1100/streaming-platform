@@ -7,18 +7,24 @@ import MainOutlet from './components/MainOutlet'
 import Home from './components/Home'
 import UserPage from './components/UserPage'
 import { loader as userLoader } from "./components/UserPage";
+import ErrorPage from './components/ErrorPage'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainOutlet />,
-    errorElement: <div>Page not found: ERROR 404</div>,
+    // errorElement: <ErrorPage></ErrorPage>,
     children: [{
       path: ":userName",
       element: <UserPage></UserPage>,
       loader: userLoader,
-    },]
-  },
+      errorElement: <ErrorPage></ErrorPage>,
+    },
+    {
+      path: "*",
+      element: <ErrorPage></ErrorPage>,
+    }
+  ]},
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

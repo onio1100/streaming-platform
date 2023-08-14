@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import avatar from "../assets/defult avatar.png"
 
-export default function HomeContent({arr}){
-    const randomaizedStremers = arr;
+export default function HomeContent({streamers}){
+    const randomaizedStremers = streamers;
 
     function creatFeed(){
         let stremerIndex = 0;
