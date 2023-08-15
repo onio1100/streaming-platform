@@ -1,7 +1,7 @@
 import { Outlet, useOutlet } from "react-router-dom";
 import HorizontalNav from "./HorizontalNav";
 import VerticalNav from "./VerticalNav";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Home from "./Home";
 import streamers from "../data/stremars.json";
 
