@@ -124,6 +124,7 @@ html{
 .hnav__middle{
     width: calc(100% / 3);
     height: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,6 +151,7 @@ html{
     height: 40px;
     border: 3px solid var(--detail);
     border-right: none;
+    border-radius: 0.6rem 0 0 0;
 }  
 .hnav__middle__button{
     width: 34px;
@@ -161,9 +163,12 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--detail);
+    background-color: transparent;
+    border: 1px solid var(--detail);
+    border-left: none;
     transition: 0.2s;
     cursor: pointer;
+    color: grey;
 } 
 .hnav__middle__button .material-symbols-outlined{
     user-select: none;
@@ -172,7 +177,22 @@ html{
 .hnav__middle__input:focus + .hnav__middle__button{
     width: 36px;
     height: 40px;
+    border-width: 3px;
+    border-radius: 0 0.6rem 0 0;
 } 
+.hnav__middle__wraper{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 42px;
+    width: 396px;
+    /* height: 100px; */
+    background: var(--detail);
+    transition: 0.2s;
+}
+.open{
+    height: 100px;
+}
 .hnav__right{
     width: calc(100% / 3);
     height: 100%;
@@ -616,7 +636,9 @@ html{
     width: 250px;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .sinfo__following{
     width: 140px;
@@ -664,6 +686,23 @@ html{
 }
 .sinfo__following--followed:hover .sinfo__heart--fill{
     margin-right: 5px;
+}
+.sinfo__wraper--count{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.sinfo__count--dot{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+}
+.sinfo__count--number{
+    color: var(--text);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 .user__wraper--chat{
     width: 340px;

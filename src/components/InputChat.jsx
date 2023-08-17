@@ -12,6 +12,9 @@ export default function InputChat({setChatHistory}){
         
         if(message != ""){
             setChatHistory((prevHistory) => {
+                if(prevHistory.length > 300){
+                    prevHistory.splice(0,1)
+                }
                 let newMessage = {
                     user: {
                         name: "onio1100",

@@ -8,6 +8,9 @@ export default function DisplayChat({chatHistory, setChatHistory, scroledContein
         let messegSpeed = 1000 - viewers / 8;
         setInterval(() => {
             setChatHistory((prevHistory) => {
+                if(prevHistory.length > 300){
+                    prevHistory.splice(0,1)
+                }
                 let newMessage = {
                     user: users[randomNumberInRange(0, 99)],
                     message: messages[randomNumberInRange(0,100)],

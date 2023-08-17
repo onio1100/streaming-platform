@@ -45,7 +45,7 @@ export default function MainOutlet() {
 
     return(
         <div className={"main__wraper" + (smallVerticalNav ? " main__wraper--big" : "")}>
-            <HorizontalNav />
+            <HorizontalNav streamers={streamers}/>
             <VerticalNav switchNav={switchVerticalNav} smallNav={smallVerticalNav} streamers={streamers} />         
             <Outlet context={[streamers, setStreamers]} />
             {isOutlet ? "" : <Home streamers={streamers}/>}

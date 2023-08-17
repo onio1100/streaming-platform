@@ -40,7 +40,16 @@ export default function UserPage() {
                             <p className="sinfo__text--category">{streamer.game}</p>
                         </div>
                         <div className="sinfo__wraper--medium">
-                            <button className={"sinfo__following" + (streamer.followed ? " sinfo__following--followed" : "")} onClick={handleFollow}><span className={"material-symbols-outlined sinfo__heart" + (streamer.followed ? " sinfo__heart--fill" : "")}>favorite</span>{streamer.followed ? "Stop Followng" : "Follow"}</button>
+                            <button className={"sinfo__following" + (streamer.followed ? " sinfo__following--followed" : "")} onClick={handleFollow}>
+                                <span className={"material-symbols-outlined sinfo__heart" + (streamer.followed ? " sinfo__heart--fill" : "")}>
+                                    favorite
+                                </span>
+                                {streamer.followed ? "Stop Followng" : "Follow"}
+                            </button>
+                            <div className="sinfo__wraper--count">
+                                <div className="sinfo__count--dot"></div>
+                                <p className="sinfo__count--number">{streamer.viewers}</p>
+                            </div>
                         </div>
                     </div>
                 </div>
