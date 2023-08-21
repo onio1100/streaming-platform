@@ -151,8 +151,10 @@ html{
     height: 40px;
     border: 3px solid var(--detail);
     border-right: none;
-    border-radius: 0.6rem 0 0 0;
 }  
+.hnav__middle__input--open:focus {
+    border-radius: 0.6rem 0 0 0;
+}
 .hnav__middle__button{
     width: 34px;
     height: 36px;
@@ -178,20 +180,66 @@ html{
     width: 36px;
     height: 40px;
     border-width: 3px;
+}
+.hnav__middle__input--open:focus + .hnav__middle__button{
     border-radius: 0 0.6rem 0 0;
-} 
+}
 .hnav__middle__wraper{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 42px;
     width: 396px;
-    /* height: 100px; */
+    height: 0;
     background: var(--detail);
     transition: 0.2s;
+    border-radius: 0 0 0.6rem 0.6rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
-.open{
-    height: 100px;
+.hnav__middle__input--open:focus ~ .hnav__middle__wraper{
+    height: auto;
+}
+.hnav__middle__message{
+    width: 100%;
+    height: 126px;
+    color: var(--text);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.hnav__middle__user{
+    width: 100%;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.hnav__middle__user:hover{
+    background-color: rgb(95, 31, 154);
+}
+.hnav__middle__avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    object-position: center;
+    padding: 2px;
+    background-color: var(--text);
+    margin: 4px;
+}
+.hnav__middle__nick{
+    width: calc(100% - 42px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    color: var(--text);
+    font-family: 'Roboto', sans-serif;
 }
 .hnav__right{
     width: calc(100% / 3);
