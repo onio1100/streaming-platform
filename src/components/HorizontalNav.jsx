@@ -3,6 +3,7 @@ import avatar from "../assets/defult avatar.png"
 import { useState } from "react"
 export default function HorizontalNav({streamers}) {
     const [searchValue, setSearchValue] = useState("");
+    const [showSuggestions, setShowSuggestions] = useState(false);
 
     function updateSearche(e) {
         const value = e.target.value;
@@ -30,8 +31,8 @@ export default function HorizontalNav({streamers}) {
             } else {
                 return shortStreamers.map((streamer, id) => {
                     return(
-                        <Link to={"/" + streamer.user} className="hnav__middle__user" key={id}>
-                            <img className="hnav__middle__avatar" src={avatar} alt="profile picture"></img>
+                        <Link to={"/" + streamer.user} onClick={() => setShowSuggestions(false)} className="hnav__middle__user" key={id}>
+                            <img className="hnav__middle__avatar" src={avatar} alt="profile picture" style={{borderColor: "#" + streamer.color.hex}}></img>
                             <p className="hnav__middle__nick">{streamer.user}</p>
                         </Link>
                     )
@@ -49,9 +50,9 @@ export default function HorizontalNav({streamers}) {
                 <div className="hnav__left__more"><span className="material-symbols-outlined">more_vert</span></div>
             </div>
             <div className="hnav__middle">
-                <input className={"hnav__middle__input" + (searchValue ? " hnav__middle__input--open" : "")} type="text" placeholder="Search" value={searchValue} onChange={updateSearche} />
-                <button className="hnav__middle__button"><span className="material-symbols-outlined">search</span></button>
+                <input className={"hnav__middle__input" + (showSuggestions && (searchValue.length > 0) ? " hnav__middle__input--open" : "")} onFocus={() => setShowSuggestions(true)} type="text" placeholder="Search" value={searchValue} onChange={updateSearche} />
                 <div className="hnav__middle__wraper">{searchingStreamer()}</div>
+                <div className={showSuggestions ? "hnav__middle__close" : ""} onClick={() => setShowSuggestions(false)}></div>
             </div>
             <div className="hnav__right">
                 <div className="hnav__right__wraper">
