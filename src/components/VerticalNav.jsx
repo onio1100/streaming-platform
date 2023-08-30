@@ -15,7 +15,7 @@ export default function VerticalNav({smallNav, switchNav, streamers}) {
         const jsxElementsArr = sorted.map((streamer) => {
             return(
                 <Link key={streamer.id} to={"/" + streamer.user} className="vnav__wraper--channel">
-                    <img className="vnav__img--channel" src={avatar} alt="avatar" />
+                    <img className="vnav__img--channel" src={streamer.avatar} alt="avatar" />
                     {smallNav ? "" : (<>
                         <div className="vnav__wraper--text">
                             <p className="vnav__text--nick">{streamer.user}</p>
@@ -42,7 +42,7 @@ export default function VerticalNav({smallNav, switchNav, streamers}) {
         const jsxElementsArr = shorted.map((streamer) => {
             return(
                 <Link key={streamer.id} to={"/" + streamer.user} className="vnav__wraper--channel">
-                    <img className="vnav__img--channel" src={avatar} alt="avatar" />
+                    <img className="vnav__img--channel" src={streamer.avatar} alt="avatar" />
                     {smallNav ? "" : (<>
                         <div className="vnav__wraper--text">
                             <p className="vnav__text--nick">{streamer.user}</p>

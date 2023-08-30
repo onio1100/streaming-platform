@@ -32,7 +32,7 @@ export default function UserPage() {
                     <div className="user__strem"></div>
                     <div className="user__info--small">
                         <div className="sinfo__wraper--avatar">
-                            <img className="sinfo__avatar" src={avatar} alt="user avatar" style={{borderColor: "#" + streamer.color.hex}}/>
+                            <img className="sinfo__avatar" src={streamer.avatar} alt="user avatar" style={{borderColor: "#" + streamer.color.hex}}/>
                         </div>
                         <div className="sinfo__wraper--big">
                             <p className="sinfo__text--nick">{streamer.user}</p>
