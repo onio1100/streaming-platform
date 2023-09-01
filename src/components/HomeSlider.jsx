@@ -18,12 +18,12 @@ export default function HomeSlider({streamers}) {
         <div className="slider">
             <div className="slider__arrow--left" onClick={() => mvoeSlider(true)}><span className="material-symbols-outlined">chevron_left</span></div>
             <div className="slider__main">
-                <Link to={streamers[0].user} style={{background: "red"}} className={"slider__tile" + ` slider__tile--${sliderPosition[0]}`}>{streamers[0].user}</Link>
-                <Link to={streamers[0].user} style={{background: "blue"}} className={"slider__tile" + ` slider__tile--${sliderPosition[1]}`}>{streamers[1].user}</Link>
-                <Link to={streamers[0].user} style={{background: "green"}} className={"slider__tile" + ` slider__tile--${sliderPosition[2]}`}>{streamers[2].user}</Link>
-                <Link to={streamers[0].user} style={{background: "pink"}} className={"slider__tile" + ` slider__tile--${sliderPosition[3]}`}>{streamers[3].user}</Link>
-                <Link to={streamers[0].user} style={{background: "orange"}} className={"slider__tile" + ` slider__tile--${sliderPosition[4]}`}>{streamers[4].user}</Link>
-                <Link to={streamers[0].user} style={{background: "white"}} className={"slider__tile" + ` slider__tile--${sliderPosition[5]}`}>{streamers[5].user}</Link>
+                <Link to={streamers[0].user} style={{background: "red"}} className={"slider__tile" + ` slider__tile--${sliderPosition[0]}`}><img src={streamers[0].cover} alt="cover"></img></Link>
+                <Link to={streamers[1].user} style={{background: "blue"}} className={"slider__tile" + ` slider__tile--${sliderPosition[1]}`}><img src={streamers[1].cover} alt="cover"></img></Link>
+                <Link to={streamers[2].user} style={{background: "green"}} className={"slider__tile" + ` slider__tile--${sliderPosition[2]}`}><img src={streamers[2].cover} alt="cover"></img></Link>
+                <Link to={streamers[3].user} style={{background: "pink"}} className={"slider__tile" + ` slider__tile--${sliderPosition[3]}`}><img src={streamers[3].cover} alt="cover"></img></Link>
+                <Link to={streamers[4].user} style={{background: "orange"}} className={"slider__tile" + ` slider__tile--${sliderPosition[4]}`}><img src={streamers[4].cover} alt="cover"></img></Link>
+                <Link to={streamers[5].user} style={{background: "white"}} className={"slider__tile" + ` slider__tile--${sliderPosition[5]}`}><img src={streamers[5 ].cover} alt="cover"></img></Link>
             </div>
             <div className="slider__arrow--right" onClick={() => mvoeSlider()}><span className="material-symbols-outlined">chevron_right</span></div>
         </div>

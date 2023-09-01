@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
-  
+
 function fyShuffle(arr) {
     let i = arr.length;
     while (--i > 0) {

@@ -479,6 +479,12 @@ html{
     transition: 0.2s;
     position: absolute;
 }
+.slider__tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 .slider__tile--back{
     width: 130px;
     height: 73px;

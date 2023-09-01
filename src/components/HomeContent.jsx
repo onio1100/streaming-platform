@@ -10,10 +10,9 @@ export default function HomeContent({streamers}){
             let rowObj = [];
             for(let column = 0; column < 6; column++){
                 let streamer = randomaizedStremers[stremerIndex];
-                let newCover = "https://source.unsplash.com/random/320x180";
                 rowObj.push(
                     <Link to={"/" + streamer.user} key={column} className="content__tile">
-                        <img className="ctile__cover" src={newCover} alt="stream cover"></img>
+                        <img className="ctile__cover" src={streamer.cover} alt="stream cover"></img>
                         <div className="ctile__wraper--big">
                             <img className="ctile__avatar" src={streamer.avatar} alt="user avatar"></img>
                             <div className="ctile__wraper--small">

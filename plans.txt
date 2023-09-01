@@ -1,20 +1,9 @@
-- "/" nav(top bar z logo itd, bar z prawej strony wyświetlający polecane i obserwowane kanały) i outlet
-    -"home" strona glówna na któej wyświetlają się transmisje i mozna na nie przejść kliknięciem
-        --"browse" podstrona strony ? do lepszego przeglądania????
-    -"nick" profil z transmisją czatem i innymi zkładkami 
-        -- różne podstrony z informacjami o kanale urzytkowniku ["about","videos"] ????
+dziś
+- miniaturki
+-błąd odtwarzacza na stronie transmisji
+-wypolerowanie slidera na home 
+-???serach dodanie obsługi strzałek
+-??dodanie rozsuwanych list w hnav przy avatarze i 3 kropkach
 
--działający serch w horyzontalnej nawigacji(wpisujesz nazwe użytkownika rozwija się lista na któej są
-pasujące kanały i po kliknięciu przechodzisz na /nazwaUżytkownika)
-
--miniaturki (zdjęcia z jakiegoś api ? npm ?) 
-
--nawigacja zapisywan w local storage
-
--strona błedu
-
-
-
-literacja przez tabilc 
-
-i podcasz literacji porównanie 
+jutro
+-style mobilne

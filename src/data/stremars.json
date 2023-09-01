@@ -9,7 +9,8 @@
         "title": "Adventures of the Cunning Fox",
         "game": "Fortnite",
         "description": "Join Fox, the cunning and adventurous streamer, as he takes on exciting challenges and showcases his skills in Fortnite.",
-        "avatar": "https://robohash.org/etenimsint.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/etenimsint.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite1.jpg"
     },
     {
         "id": 1,
@@ -21,7 +22,8 @@
         "title": "Towering Tales with Rapunzel",
         "game": "League of Legends",
         "description": "Rapunzel, the blue-haired streamer, weaves engaging stories and conquers the battlefield in League of Legends.",
-        "avatar": "https://robohash.org/eosdebitisaut.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/eosdebitisaut.png?size=80x80&set=set1",
+        "cover": "/covers/league-of-legends1.jpg"
     },
     {
         "id": 2,
@@ -33,7 +35,8 @@
         "title": "Freak's Wacky World",
         "game": "Minecraft",
         "description": "Step into the whimsical and green-hued world of Freak, where creativity knows no bounds in the Minecraft universe.",
-        "avatar": "https://robohash.org/etinciduntquae.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/etinciduntquae.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft1.jpg"
     },
     {
         "id": 3,
@@ -45,7 +48,8 @@
         "title": "Tater's Potato Paradise",
         "game": "Among Us",
         "description": "Explore Tater's playful orange-hued realm, filled with thrilling deceit and suspense in Among Us.",
-        "avatar": "https://robohash.org/saepeadut.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/saepeadut.png?size=80x80&set=set1",
+        "cover": "/covers/among-us1.jpg"
     },
     {
         "id": 4,
@@ -57,7 +61,8 @@
         "title": "Button's Interactive Show",
         "game": "Valorant",
         "description": "Join Button in the purple-tinged world of Valorant, where interactive gameplay and engaging moments await.",
-        "avatar": "https://robohash.org/voluptatibusquiased.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/voluptatibusquiased.png?size=80x80&set=set1",
+        "cover": "/covers/valorant1.jpg"
     },
     {
         "id": 5,
@@ -69,7 +74,8 @@
         "title": "Einstein's Genius Hour",
         "game": "World of Warcraft",
         "description": "Unlock the mysteries of the yellow-hued genius, Einstein, as he embarks on epic adventures in World of Warcraft.",
-        "avatar": "https://robohash.org/repellatearumofficia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/repellatearumofficia.png?size=80x80&set=set1",
+        "cover": "/covers/World of Warcraft.jpg"
     },
     {
         "id": 6,
@@ -81,7 +87,8 @@
         "title": "Sweet Treats with Cookie Dough",
         "game": "Apex Legends",
         "description": "Indulge in sweet treats and thrilling battles with Cookie Dough, the pink-themed streamer in Apex Legends.",
-        "avatar": "https://robohash.org/officiamolestiaeautem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/officiamolestiaeautem.png?size=80x80&set=set1",
+        "cover": "/covers/apex-legends1.jpg"
     },
     {
         "id": 7,
@@ -93,7 +100,8 @@
         "title": "Smiley's Happy Hour",
         "game": "Call of Duty: Warzone",
         "description": "Gear up for action and camaraderie with the teal-colored streamer, Smiley, in Call of Duty: Warzone.",
-        "avatar": "https://robohash.org/suntevenietquasi.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/suntevenietquasi.png?size=80x80&set=set1",
+        "cover": "/covers/call-of-duty-warzone1.jpg"
     },
     {
         "id": 8,
@@ -105,7 +113,8 @@
         "title": "Gordo's Big Adventures",
         "game": "Genshin Impact",
         "description": "Embark on big adventures and uncover the mysteries of Genshin Impact with the red-themed streamer, Gordo.",
-        "avatar": "https://robohash.org/dolorumeaquia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/dolorumeaquia.png?size=80x80&set=set1",
+        "cover": "/covers/genshin-impact1.jpg"
     },
     {
         "id": 9,
@@ -117,7 +126,8 @@
         "title": "Doll's Playhouse",
         "game": "Overwatch",
         "description": "Enter Doll's blue-hued playhouse, where exciting battles and team-based action await in Overwatch.",
-        "avatar": "https://robohash.org/quasetquis.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quasetquis.png?size=80x80&set=set1",
+        "cover": "/covers/overwatch2.jpg"
     },
     {
         "id": 10,
@@ -129,7 +139,8 @@
         "title": "Figgy's Fantasy World",
         "game": "Fortnite",
         "description": "Unleash your imagination and experience a fantasy-filled world with Figgy, the green-themed Fortnite streamer.",
-        "avatar": "https://robohash.org/sitillumvoluptas.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/sitillumvoluptas.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite2.jpg"
     },
     {
         "id": 11,
@@ -141,7 +152,8 @@
         "title": "Candycane's Sweet Spectacle",
         "game": "Minecraft",
         "description": "Join Candycane in the orange-hued realm of Minecraft for a sweet spectacle of creativity and adventures.",
-        "avatar": "https://robohash.org/velconsequaturdignissimos.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/velconsequaturdignissimos.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft2.jpg"
     },
     {
         "id": 12,
@@ -153,7 +165,8 @@
         "title": "Kit-Kat's Break Time",
         "game": "Among Us",
         "description": "Take a break and have some fun with Kit-Kat, the purple-themed streamer, as they navigate the world of Among Us.",
-        "avatar": "https://robohash.org/distinctiocummollitia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/distinctiocummollitia.png?size=80x80&set=set1",
+        "cover": "/covers/among-us2.jpg"
     },
     {
         "id": 13,
@@ -165,7 +178,8 @@
         "title": "Fun Size Adventures",
         "game": "Valorant",
         "description": "Embark on exciting and compact adventures with Fun Size in the yellow-hued world of Valorant.",
-        "avatar": "https://robohash.org/suscipitplaceatmaxime.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/suscipitplaceatmaxime.png?size=80x80&set=set1",
+        "cover": "/covers/valorant2.jpg"
     },
     {
         "id": 14,
@@ -177,7 +191,8 @@
         "title": "Cuddle Pig's Cozy Corner",
         "game": "Apex Legends",
         "description": "Cuddle up in the cozy pink corner of Cuddle Pig and join thrilling battles in the world of Apex Legends.",
-        "avatar": "https://robohash.org/voluptatemolestiaedolorem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/voluptatemolestiaedolorem.png?size=80x80&set=set1",
+        "cover": "/covers/apex-legends2.jpg"
     },
     {
         "id": 15,
@@ -189,7 +204,8 @@
         "title": "Wizarding World with Harry Potter",
         "game": "League of Legends",
         "description": "Enter the magical Wizarding World with Harry Potter, the teal-themed streamer, and experience epic battles in League of Legends.",
-        "avatar": "https://robohash.org/nonaccusantiumasperiores.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/nonaccusantiumasperiores.png?size=80x80&set=set1",
+        "cover": "/covers/league-of-legends2.jpg"
     },
     {
         "id": 16,
@@ -201,7 +217,8 @@
         "title": "Creedence's Mysteries",
         "game": "Genshin Impact",
         "description": "Unravel the enigmatic mysteries of Genshin Impact with Creedence, the red-themed streamer.",
-        "avatar": "https://robohash.org/quinumquamquo.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quinumquamquo.png?size=80x80&set=set1",
+        "cover": "/covers/genshin-impact1.jpg"
     },
     {
         "id": 17,
@@ -213,7 +230,8 @@
         "title": "Hammer Time!",
         "game": "Fortnite",
         "description": "Join Hammer for some epic hammer time adventures in the blue-hued world of Fortnite.",
-        "avatar": "https://robohash.org/nullaimpeditomnis.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/nullaimpeditomnis.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite3.jpg"
     },
     {
         "id": 18,
@@ -225,7 +243,8 @@
         "title": "Halfling's Big Journey",
         "game": "Minecraft",
         "description": "Embark on a big journey of creativity and exploration with the green-themed streamer, Halfling, in Minecraft.",
-        "avatar": "https://robohash.org/estnonquos.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/estnonquos.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft3.jpg"
     },
     {
         "id": 19,
@@ -237,7 +256,8 @@
         "title": "Biffle's Whimsical World",
         "game": "Among Us",
         "description": "Step into the whimsical and orange-hued world of Biffle, where deceit and laughter intertwine in Among Us.",
-        "avatar": "https://robohash.org/utperferendisbeatae.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/utperferendisbeatae.png?size=80x80&set=set1",
+        "cover": "/covers/among-us3.jpg"
     },
     {
         "id": 20,
@@ -249,7 +269,8 @@
         "title": "Pecan's Nutty Adventure",
         "game": "Valorant",
         "description": "Join Pecan in a nutty adventure through the world of Valorant, where sharpshooting and tactical skills prevail.",
-        "avatar": "https://robohash.org/adipisciaperiamanimi.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/adipisciaperiamanimi.png?size=80x80&set=set1",
+        "cover": "/covers/valorant3.jpg"
     },
     {
         "id": 21,
@@ -261,7 +282,8 @@
         "title": "Skinny Jeans' Fashion Frenzy",
         "game": "Fortnite",
         "description": "Step into the fashion frenzy with Skinny Jeans in Fortnite, where style and gameplay go hand in hand.",
-        "avatar": "https://robohash.org/idtemporibusamet.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/idtemporibusamet.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite4.jpg"
     },
     {
         "id": 22,
@@ -273,7 +295,8 @@
         "title": "Amazon's Wild Expedition",
         "game": "Apex Legends",
         "description": "Embark on a wild expedition with Amazon in the pink-hued world of Apex Legends, where battles and exploration await.",
-        "avatar": "https://robohash.org/teneturinciduntaperiam.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/teneturinciduntaperiam.png?size=80x80&set=set1",
+        "cover": "/covers/apex-legends3.jpg"
     },
     {
         "id": 23,
@@ -285,7 +308,8 @@
         "title": "Princess' Royal Retreat",
         "game": "Minecraft",
         "description": "Join Princess in her royal retreat, a teal-colored paradise in the blocky world of Minecraft.",
-        "avatar": "https://robohash.org/recusandaenamipsa.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/recusandaenamipsa.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft4.jpg"
     },
     {
         "id": 24,
@@ -297,7 +321,8 @@
         "title": "Bruiser's Tough Challenges",
         "game": "Fortnite",
         "description": "Take on tough challenges with Bruiser in Fortnite, where victory and adrenaline-fueled gameplay await.",
-        "avatar": "https://robohash.org/exullamut.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/exullamut.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite5.jpg"
     },
     {
         "id": 25,
@@ -309,7 +334,8 @@
         "title": "Pickles' Pickle Party",
         "game": "Among Us",
         "description": "Party with Pickles in the blue-hued world of Among Us, where mysteries and pickle-themed fun abound.",
-        "avatar": "https://robohash.org/quinonmolestiae.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quinonmolestiae.png?size=80x80&set=set1",
+        "cover": "/covers/among-us4.jpg"
     },
     {
         "id": 26,
@@ -321,7 +347,8 @@
         "title": "Biscuit's Sweet Baking Show",
         "game": "Stardew Valley",
         "description": "Join Biscuit in the green-hued world of Stardew Valley for a sweet baking show and relaxing farm life.",
-        "avatar": "https://robohash.org/officiisnisisint.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/officiisnisisint.png?size=80x80&set=set1",
+        "cover": "/covers/stardew-valley1.jpg"
     },
     {
         "id": 27,
@@ -333,7 +360,8 @@
         "title": "4-Wheel's Off-Road Adventures",
         "game": "Rocket League",
         "description": "Rev up for off-road adventures with 4-Wheel in the orange-hued world of Rocket League, where cars and soccer collide.",
-        "avatar": "https://robohash.org/voluptasnequevoluptas.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/voluptasnequevoluptas.png?size=80x80&set=set1",
+        "cover": "/covers/rocket-league1.jpg"
     },
     {
         "id": 28,
@@ -345,7 +373,8 @@
         "title": "Butternut's Autumn Escape",
         "game": "The Sims 4",
         "description": "Escape into the autumn vibes with Butternut in The Sims 4, where creativity and life simulation intertwine.",
-        "avatar": "https://robohash.org/rationesuntea.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/rationesuntea.png?size=80x80&set=set1",
+        "cover": "/covers/the-sims-4-1.jpg"
     },
     {
         "id": 29,
@@ -357,7 +386,8 @@
         "title": "Goblin's Mischievous Mayhem",
         "game": "Overwatch",
         "description": "Join Goblin for mischievous mayhem and action-packed battles in the yellow-hued world of Overwatch.",
-        "avatar": "https://robohash.org/mollitiaquiaaccusantium.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/mollitiaquiaaccusantium.png?size=80x80&set=set1",
+        "cover": "/covers/overwatch1.jpg"
     },
     {
         "id": 30,
@@ -369,7 +399,8 @@
         "title": "Dimples' Cheeky Adventures",
         "game": "Among Us",
         "description": "Embark on cheeky and laughter-filled adventures with Dimples in the pink-hued world of Among Us.",
-        "avatar": "https://robohash.org/molestiaedignissimosdoloribus.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/molestiaedignissimosdoloribus.png?size=80x80&set=set1",
+        "cover": "/covers/among-us5.jpg"
     },
     {
         "id": 31,
@@ -381,7 +412,8 @@
         "title": "Con's Convention Chronicles",
         "game": "The Elder Scrolls Online",
         "description": "Explore the Convention Chronicles with Con in the teal-hued world of The Elder Scrolls Online, where epic adventures await.",
-        "avatar": "https://robohash.org/commodiestvel.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/commodiestvel.png?size=80x80&set=set1",
+        "cover": "/covers/the-elder-scrolls-online1.jpg"
     },
     {
         "id": 32,
@@ -393,7 +425,8 @@
         "title": "Cinnamon's Spicy Gaming",
         "game": "Fortnite",
         "description": "Experience the spicy gaming adventures with Cinnamon in the red-hued world of Fortnite, where excitement never ends.",
-        "avatar": "https://robohash.org/sintdebitissimilique.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/sintdebitissimilique.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite6.jpg"
     },
     {
         "id": 33,
@@ -405,7 +438,8 @@
         "title": "Dragonfly's Aerial Adventures",
         "game": "Apex Legends",
         "description": "Soar through aerial adventures with Dragonfly in the blue-hued world of Apex Legends, where legends rise.",
-        "avatar": "https://robohash.org/quideseruntquia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quideseruntquia.png?size=80x80&set=set1",
+        "cover": "/covers/apex-legends4.jpg"
     },
     {
         "id": 34,
@@ -417,7 +451,8 @@
         "title": "Bubbles' Bubblelicious Stream",
         "game": "Fortnite",
         "description": "Dive into the bubblelicious world of Fortnite with Bubbles, where colorful chaos and fun are guaranteed.",
-        "avatar": "https://robohash.org/etesseenim.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/etesseenim.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite7.jpg"
     },
     {
         "id": 35,
@@ -429,7 +464,8 @@
         "title": "Chewbacca's Wookiee World",
         "game": "Star Wars Battlefront II",
         "description": "Enter Chewbacca's Wookiee World in Star Wars Battlefront II, where the galaxy awaits thrilling battles.",
-        "avatar": "https://robohash.org/estutdignissimos.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/estutdignissimos.png?size=80x80&set=set1",
+        "cover": "/covers/star-wars-battlefront-II-1.jpg"
     },
     {
         "id": 36,
@@ -441,7 +477,8 @@
         "title": "Slim's Fitness Journey",
         "game": "Just Dance 2022",
         "description": "Join Slim on a fitness journey through the world of Just Dance 2022, where rhythm and health combine.",
-        "avatar": "https://robohash.org/voluptatemeosvoluptatem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/voluptatemeosvoluptatem.png?size=80x80&set=set1",
+        "cover": "/covers/just-dance-2022-1.jpg"
     },
     {
         "id": 37,
@@ -453,7 +490,8 @@
         "title": "Honey Pie's Sweet Escape",
         "game": "Minecraft",
         "description": "Escape into Honey Pie's sweet world in Minecraft, where creativity and building know no bounds.",
-        "avatar": "https://robohash.org/estvoluptatemnostrum.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/estvoluptatemnostrum.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft5.jpg"
     },
     {
         "id": 38,
@@ -465,7 +503,8 @@
         "title": "Golden Graham's Treasure Hunt",
         "game": "Sea of Thieves",
         "description": "Embark on a treasure hunt with Golden Graham in the pink-hued world of Sea of Thieves, where pirates roam.",
-        "avatar": "https://robohash.org/doloremiureenim.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/doloremiureenim.png?size=80x80&set=set1",
+        "cover": "/covers/sea-of-thieves2.jpg"
     },
     {
         "id": 39,
@@ -477,7 +516,8 @@
         "title": "Chiquita's Tropical Paradise",
         "game": "The Sims 4",
         "description": "Relax in Chiquita's tropical paradise in The Sims 4, where sun, fun, and simulation come together.",
-        "avatar": "https://robohash.org/automnisexcepturi.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/automnisexcepturi.png?size=80x80&set=set1",
+        "cover": "/covers/the-sims-4-2.jpg"
     },
     {
         "id": 40,
@@ -489,7 +529,8 @@
         "title": "Cindy Lou Who's Whoville Adventure",
         "game": "Among Us",
         "description": "Embark on a Whoville adventure with Cindy Lou Who in the red-hued world of Among Us, where holiday cheer meets mystery.",
-        "avatar": "https://robohash.org/harumvoluptatesut.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/harumvoluptatesut.png?size=80x80&set=set1",
+        "cover": "/covers/among-us6.jpg"
     },
     {
         "id": 41,
@@ -501,7 +542,8 @@
         "title": "Hulk Smash!",
         "game": "Fortnite",
         "description": "Unleash the fury and power of the Hulk in Fortnite, where smashing and building go hand in hand.",
-        "avatar": "https://robohash.org/utetid.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/utetid.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite8.jpg"
     },
     {
         "id": 42,
@@ -513,7 +555,8 @@
         "title": "Boo Boo's Boo-tiful World",
         "game": "Minecraft",
         "description": "Explore Boo Boo's boo-tiful world in Minecraft, where creativity and spooky adventures await.",
-        "avatar": "https://robohash.org/utperspiciatislaborum.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/utperspiciatislaborum.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft6.jpg"
     },
     {
         "id": 43,
@@ -525,7 +568,8 @@
         "title": "Goon's Goofy Adventures",
         "game": "Among Us",
         "description": "Join Goon for goofy and laughter-filled adventures in the orange-hued world of Among Us.",
-        "avatar": "https://robohash.org/distinctioaspernaturnihil.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/distinctioaspernaturnihil.png?size=80x80&set=set1",
+        "cover": "/covers/among-us7.jpg"
     },
     {
         "id": 44,
@@ -537,7 +581,8 @@
         "title": "Shrinkwrap's Miniature Mayhem",
         "game": "Among Us",
         "description": "Experience miniature mayhem and deception with Shrinkwrap in the purple-hued world of Among Us.",
-        "avatar": "https://robohash.org/odiocorporiseum.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/odiocorporiseum.png?size=80x80&set=set1",
+        "cover": "/covers/among-us8.jpg"
     },
     {
         "id": 45,
@@ -549,7 +594,8 @@
         "title": "Kitty's Cat-tastic Journey",
         "game": "The Sims 4",
         "description": "Embark on a cat-tastic journey with Kitty in The Sims 4, where feline adventures and simulation blend together.",
-        "avatar": "https://robohash.org/estvoluptatemsuscipit.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/estvoluptatemsuscipit.png?size=80x80&set=set1",
+        "cover": "/covers/the-sims-4-3.jpg"
     },
     {
         "id": 46,
@@ -561,7 +607,8 @@
         "title": "Mistress of Mystery",
         "game": "Assassin's Creed Valhalla",
         "description": "Unravel the mysteries of Assassin's Creed Valhalla with Mistress, the pink-hued streamer.",
-        "avatar": "https://robohash.org/utametest.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/utametest.png?size=80x80&set=set1",
+        "cover": "covers/assassins-creed-valhalla1.jpg"
     },
     {
         "id": 47,
@@ -573,7 +620,8 @@
         "title": "Sporty's Gaming Arena",
         "game": "Rocket League",
         "description": "Enter Sporty's gaming arena in Rocket League, where fast-paced action and sportsmanship rule the pitch.",
-        "avatar": "https://robohash.org/molestiaedeseruntlaudantium.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/molestiaedeseruntlaudantium.png?size=80x80&set=set1",
+        "cover": "/covers/rocket-league2.jpg"
     },
     {
         "id": 48,
@@ -585,7 +633,8 @@
         "title": "Tata's Adventure Safari",
         "game": "Far Cry 6",
         "description": "Embark on a thrilling adventure safari with Tata in the red-hued world of Far Cry 6, where danger lurks around every corner.",
-        "avatar": "https://robohash.org/istenihildolorem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/istenihildolorem.png?size=80x80&set=set1",
+        "cover": "/covers/FarCry6_1.jpg"
     },
     {
         "id": 49,
@@ -597,7 +646,8 @@
         "title": "Queen Bee's Royal Hive",
         "game": "Minecraft",
         "description": "Rule over the royal hive of Queen Bee in Minecraft, where building and leadership reign supreme.",
-        "avatar": "https://robohash.org/assumendaautemest.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/assumendaautemest.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft7.jpg"
     },
     {
         "id": 50,
@@ -609,7 +659,8 @@
         "title": "Pookie's Playful Adventures",
         "game": "Minecraft",
         "description": "Join Pookie in playful adventures through the blocky world of Minecraft, where creativity and fun know no bounds.",
-        "avatar": "https://robohash.org/inmodisunt.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/inmodisunt.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft8.jpg"
     },
     {
         "id": 51,
@@ -621,7 +672,8 @@
         "title": "Flyby's High-Flying Stream",
         "game": "Apex Legends",
         "description": "Soar through high-flying streams with Flyby in Apex Legends, where legends rise and battles reach new heights.",
-        "avatar": "https://robohash.org/undequiquidem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/undequiquidem.png?size=80x80&set=set1",
+        "cover": "/covers/apex-legends5.jpg"
     },
     {
         "id": 52,
@@ -633,7 +685,8 @@
         "title": "Gator's Swampy Quests",
         "game": "Fortnite",
         "description": "Embark on swampy quests with Gator in Fortnite, where survival skills and battles take center stage.",
-        "avatar": "https://robohash.org/vitaereprehenderitdeserunt.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/vitaereprehenderitdeserunt.png?size=80x80&set=set1",
+        "cover": "/covers/fortnite9.jpg"
     },
     {
         "id": 53,
@@ -645,7 +698,8 @@
         "title": "Braniac's Brainy Escapades",
         "game": "The Witcher 3: Wild Hunt",
         "description": "Join Braniac in brainy escapades through the rich and expansive world of The Witcher 3: Wild Hunt.",
-        "avatar": "https://robohash.org/autsedab.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/autsedab.png?size=80x80&set=set1",
+        "cover": "/covers/the-witcher-3-1.jpg"
     },
     {
         "id": 54,
@@ -657,7 +711,8 @@
         "title": "Big Guy's Big Adventure",
         "game": "Red Dead Redemption 2",
         "description": "Embark on a big adventure with Big Guy in the wild west of Red Dead Redemption 2, where outlaws and cowboys rule.",
-        "avatar": "https://robohash.org/impeditquiet.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/impeditquiet.png?size=80x80&set=set1",
+        "cover": "/covers/RDR2_1.jpg"
     },
     {
         "id": 55,
@@ -669,7 +724,8 @@
         "title": "Superman's Heroic Quests",
         "game": "Injustice 2",
         "description": "Join Superman in heroic quests and epic battles in the DC universe of Injustice 2, where heroes and villains clash.",
-        "avatar": "https://robohash.org/nemodoloribusdolorem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/nemodoloribusdolorem.png?size=80x80&set=set1",
+        "cover": "/covers/injustice-2-1.jpg"
     },
     {
         "id": 56,
@@ -681,7 +737,8 @@
         "title": "Skinny Minny's Tiny World",
         "game": "Among Us",
         "description": "Explore Skinny Minny's tiny world in Among Us, where deception and deduction are the keys to victory.",
-        "avatar": "https://robohash.org/quisquamconsequaturaut.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quisquamconsequaturaut.png?size=80x80&set=set1",
+        "cover": "/covers/among-us9.jpg"
     },
     {
         "id": 57,
@@ -693,7 +750,8 @@
         "title": "Toodles' Farewell Tour",
         "game": "The Last of Us Part II",
         "description": "Embark on a farewell tour with Toodles in The Last of Us Part II, where emotional storytelling and survival collide.",
-        "avatar": "https://robohash.org/recusandaenihildeleniti.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/recusandaenihildeleniti.png?size=80x80&set=set1",
+        "cover": "/covers/the-last-of-us-part-ii-1.jpg"
     },
     {
         "id": 58,
@@ -705,7 +763,8 @@
         "title": "Buckeye's Adventures in Ohio",
         "game": "Minecraft",
         "description": "Join Buckeye for adventures in the Ohio-themed world of Minecraft, where creativity and local landmarks merge.",
-        "avatar": "https://robohash.org/voluptatemquaeenim.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/voluptatemquaeenim.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft9.jpg"
     },
     {
         "id": 59,
@@ -717,7 +776,8 @@
         "title": "Goonie's Treasure Hunt",
         "game": "Sea of Thieves",
         "description": "Embark on a treasure hunt with Goonie in the pirate-infested world of Sea of Thieves, where loot and adventure await.",
-        "avatar": "https://robohash.org/placeatpossimuslaboriosam.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/placeatpossimuslaboriosam.png?size=80x80&set=set1",
+        "cover": "/covers/sea-of-thieves1.jpg"
     },
     {
         "id": 60,
@@ -729,7 +789,8 @@
         "title": "Tough Guy's Hardcore Challenge",
         "game": "Dark Souls III",
         "description": "Take on the hardcore challenge with Tough Guy in the punishing world of Dark Souls III, where skill and perseverance are the keys to success.",
-        "avatar": "https://robohash.org/consequaturquoipsa.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/consequaturquoipsa.png?size=80x80&set=set1",
+        "cover": "/covers/dark-souls-3-1.jpg"
     },
     {
         "id": 61,
@@ -741,7 +802,8 @@
         "title": "Kirby's Dreamland Adventures",
         "game": "Super Smash Bros. Ultimate",
         "description": "Join Kirby in dreamland adventures in Super Smash Bros. Ultimate, where iconic characters and epic battles await.",
-        "avatar": "https://robohash.org/dolorquamdolorem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/dolorquamdolorem.png?size=80x80&set=set1",
+        "cover": "/covers/super-smash-bros-ultimate-1.jpg"
     },
     {
         "id": 62,
@@ -753,7 +815,8 @@
         "title": "Snow White's Fairy Tale Journey",
         "game": "The Legend of Zelda: Breath of the Wild",
         "description": "Embark on a fairy tale journey with Snow White in the enchanting world of The Legend of Zelda: Breath of the Wild.",
-        "avatar": "https://robohash.org/etfugaquia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/etfugaquia.png?size=80x80&set=set1",
+        "cover": "/covers/the-legend-of-zelda-breath-of-the-wild-1.jpg"
     },
     {
         "id": 63,
@@ -765,7 +828,8 @@
         "title": "Starbuck's Caffeinated Quest",
         "game": "Starbucks Simulator",
         "description": "Embark on a caffeinated quest with Starbuck in Starbucks Simulator, where coffee and creativity blend together.",
-        "avatar": "https://robohash.org/pariaturfugaconsectetur.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/pariaturfugaconsectetur.png?size=80x80&set=set1",
+        "cover": "/covers/starbucks-simulator1.jpg"
     },
     {
         "id": 64,
@@ -777,7 +841,8 @@
         "title": "Homer's Doughnut Odyssey",
         "game": "The Simpsons: Hit & Run",
         "description": "Join Homer in a doughnut odyssey in The Simpsons: Hit & Run, where hilarity and adventure are guaranteed.",
-        "avatar": "https://robohash.org/doloribusidvoluptates.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/doloribusidvoluptates.png?size=80x80&set=set1",
+        "cover": "/covers/The-Simpsons-Hit-&-Run1.jpg"
     },
     {
         "id": 65,
@@ -789,7 +854,8 @@
         "title": "Frankfurter's Foodie Adventure",
         "game": "Cooking Simulator",
         "description": "Embark on a foodie adventure with Frankfurter in Cooking Simulator, where culinary skills and creativity reign supreme.",
-        "avatar": "https://robohash.org/etmagnieveniet.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/etmagnieveniet.png?size=80x80&set=set1",
+        "cover": "/covers/cooking-simulator1.jpg"
     },
     {
         "id": 66,
@@ -801,7 +867,8 @@
         "title": "Piglet's Adorable Escapades",
         "game": "Stardew Valley",
         "description": "Join Piglet in adorable escapades and cozy farming life in the charming world of Stardew Valley.",
-        "avatar": "https://robohash.org/quiaessevoluptas.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quiaessevoluptas.png?size=80x80&set=set1",
+        "cover": "/covers/stardew-valley2.jpg"
     },
     {
         "id": 67,
@@ -813,7 +880,8 @@
         "title": "Schnookums' Cute Chronicles",
         "game": "Animal Crossing: New Horizons",
         "description": "Explore cute chronicles with Schnookums in Animal Crossing: New Horizons, where relaxation and adorable moments await.",
-        "avatar": "https://robohash.org/enimfugaet.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/enimfugaet.png?size=80x80&set=set1",
+        "cover": "/covers/animal-crossing-new-horizons1.jpg"
     },
     {
         "id": 68,
@@ -825,7 +893,8 @@
         "title": "Pintsize's Tiny Adventures",
         "game": "Little Nightmares II",
         "description": "Embark on tiny adventures with Pintsize in the eerie world of Little Nightmares II, where puzzles and chills intertwine.",
-        "avatar": "https://robohash.org/placeatnobiset.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/placeatnobiset.png?size=80x80&set=set1",
+        "cover": "/covers/Little-Nightmares-II-1.jpg"
     },
     {
         "id": 69,
@@ -837,7 +906,8 @@
         "title": "Foxy Lady's Cunning Quest",
         "game": "Assassin's Creed Odyssey",
         "description": "Join Foxy Lady in cunning quests and stealthy missions in the ancient world of Assassin's Creed Odyssey.",
-        "avatar": "https://robohash.org/eosdelectusmolestias.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/eosdelectusmolestias.png?size=80x80&set=set1",
+        "cover": "covers/assassins-creed-odyssey1.jpg"
     },
     {
         "id": 70,
@@ -849,7 +919,8 @@
         "title": "Twizzler's Sweet Journey",
         "game": "Candy Crush Saga",
         "description": "Embark on a sweet journey with Twizzler in Candy Crush Saga, where matching candies leads to delightful rewards.",
-        "avatar": "https://robohash.org/utdeseruntvoluptatem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/utdeseruntvoluptatem.png?size=80x80&set=set1",
+        "cover": "/covers/candy-crush-saga1.jpg"
     },
     {
         "id": 71,
@@ -861,7 +932,8 @@
         "title": "Junior's Newbie Adventures",
         "game": "Minecraft",
         "description": "Join Junior in newbie adventures through the blocky world of Minecraft, where creativity and exploration await newcomers.",
-        "avatar": "https://robohash.org/exearem.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/exearem.png?size=80x80&set=set1",
+        "cover": "/covers/minecraft10.jpg"
     },
     {
         "id": 72,
@@ -873,7 +945,8 @@
         "title": "Teeny's Teeny-Tiny Stream",
         "game": "Among Us",
         "description": "Experience Teeny's teeny-tiny stream in Among Us, where small moments lead to big suspense and laughter.",
-        "avatar": "https://robohash.org/veniamsuntvoluptas.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/veniamsuntvoluptas.png?size=80x80&set=set1",
+        "cover": "/covers/among-us10.jpg"
     },
     {
         "id": 73,
@@ -885,7 +958,8 @@
         "title": "Marshmallow's Fluffy World",
         "game": "LittleBigPlanet 3",
         "description": "Explore Marshmallow's fluffy world in LittleBigPlanet 3, where imagination and creativity take center stage.",
-        "avatar": "https://robohash.org/quamvelaspernatur.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quamvelaspernatur.png?size=80x80&set=set1",
+        "cover": "/covers/little-big-planet-3-1.jpg"
     },
     {
         "id": 74,
@@ -897,7 +971,8 @@
         "title": "Bambino's Baby Steps",
         "game": "Overcooked! 2",
         "description": "Take baby steps with Bambino in Overcooked! 2, where chaotic cooking and cooperation lead to culinary success.",
-        "avatar": "https://robohash.org/etdictaiste.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/etdictaiste.png?size=80x80&set=set1",
+        "cover": "/covers/overcooked-2-1.jpg"
     },
     {
         "id": 75,
@@ -909,7 +984,8 @@
         "title": "Ringo's Musical Odyssey",
         "game": "The Beatles: Rock Band",
         "description": "Embark on a musical odyssey with Ringo in The Beatles: Rock Band, where classic hits and rhythm take center stage.",
-        "avatar": "https://robohash.org/harumodioesse.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/harumodioesse.png?size=80x80&set=set1",
+        "cover": "/covers/The-Beatles-Rock-Band1.jpg"
     },
     {
         "id": 76,
@@ -921,7 +997,8 @@
         "title": "Speedy's Lightning-Fast Adventures",
         "game": "Sonic the Hedgehog",
         "description": "Join Speedy in lightning-fast adventures with Sonic the Hedgehog, where speed and action are the name of the game.",
-        "avatar": "https://robohash.org/quihicquia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quihicquia.png?size=80x80&set=set1",
+        "cover": "/covers/Sonic-the-Hedgehog1.jpg"
     },
     {
         "id": 77,
@@ -933,7 +1010,8 @@
         "title": "Cannoli's Sweet and Crispy Journey",
         "game": "Cuphead",
         "description": "Embark on a sweet and crispy journey with Cannoli in Cuphead, where challenging boss battles and stunning visuals await.",
-        "avatar": "https://robohash.org/blanditiisvoluptatesducimus.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/blanditiisvoluptatesducimus.png?size=80x80&set=set1",
+        "cover": "/covers/Cuphead1.jpg"
     },
     {
         "id": 78,
@@ -945,7 +1023,8 @@
         "title": "MomBod's Fitness Frenzy",
         "game": "Ring Fit Adventure",
         "description": "Join MomBod in a fitness frenzy with Ring Fit Adventure, where exercise and fun come together for a healthy journey.",
-        "avatar": "https://robohash.org/nemoeaquequae.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/nemoeaquequae.png?size=80x80&set=set1",
+        "cover": "/covers/Ring-Fit-Adventure1.jpg"
     },
     {
         "id": 79,
@@ -957,7 +1036,8 @@
         "title": "Fattykins' Feast and Feast",
         "game": "Overcooked!",
         "description": "Experience feasts and chaos with Fattykins in Overcooked!, where cooking skills and teamwork create culinary masterpieces.",
-        "avatar": "https://robohash.org/modiquisincidunt.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/modiquisincidunt.png?size=80x80&set=set1",
+        "cover": "/covers/overcooked1.jpg"
     },
     {
         "id": 80,
@@ -969,7 +1049,8 @@
         "title": "Master's Epic Masterpiece",
         "game": "The Elder Scrolls V: Skyrim",
         "description": "Immerse yourself in an epic masterpiece with Master in The Elder Scrolls V: Skyrim, where dragons and adventure await.",
-        "avatar": "https://robohash.org/quiaprovidentfugit.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quiaprovidentfugit.png?size=80x80&set=set1",
+        "cover": "/covers/The-Elder-Scrolls-V-Skyrim1.jpg"
     },
     {
         "id": 81,
@@ -981,7 +1062,8 @@
         "title": "Drake's Dragon Adventure",
         "game": "The Elder Scrolls V: Skyrim",
         "description": "Join Drake in a dragon adventure with The Elder Scrolls V: Skyrim, where ancient lore and exploration unfold.",
-        "avatar": "https://robohash.org/aiustoofficiis.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/aiustoofficiis.png?size=80x80&set=set1",
+        "cover": "/covers/The-Elder-Scrolls-V-Skyrim2.jpg"
     },
     {
         "id": 82,
@@ -993,7 +1075,8 @@
         "title": "Beef's Meaty Missions",
         "game": "Cooking Simulator",
         "description": "Take on meaty missions with Beef in Cooking Simulator, where culinary prowess and creativity lead to delicious results.",
-        "avatar": "https://robohash.org/rerumprovidentvoluptatum.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/rerumprovidentvoluptatum.png?size=80x80&set=set1",
+        "cover": "/covers/cooking-simulator2.jpg"
     },
     {
         "id": 83,
@@ -1005,7 +1088,8 @@
         "title": "Buttercup's Blossoming Journey",
         "game": "Stardew Valley",
         "description": "Join Buttercup in a blossoming journey through the charming world of Stardew Valley, where farming and friendship bloom.",
-        "avatar": "https://robohash.org/facerelaborumminus.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/facerelaborumminus.png?size=80x80&set=set1",
+        "cover": "/covers/stardew-valley3.jpg"
     },
     {
         "id": 84,
@@ -1017,7 +1101,8 @@
         "title": "Chance's Random Adventure",
         "game": "Journey",
         "description": "Embark on random adventures with Chance in Journey, where exploration and emotion intertwine in a mysterious world.",
-        "avatar": "https://robohash.org/quodarchitectoullam.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quodarchitectoullam.png?size=80x80&set=set1",
+        "cover": "/covers/journey_1.jpg"
     },
     {
         "id": 85,
@@ -1029,7 +1114,8 @@
         "title": "Chump's Foolish Follies",
         "game": "Among Us",
         "description": "Witness Chump's foolish follies in Among Us, where deception and laughter lead to unpredictable outcomes.",
-        "avatar": "https://robohash.org/necessitatibusvoluptatemexpedita.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/necessitatibusvoluptatemexpedita.png?size=80x80&set=set1",
+        "cover": "/covers/among-us11.jpg"
     },
     {
         "id": 86,
@@ -1041,7 +1127,8 @@
         "title": "Dimpling's Adorable Adventures",
         "game": "Crayola Scoot",
         "description": "Join Dimpling in adorable adventures with Crayola Scoot, where colorful fun and creative tricks are a delight.",
-        "avatar": "https://robohash.org/nequeassumendaquo.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/nequeassumendaquo.png?size=80x80&set=set1",
+        "cover": "/covers/Crayola Scoot1.jpg"
     },
     {
         "id": 87,
@@ -1053,7 +1140,8 @@
         "title": "Dum Dum's Dumb Fun",
         "game": "Fall Guys: Ultimate Knockout",
         "description": "Experience dumb fun and hilarious chaos with Dum Dum in Fall Guys: Ultimate Knockout, where jelly beans compete for glory.",
-        "avatar": "https://robohash.org/ametrerumquia.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/ametrerumquia.png?size=80x80&set=set1",
+        "cover": "/covers/Fall-Guys-Ultimate-Knockout1.jpg"
     },
     {
         "id": 88,
@@ -1065,7 +1153,8 @@
         "title": "Boomer's Boombox Bonanza",
         "game": "Beat Saber",
         "description": "Join Boomer in a boombox bonanza with Beat Saber, where music and saber-wielding action create a rhythm sensation.",
-        "avatar": "https://robohash.org/aperiamsolutarecusandae.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/aperiamsolutarecusandae.png?size=80x80&set=set1",
+        "cover": "/covers/beat-saber1.jpg"
     },
     {
         "id": 89,
@@ -1077,7 +1166,8 @@
         "title": "Donut's Sweet Delights",
         "game": "Cook, Serve, Delicious! 3?!",
         "description": "Indulge in sweet delights with Donut in Cook, Serve, Delicious! 3?!, where cooking and multitasking keep the customers satisfied.",
-        "avatar": "https://robohash.org/debitisquiasint.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/debitisquiasint.png?size=80x80&set=set1",
+        "cover": "/covers/Cook-Serve-Delicious-31.jpg"
     },
     {
         "id": 90,
@@ -1089,7 +1179,8 @@
         "title": "Pixie's Magical Realm",
         "game": "Ori and the Will of the Wisps",
         "description": "Enter Pixie's magical realm in Ori and the Will of the Wisps, where enchanting visuals and heartfelt storytelling come alive.",
-        "avatar": "https://robohash.org/beataesequivoluptas.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/beataesequivoluptas.png?size=80x80&set=set1",
+        "cover": "/covers/Ori-and-the-Will-of-the-Wisps1.jpg"
     },
     {
         "id": 91,
@@ -1101,7 +1192,8 @@
         "title": "Pearl's Oceanic Odyssey",
         "game": "Subnautica",
         "description": "Explore Pearl's oceanic odyssey in Subnautica, where deep-sea wonders and survival challenges await beneath the waves.",
-        "avatar": "https://robohash.org/quivoluptatelabore.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quivoluptatelabore.png?size=80x80&set=set1",
+        "cover": "/covers/Subnautica1.jpg"
     },
     {
         "id": 92,
@@ -1113,7 +1205,8 @@
         "title": "Rockette's Stellar Performance",
         "game": "Just Dance 2023",
         "description": "Experience Rockette's stellar performance in Just Dance 2023, where dancing and rhythm create a dazzling spectacle.",
-        "avatar": "https://robohash.org/voluptatemquicumque.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/voluptatemquicumque.png?size=80x80&set=set1",
+        "cover": "/covers/just-dance-2023-1.jpg"
     },
     {
         "id": 93,
@@ -1125,7 +1218,8 @@
         "title": "Cookie's Sweet Treats",
         "game": "Overcooked! All You Can Eat",
         "description": "Savor Cookie's sweet treats in Overcooked! All You Can Eat, where culinary chaos and delicious dishes go hand in hand.",
-        "avatar": "https://robohash.org/quaesedofficiis.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quaesedofficiis.png?size=80x80&set=set1",
+        "cover": "/covers/Overcooked-All-You-Can-Eat1.jpg"
     },
     {
         "id": 94,
@@ -1137,7 +1231,8 @@
         "title": "Weiner's Hotdog Adventures",
         "game": "Overcooked! All You Can Eat",
         "description": "Join Weiner in hotdog adventures with Overcooked! All You Can Eat, where culinary creativity and teamwork create hot diggity delights.",
-        "avatar": "https://robohash.org/auttemporeiusto.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/auttemporeiusto.png?size=80x80&set=set1",
+        "cover": "/covers/Overcooked-All-You-Can-Eat2.jpg"
     },
     {
         "id": 95,
@@ -1149,7 +1244,8 @@
         "title": "Twig's Nature Walk",
         "game": "The Legend of Zelda: Breath of the Wild",
         "description": "Take a nature walk with Twig in The Legend of Zelda: Breath of the Wild, where vast landscapes and epic quests await.",
-        "avatar": "https://robohash.org/magnamfugaatque.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/magnamfugaatque.png?size=80x80&set=set1",
+        "cover": "/covers/the-legend-of-zelda-breath-of-the-wild-2.jpg"
     },
     {
         "id": 96,
@@ -1161,7 +1257,8 @@
         "title": "Chica's Chick-a-Dee Fun",
         "game": "Untitled Goose Game",
         "description": "Join Chica in chick-a-dee fun with Untitled Goose Game, where mischievous antics and feathered chaos create a quacking good time.",
-        "avatar": "https://robohash.org/nihileumhic.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/nihileumhic.png?size=80x80&set=set1",
+        "cover": "/covers/Untitled-Goose-Game1.jpg"
     },
     {
         "id": 97,
@@ -1173,7 +1270,8 @@
         "title": "Apple's Orchard Adventure",
         "game": "Stardew Valley",
         "description": "Embark on an orchard adventure with Apple in Stardew Valley, where harvests and heartwarming moments grow together.",
-        "avatar": "https://robohash.org/quiaetnulla.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/quiaetnulla.png?size=80x80&set=set1",
+        "cover": "/covers/stardew-valley4.jpg"
     },
     {
         "id": 98,
@@ -1185,7 +1283,8 @@
         "title": "Shorty's Little Big World",
         "game": "LittleBigPlanet 3",
         "description": "Explore Shorty's little big world in LittleBigPlanet 3, where imagination and creativity bring charming platforming to life.",
-        "avatar": "https://robohash.org/sedasperioressit.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/sedasperioressit.png?size=80x80&set=set1",
+        "cover": "/covers/little-big-planet-3-2.jpg"
     },
     {
         "id": 99,
@@ -1197,6 +1296,7 @@
         "title": "Wifey's Co-op Quests",
         "game": "Overcooked! 2",
         "description": "Embark on co-op quests with Wifey in Overcooked! 2, where teamwork and culinary skills create a delightful co-op experience.",
-        "avatar": "https://robohash.org/delectusinfugiat.png?size=80x80&set=set1"
+        "avatar": "https://robohash.org/delectusinfugiat.png?size=80x80&set=set1",
+        "cover": "/covers/overcooked-2-2.jpg"
     }
 ]
