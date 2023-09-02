@@ -29,7 +29,9 @@ export default function UserPage() {
         <section className="user">
             <div className="user__wraper--main">
                 <div className="user__wraper--strem">
-                    <div className="user__strem"></div>
+                    <div className="user__stream">
+                        <p className="user__error">Player error: 404 try again later</p>
+                    </div>
                     <div className="user__info--small">
                         <div className="sinfo__wraper--avatar">
                             <img className="sinfo__avatar" src={streamer.avatar} alt="user avatar" style={{borderColor: "#" + streamer.color.hex}}/>

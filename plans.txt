@@ -1,6 +1,4 @@
 dziś
--błąd odtwarzacza na stronie transmisji
--wypolerowanie slidera na home 
 -??dodanie rozsuwanych list w hnav przy avatarze i 3 kropkach
 
 jutro
