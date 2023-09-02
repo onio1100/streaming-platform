@@ -1,8 +1,6 @@
 dziś
-- miniaturki
 -błąd odtwarzacza na stronie transmisji
 -wypolerowanie slidera na home 
--???serach dodanie obsługi strzałek
 -??dodanie rozsuwanych list w hnav przy avatarze i 3 kropkach
 
 jutro

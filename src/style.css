@@ -479,11 +479,57 @@ html{
     transition: 0.2s;
     position: absolute;
 }
-.slider__tile img {
+.slider__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
+    position: absolute;
+}
+.slider__wraper{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 4px 2px 4px;
+    user-select: none;
+    pointer-events: none;
+}
+.slider__username{
+    width: 50%;
+    height: 20px;
+    font-size: 16px;
+    color: transparent;
+    color: var(--text);
+    transition: 0.2s;
+    font-family: 'Roboto', sans-serif;
+}
+.slider__count{
+    width: 50%;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.slider__dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 2px;
+}
+.slider__viewers{
+    height: 20px;
+    font-size: 16px;
+    color: transparent;
+    color: var(--text);
+    transition: 0.2s;
+    font-family: 'Roboto', sans-serif;
 }
 .slider__tile--back{
     width: 130px;
