@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import avatar from "../assets/defult avatar.png";
 
 export default function VerticalNav({smallNav, switchNav, streamers}) {
 

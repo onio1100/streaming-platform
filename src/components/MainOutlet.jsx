@@ -1,7 +1,7 @@
 import { Outlet, useOutlet } from "react-router-dom";
 import HorizontalNav from "./HorizontalNav";
 import VerticalNav from "./VerticalNav";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Home from "./Home";
 import streamers from "../data/stremars.json";
 
@@ -37,6 +37,18 @@ export default function MainOutlet() {
     const isOutlet = useOutlet();
     const [streamers, setStreamers] = useState(randomStreamers);
     
+    // make vnav small for screens under or equal 1300px width
+    useEffect(() => {
+        function handleResize() {
+            if(window.innerWidth <= 1300){
+                setSmallVerticalNav(true);
+            }else{
+                setSmallVerticalNav(false);
+            }
+        }
+        window.addEventListener('resize', handleResize);
+    },[])
+
     function switchVerticalNav(){
         setSmallVerticalNav((prevNav) => {
            return prevNav ? false : true

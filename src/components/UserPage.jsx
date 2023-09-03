@@ -1,5 +1,4 @@
 import Chat from "./Chat";
-import avatar from "../assets/defult avatar.png";
 import { useLoaderData, useOutletContext } from "react-router-dom";
 
 export async function loader({ params }) {

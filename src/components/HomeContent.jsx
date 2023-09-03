@@ -1,38 +1,24 @@
 import { Link } from "react-router-dom"
 
 export default function HomeContent({streamers}){
-    const randomaizedStremers = streamers;
-
-    function creatFeed(){
-        let stremerIndex = 0;
-        let JsxObjectsArr = [];
-        for(let row = 0;row < 15; row++){
-            let rowObj = [];
-            for(let column = 0; column < 6; column++){
-                let streamer = randomaizedStremers[stremerIndex];
-                rowObj.push(
-                    <Link to={"/" + streamer.user} key={column} className="content__tile">
-                        <img className="ctile__cover" src={streamer.cover} alt="stream cover"></img>
-                        <div className="ctile__wraper--big">
-                            <img className="ctile__avatar" src={streamer.avatar} alt="user avatar"></img>
-                            <div className="ctile__wraper--small">
-                                <p className="ctile__title">{streamer.title}</p>
-                                <p className="ctile__nick">{streamer.user}</p>
-                                <p className="ctile__game">{streamer.game}</p>
-                            </div>
+    
+    function creatFeed() {
+        const feed = streamers.map((streamer, id) => {
+            return(
+                <Link to={"/" + streamer.user} key={id} className="content__tile">
+                    <img className="ctile__cover" src={streamer.cover} alt="stream cover"></img>
+                    <div className="ctile__wraper--big">
+                        <img className="ctile__avatar" src={streamer.avatar} alt="user avatar"></img>
+                        <div className="ctile__wraper--small">
+                            <p className="ctile__title">{streamer.title}</p>
+                            <p className="ctile__nick">{streamer.user}</p>
+                            <p className="ctile__game">{streamer.game}</p>
                         </div>
-                    </Link>
-                )
-                stremerIndex++;
-            }
-
-            JsxObjectsArr.push(<div className="content__line" key={stremerIndex}>{rowObj}</div>)
-
-            if(row < 14){
-                JsxObjectsArr.push(<div className="content__bar" key={stremerIndex + 1}></div>)
-            }
-        }
-        return JsxObjectsArr;
+                    </div>
+                </Link>
+            )
+        })
+        return feed;
     }
 
     return(

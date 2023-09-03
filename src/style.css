@@ -39,7 +39,6 @@ html{
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
-    /* -webkit-font-feature-settings: 'liga'; */
     -webkit-font-smoothing: antialiased;
   }
 /* main */
@@ -151,9 +150,6 @@ html{
     height: 40px;
     border: 3px solid var(--detail);
 }  
-/* .hnav__middle__input--open:focus {
-    border-radius: 0.6rem 0.6rem 0 0;
-} */
 .hnav__middle__input:focus + .hnav__middle__button{
     width: 36px;
     height: 40px;
@@ -212,7 +208,6 @@ html{
     height: 34px;
     border-radius: 50%;
     object-position: center;
-    /* padding: 2px; */
     background-color: black;
     margin: 4px;
     border: 2px solid;
@@ -532,50 +527,62 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 .slider__tile--back{
-    width: 130px;
-    height: 73px;
+    width: 5%;
+    min-width: 300;
+    height: auto;
+    aspect-ratio: 16 / 9;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
 }
 .slider__tile--left--2{
-    width: 424px;
-    height: 240px;
+    width: 20%;
+    min-width: 400px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     top: 50%;
-    left: calc(50% - 265px - 238px - 212px);
+    left: 12.5%;
     transform: translate(0%, -50%);
     z-index: 2;
 }
 .slider__tile--left--1{
-    width: 477px;
-    height: 270px;
+    width: 25%;
+    min-width: 450px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     top: 50%;
-    left: calc(50% - 265px - 238px);
+    left: 22.5%;
     transform: translate(0%, -50%); 
     z-index: 3;
 }
 .slider__tile--center{
-    width: 530px;
-    height: 300px;
+    width: 30%;
+    min-width: 500px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 4;
 } 
 .slider__tile--right--1{
-    width: 477px;
-    height: 270px;
+    width: 25%;
+    min-width: 450px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     top: 50%;
-    left: calc(50% + 27px);
+    right: 22.5%;    
     transform: translate(0%, -50%); 
     z-index: 3;
 }
 .slider__tile--right--2{
-    width: 424px;
-    height: 240px;
+    width: 20%;
+    min-width: 400px;
+    height: auto;
+    aspect-ratio: 16 / 9;
     top: 50%;
-    left: calc(50% + 265px + 26px);
+    right: 12.5%;
     transform: translate(0%, -50%);
     z-index: 2;
 }
@@ -591,22 +598,16 @@ html{
 .content__wraper{
     width: 100%;
     max-width: 2000px;
-    display: flex;
-    flex-direction: column;
-}
-.content__bar{
-    width: 100%;
-    height: 1px;
-    margin: 15px 0;
-    background-color: #53535f7a;
-}
-.content__line{
-    display: flex;
+    display: grid;
+    grid-template-rows: repeat(1, 270px);
+    grid-template-columns: repeat(auto-fit, minmax( 320px, 330px));
+    grid-auto-rows: 300px;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 .content__tile{
-    width: 16%;
+    min-width: 320px;
+    margin: 5px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -615,12 +616,10 @@ html{
 .ctile__cover{
     width: 100%;
     aspect-ratio: 16 / 9;
-    /* min-height: 183px; */
     background-color: #53535f7a;
 }
 .ctile__wraper--big{
     width: 100%;
-    /* height: 89pxg; */
     display: flex;
     margin-top: 10px;
 }
@@ -831,7 +830,6 @@ html{
     background-color: var(--third-background);
     display: flex;
     justify-content: space-between;
-    /* margin: 0 20px; */
 }
 .minfo__wraper--big{
     width: 970px;
@@ -1006,4 +1004,34 @@ html{
 }
 .error__button:hover{
     background-color: rgb(95, 31, 154);
+}
+
+/* mobile styles */
+@media screen and (max-width: 1300px) {
+    .main__wraper{
+        overflow: hidden;
+    }
+    .slider__tile{
+        opacity: 0;
+        width: 0px;
+    }
+    .slider__tile--center{
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 1300px){
+    .vnav__wraper--top{
+        user-select: none;
+        pointer-events: none;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .home__content, .home__header{
+        padding: 10px;
+    }
 }
