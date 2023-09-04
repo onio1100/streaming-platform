@@ -44,8 +44,9 @@ export default function MainOutlet() {
                 setSmallVerticalNav(true);
             }else{
                 setSmallVerticalNav(false);
-            }
+            }    
         }
+        handleResize();
         window.addEventListener('resize', handleResize);
     },[])
 
