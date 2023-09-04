@@ -60,9 +60,6 @@ export default function UserPage() {
                         <p className="minfo__followers">574,1 k. <mark className="minfo__followers--gray">followers</mark></p>
                         <p className="minfo__description">{streamer.description}</p>
                     </div>
-                    <div className="minfo__wraper--small">
-                        <a></a>
-                    </div>
                 </div>
                 <div className="user__info--banners">
 

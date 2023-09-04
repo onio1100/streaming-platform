@@ -853,10 +853,6 @@ html{
 .minfo__description{
     font-size: 14px;
 }
-.minfo__wraper--small{
-    width: 120px;
-    height: 100%;
-}
 .user__info--banners{
     width: 100%;
     min-height: 300px;
@@ -1046,6 +1042,60 @@ html{
         margin: 0;
     }
 }
+@media screen and (max-width: 900px) {
+    .sinfo__wraper--big{
+        width: calc(100% - 80px - 140px);
+    }
+    .sinfo__wraper--medium{
+        width: 140px;
+    }
+    .user__info--medium{
+        padding: 20px;
+    }
+    .user__wraper--main{
+        width: calc(100% - 280px);
+    }
+    .user__wraper--chat{
+        width: 280px;
+    }
+    .chat{
+        width: 100%;
+    }
+    .activitis__input--wraper{
+        width: 100%;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .sinfo__wraper--big{
+        width: calc(100% - 50px - 140px);
+    }
+    .user__error{
+        font-size: 14px;
+    }
+    .user__info--small{
+        padding: 5px;
+    }
+    .sinfo__wraper--avatar{
+        width: 50px;
+        height: 50px;
+    }
+    .sinfo__avatar{
+        width: 100%;
+        height: 100%;
+    }
+    .sinfo__text--nick{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .sinfo__text--title{
+        font-size: 12px;
+        padding-bottom: 2px;
+    }
+    .sinfo__text--category{
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 729px) {
     .hnav__left{
         width: 100px;
@@ -1073,6 +1123,30 @@ html{
     }
     .content__tile{
         width: 100%;
+    }
+    .user__wraper--main{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    .user__wraper--chat{
+        position: absolute;
+        top: calc(((100vw - 50px) / 16) * 9);
+        left: 0;
+        right: unset;
+        width: 100%;
+        z-index: 4;
+        border-top: 1px solid #53535f7a;
+        border-left: none;
+    }
+    .chat{
+        flex-direction: column-reverse;
+    }
+    .chat__display ul{
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 @media screen and (max-width: 650px) {
