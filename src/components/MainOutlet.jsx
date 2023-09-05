@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min);
 }
-
+// Fisher–Yates shuffle
 function fyShuffle(arr) {
     let i = arr.length;
     while (--i > 0) {
@@ -20,8 +20,8 @@ function fyShuffle(arr) {
     return arr;
 }
 
-const followed = getRandomInt(25,25);
-
+// addig to stremaers data set random viwers number and followed value
+const followed = getRandomInt(5,25);
 const updatedStreamers = streamers.map((streamer, index) => {
     return(
       {
@@ -50,6 +50,7 @@ export default function MainOutlet() {
         window.addEventListener('resize', handleResize);
     },[])
 
+    // handle switching vnav
     function switchVerticalNav(){
         setSmallVerticalNav((prevNav) => {
            return prevNav ? false : true

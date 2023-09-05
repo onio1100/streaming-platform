@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function HomeSlider({streamers}) {
     const [sliderPosition, setSliderPositon] = useState(["back","left--2","left--1","center","right--1","right--2"]);
 
+    // function use to move slider elemnts into left or right direction
     function moveSlider(direction = false){ // direction(false = right, true = left)
         setSliderPositon((prevPosition) => {
             if(direction){
@@ -14,6 +15,7 @@ export default function HomeSlider({streamers}) {
         })
     }
 
+    // function puts streamers data to JSX elements to make slider tiles
     function creatSliderElements(){
         const sliderElements = streamers.map((streamer, id) => {
             return(

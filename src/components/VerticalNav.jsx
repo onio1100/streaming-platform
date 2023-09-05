@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function VerticalNav({smallNav, switchNav, streamers}) {
 
+    // search streamers data set looking for followed stremers and creat arr of JSX elements
     function creatFollowersList(){
         const selected = streamers.filter((streamer) => {
                 return streamer.followed;
@@ -30,12 +31,11 @@ export default function VerticalNav({smallNav, switchNav, streamers}) {
         })
         return jsxElementsArr;
     }
-
+    // creat list of JSX elements wich recomended usrs (first 5 unfollowed users)
     function creatRecomendedList(){
         const selected = streamers.filter((streamer) => {
                 return !streamer.followed;
             })
-        
         const shorted = selected.slice(0,5);
 
         const jsxElementsArr = shorted.map((streamer) => {

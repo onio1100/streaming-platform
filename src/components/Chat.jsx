@@ -5,8 +5,10 @@ import InputChat from "./InputChat";
 export default function Chat({viewers}) {
   const [chatHistory, setChatHistory] = useState([]);
 
-  const scroledConteinter = useRef(null);
 
+  // change scroll behavior to make scroll stay in place where user leaves it.
+  const scroledConteinter = useRef(null);
+  
   useEffect(() => {
     scroll();
   }, [chatHistory])

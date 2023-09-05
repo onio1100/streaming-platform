@@ -1,5 +1,0 @@
-dziś
-    -??dodanie rozsuwanych list w hnav przy avatarze i 3 kropkach
-
-jutro
--style mobilne

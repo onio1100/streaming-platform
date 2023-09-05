@@ -1,9 +1,10 @@
 import { useEffect} from "react"
 import messages from "../data/messages.json";
-import users from "../data/betterUsers.json";
+import users from "../data/chatUsers.json";
 
 export default function DisplayChat({chatHistory, setChatHistory, scroledConteinter, viewers}) {
 
+    // creation of random messages
     useEffect(() => {
         let messegSpeed = 1000 - viewers / 8;
         setInterval(() => {
@@ -24,6 +25,7 @@ export default function DisplayChat({chatHistory, setChatHistory, scroledContein
         return Math.floor(Math.random() * (max - min + 1)) + min;
       }      
     
+    // placing random messages in JSX elements 
     function comments() {
         let jsxChatList = chatHistory.map((comment, id) => (
             <li className="display--wraper" key={id}>

@@ -1,6 +1,7 @@
 import Chat from "./Chat";
 import { useLoaderData, useOutletContext } from "react-router-dom";
 
+// getting streamer name
 export async function loader({ params }) {
     let userName = params.userName;
     return userName;
@@ -10,10 +11,12 @@ export default function UserPage() {
     const [streamers, setStreamers] = useOutletContext();
     const streamer = searchForUser(useLoaderData());
 
+    // using streamer name to get his object from all stremers data set
     function searchForUser(userName){
         return streamers.find((streamer) => streamer.user === userName);
     }
 
+    // handle follow button 
     function handleFollow(){
         const id = streamer.id;
         setStreamers((prevStreamers) => {

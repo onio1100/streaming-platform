@@ -1,15 +1,18 @@
 import { Link } from "react-router-dom"
 import avatar from "../assets/defult avatar.png"
 import { useState } from "react"
+
 export default function HorizontalNav({streamers}) {
     const [searchValue, setSearchValue] = useState("");
     const [showSuggestions, setShowSuggestions] = useState(false);
 
+    // function updaets serach state based on input value
     function updateSearche(e) {
         const value = e.target.value;
         setSearchValue(value);
     }
     
+    // function handeling serach proces 
     function searchingStreamer() {
         if(searchValue != ""){
             const searchedStreamer = searchValue.toLowerCase();
@@ -38,7 +41,6 @@ export default function HorizontalNav({streamers}) {
                     )
                 })
             }
-
         }
     }
 

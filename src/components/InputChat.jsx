@@ -1,10 +1,9 @@
 import { useState } from "react";
 
 export default function InputChat({setChatHistory}){
-    
     const [message, setMessage] = useState("");
 
-
+    // function handeling message sending
     function sendMessage(e){
         if(e.keyCode && e.keyCode !== 13){
             return;
