@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Chat from "./Chat";
 import { useLoaderData, useOutletContext } from "react-router-dom";
 
@@ -10,6 +11,11 @@ export async function loader({ params }) {
 export default function UserPage() {
     const [streamers, setStreamers] = useOutletContext();
     const streamer = searchForUser(useLoaderData());
+
+    // Scroll to top of page
+    useEffect(() => {
+       window.scrollTo(0, 0);
+    }, []);
 
     // using streamer name to get his object from all stremers data set
     function searchForUser(userName){
@@ -26,7 +32,7 @@ export default function UserPage() {
             return newStreamers;
         })
     }
-    
+
     return(
         <section className="user">
             <div className="user__wraper--main">
