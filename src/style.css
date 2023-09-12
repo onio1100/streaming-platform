@@ -449,7 +449,7 @@ html{
 .slider{
     width: 100%;
     max-width: 2000px;
-    height: 300px;
+    height: 320px;
     display: flex;
 }
 .slider__arrow--left, .slider__arrow--right{
@@ -481,44 +481,56 @@ html{
     object-position: center;
     position: absolute;
 }
+.slider__tile--center .slider__img{
+    height: 90%;
+}
 .slider__wraper{
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 20px;
+    height: 0;
     width: 100%;
+    overflow: hidden;
     z-index: 2;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    padding: 0 4px 2px 4px;
+    align-items: center;
     user-select: none;
     pointer-events: none;
+    background: transparent;
+    color: transparent;
+    font-size: 0;
+    user-select: none;
+    background-color: var(--secend-background);
 }
-.slider__username{
+.slider__tile--center .slider__wraper{
+    height: 10%;
+    padding: 2px 4px 2px 4px;
+}
+.slider__tile--center .slider__username{
     width: 50%;
     height: 20px;
-    font-size: 16px;
+    font-size: 20px;
     color: transparent;
     color: var(--text);
     transition: 0.2s;
     font-family: 'Roboto', sans-serif;
 }
-.slider__count{
+.slider__tile--center .slider__count{
     width: 50%;
     height: 20px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.slider__dot{
+.slider__tile--center .slider__dot{
     width: 8px;
     height: 8px;
     border-radius: 50%;
     background-color: red;
     margin-right: 2px;
 }
-.slider__viewers{
+.slider__tile--center .slider__viewers{
     height: 20px;
     font-size: 16px;
     color: transparent;
@@ -559,8 +571,9 @@ html{
 .slider__tile--center{
     width: 30%;
     min-width: 500px;
+    max-height: 324px;
     height: auto;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1163,6 +1176,9 @@ html{
     }
     .slider__arrow--left, .slider__arrow--right{
         z-index: 4;
+    }
+    .slider__tile--center .slider__username{
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 555px) {
